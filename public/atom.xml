@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">thork.net</title>
     <subtitle type="html">Thor Kamphefner&#39;s personal site and blog</subtitle>
-    <updated>2020-06-30T23:21:13&#43;02:00</updated>
+    <updated>2020-06-30T23:26:23&#43;02:00</updated>
     <id>https://thork.net/</id>
     <link rel="alternate" type="text/html" href="https://thork.net/" />
     <link rel="self" type="application/atom&#43;xml" href="https://thork.net/atom.xml" />
