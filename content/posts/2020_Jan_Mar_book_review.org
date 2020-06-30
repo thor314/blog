@@ -1,0 +1,101 @@
+---
+title: "2020 Jan-Mar Book Review Rundown"
+date: 2020-04-08
+draft: false
+tags: ["book", "review"]
+categories: ["book"]
+description: "I review the twenty or so books I read this quarter"
+---
+
+23 books, 3 unfinished with no intention to finish anytime soon.
+5 fiction, 18 nonfiction (would it be cheeky to count The Little Bitcoin Book as fiction?)
+
+Trends:
+- non-fiction especially about business, identity, and climate science early on
+- Biographies and Neal Stephenson towards the end
+
+I'll give a couple sentences of my thoughts about each book and a rating out of 10.
+
+
+** The books:
+*** Climate and Society, Robin Leinchenko and Karen O'Brien
+Information sparse, introduces the integrative approach to climate change solutions. Well researched, useful to get a bearing on the complexity of proposing a "solution" to climate change, but prolix. 7/10
+
+*** The Ecology of Commerce, Paul Hawken, unfinished
+Hawken is an ecological warrior whose writing should be dated given its publication date of 1992, yet one could rewrite the book today with few changes. Lends support to the conclusion that the environment is doomed and our static political systems are to blame. Unfinished because the book is repetitive. 6/10
+
+*** The End of Jobs, Taylor Pearson
+The 4 hour work week, but 10 years later and less interesting. Was interested in his blog, not polished or content dense enough to justify a book. 3/10
+
+*** What You Do is Who You Are, Ben Horowitz
+Great read on values, stories about vivid figures from history who demonstrate values in motion, which Horowitz terms "virtues", borrowed from samurai literature. Less interested in the business anecdotes, but Horowitz is all around a great story teller. May reread. 9/10.
+
+*** A Liberated Mind, Steven C. Hayes
+Hayes is the father of Acceptance and Commitment Therapy. All the feely goody bubbly nonsense anecdotes therapy is infamous for, but not without a complete lack of substance--Hayes delivers the principles of ACT effectively, despite himself. 7/10.
+
+*** Sapiens, A Brief History of Humankind, Yuval Noah Harari
+Overrated, but not by much. Seemed like a good thing to read to kids, if I had any. 8/10
+
+*** The Hard Thing about Hard Things, Ben Horowitz, reread
+Reread after WYDiWYD. Hard thing about hard things is, as with the next book, about taking the hard things in your hands, communicating honesty in business and in life. Horowitz weaves lessons into the story of his time as CEO of Loudcloud, and a great storyteller he is. 9/10.
+
+*** Models, Attract Women Through Honesty, Mark Manson
+An exploration of masculinity, an area of conversation I find underrated, possibly because it only seems to happen when men talk about dating. Book cogently delivers on its premise, investigating the particulars of holding honest as a value, and using it to connect with others (including women). 9/10
+
+*** Homo Deus, Yuval Noah Harari, unfinished
+Worse than Sapiens due to a greater degree of speculation. Harari is more in his element in 21 Lessons and Sapiens. Was often bored. 6/10.
+
+*** Range, Why Generalists Triumph in a Specialized World, David Epstein
+This book and the next fall into my "standard MBA business book" category, delivering loosely connected anecdotes and studies as defenses of an over-general principle. Barely managed to finish each of them. This one did it better. I'm squarely in the target audience for each and was constantly bored. 6/10.
+Rebel Talent, Why it Pays to Break the Rules at Work and in Life, Francesca Gino
+5/10.
+
+*** Tribe, On Homecoming and Belonging, Sebastian Junger, reread
+Junger's message in Tribe is clearer than Lake Tahoe, and timeless as her mountains. Conciseness is underrated; Junger delivers in 180 short pages several well constructed narratives highlighting our separation from one another, and how we may come together again. 10/10.
+
+*** Talking to Strangers, Malcolm Gladwell
+Depressingly the opposite of the above. Gladwell's winding narrative style is acceptable when he has more to say. He remains an excellent, if somewhat roundabout narrator. I found the premise--that we underrate the value of context and overrate the importance of identity--uninspiring. 7/10.
+
+*** Words and Rules, Steven Pinker, unfinished
+A book only a linguist could love, or finish. Long, thorough, and by the sixth chapter, too systematic for even a man with Aspergers. 6/10
+
+*** The Little Bitcoin Book, The Bitcoin Collective
+Useful in offering the Bitcoin maximalist system of the world. I'd wanted to get a better idea of what this system of the world was, and especially found it in chapter 5, which offers a pair of speculative anecdotes of the world in 2030 with and without decentralized currency. Conciseness is good. 9/10.
+
+*** Emmy in the Key of Code, Aimee Lucido
+What a delightful and unusual children's book this is, discovered through the Embedded.fm podcast. A collection of poems from the perspective of a musical child struggling to find herself in a new place. Struggles with chauvinism, self discovery, appeals to the similarity of code and poetry, musical references, and an utter delight. 10/10.
+
+*** Hackers and Painters, Paul Graham, reread
+The best collection of essays I've ever read on what it is to be a hacker, beyond the obvious: we make stuff. The first chapter, about the quality of education (despite my general agreement with most of the premises), was arguably the worst. The remainder of the book is a welcome investigation into value, hacking, and what it is to be a technologist, without fear of delving deep. 10/10.
+
+*** King Lear, 'ol Bill Shakespeare
+Unrateable: a low rating marks me as uncultured swine, and a high rating suggests a mastery of Shakespeare I am yet to attain. I continue to find reading Shakespeare as challenging and worthwhile a literary exercise as the best mathematical exercise.
+
+*** Elon Musk, Ashlee Vance, reread
+Reread this biography a few months after the more recent controversies of Musk's making an ass out of himself to see if I still resonate with his story and self image as a man possessed to make an impact in the world. I do. It's interesting that he seems content to piss off people so much, something I feel I nearly understand, but just somehow miss. The biography is excellent, and makes me want to defend him. It also makes me want to be like him, which I'm only somewhat uncomfortable with. 10/10.
+
+*** Steve Jobs, Walter Isaacson
+I wanted to compare the Musk biography to another pivotal figure, who exists in the same strata of obscenely multitalented entrepreneur defining and propelling the boundary of technology. I'm unsure if it's simply a testament to Vance's ability as a biographer, or if I simply resonate more deeply with the Musk story, but I came away from the Jobs biography with a certain, "why do I care again?" taste in my mouth. The early half of the book felt more alive. Maybe this is my becoming a Wozniak fan. 7/10.
+
+*** Atmosphæra Incognita, Neal Stephenson
+Stephenson at his shortest. In 100 pages or so, Stephenson lets loose a short story of the tallest building mankind could ever construct. The story appears to be an allegory for technology, progressively hoisting mankind to uncharted heights, with newfound danger and excitement at each new level. I can't stop reading Stephenson after this. 10/10.
+
+*** The Diamond Age, Neal Stephenson
+Snow Crash (read in December) was fantastic, but only periodically ran as deep as I would have liked. The Diamond Age scratches that itch. Stephenson trots out a gorgeous fragmented world replete with a new element: nanotechnology. Deftly exploring coming of age, what it means to be a hypocrite, moral life in a corrupt society, the education of a subversive, and the difference of having everything one needs and having everything one needs to build that which one needs, I'm captured with The Diamond Age world, and its protagonist. 10/10.
+
+*** Anathem, Neal Stephenson
+I wanted The Diamond Age to be Stephenson at his best. I wanted to think, alright, I can stop reading Stephenson now. I especially wanted to avoid reading 2700 pages of the Baroque cycle. But after this, I think I'm doomed to read everything Stephenson ever wrote. I'm absolutely taken by the world building, the allegories to mathematics and technology, the incorporation of astronomical physics and the multiple worlds hypothesis, and of course, Neal Stephenson's uncanny ability to bring his characters to life. 10/10.
+
+** Current
+- Snow Crash, Neal Stephenson, rereading
+- Turing's Cathedral, George Dyson, reading slowly
+- Disunited Nations, Peter Zeihan, Roy Worley, unsure if I'll finish
+
+** On the "soon" List:
+- The Critique of Pure Reason Kant, forever procrastinating
+- Reprogramming the American Dream, Kevin Scott, Greg Shaw
+- The Sovereign Individual James Dale Davidson, Lord William Rees-Mogg
+- Evidence for Hope, Kathryn Sikkink
+- Radical Markets Eric Posner, Glen Weyl, a reread
+- The Machinery of Freedom, David D. Friedman
+- The Baroque Cycle, trilogy Neal Stephenson
