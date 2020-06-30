@@ -846,7 +846,7 @@ uglyURLs = false
     ######################################
     # Caption
 
-    enableCaption = true
+    enableCaption = false
 
     captionPrefix = "◎ "
 
@@ -862,13 +862,13 @@ uglyURLs = false
     #       /images/meme.jpg
     #       (~/blog/static/images/meme.jpg)
 
-    enableImageHost = false
+    enableImageHost = true
 
-    imageHostURL = "https://example.com/"
+    imageHostURL = "https://thork.net/"
 
     # Replace the image link in the HTML
     # head meta also?
-    headAlso = false
+    headAlso = true
 
 
     ######################################
