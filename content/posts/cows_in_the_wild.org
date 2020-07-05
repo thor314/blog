@@ -6,6 +6,7 @@ tags: ["rust", "programming"]
 categories: ["rust"]
 description: "all about the Clone-on-write Rust data structure"
 ---
+#+OPTIONS: toc
 
 *  Tipping Cows, a Primer on Rust's Most Bovine Data Structure
 The year was 2020. An epidemic swept across the globe, driving all human life
@@ -97,7 +98,7 @@ we had to mutate the data in some way. Back to the concepts.
 usually means reproducing the data at a new location. This is cloning in Rust.
 Copying is simpler and less expensive: reproduce the data if it's statically
 sized (ints, floats, bools, etc), or reproduce the pointer if the data is
-dynamically sized (Vec, String, HashMap, etc). Cloning usually happens
+dynamically sized (Vec, String, HashMap, etc). Copying usually happens
 implicitly; meaning the compiler just does it for us, no muss, no fuss. Cloning,
 not so: we have to explicitly tell the compiler to clone the data. Anything that
 can be cloned can also be copied; the reverse is not true. Copy is cheap, Clone
