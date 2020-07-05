@@ -3,18 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://thork.net/about/</loc>
-    <lastmod>2020-06-30T18:56:36+02:00</lastmod>
+    <loc>https://thork.net/categories/</loc>
+    <lastmod>2020-07-05T15:09:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thork.net/posts/</loc>
+    <lastmod>2020-07-05T15:09:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thork.net/tags/programming/</loc>
+    <lastmod>2020-07-05T15:09:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thork.net/tags/rust/</loc>
+    <lastmod>2020-07-05T15:09:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thork.net/categories/rust/</loc>
+    <lastmod>2020-07-05T15:09:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thork.net/tags/</loc>
+    <lastmod>2020-07-05T15:09:23+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://thork.net/</loc>
-    <lastmod>2020-06-30T18:56:36+02:00</lastmod>
+    <lastmod>2020-07-05T15:09:23+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thork.net/categories/</loc>
-    <lastmod>2020-06-30T18:25:55+02:00</lastmod>
+    <loc>https://thork.net/posts/cows_in_the_wild/</loc>
+    <lastmod>2020-07-05T15:09:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://thork.net/about/</loc>
+    <lastmod>2020-06-30T18:56:36+02:00</lastmod>
   </url>
   
   <url>
@@ -33,11 +63,6 @@
   </url>
   
   <url>
-    <loc>https://thork.net/posts/</loc>
-    <lastmod>2020-06-30T18:25:55+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://thork.net/tags/prediction-markets/</loc>
     <lastmod>2020-06-30T17:51:19+02:00</lastmod>
   </url>
@@ -50,11 +75,6 @@
   <url>
     <loc>https://thork.net/categories/society/</loc>
     <lastmod>2020-06-30T17:51:19+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thork.net/tags/</loc>
-    <lastmod>2020-06-30T18:25:55+02:00</lastmod>
   </url>
   
   <url>

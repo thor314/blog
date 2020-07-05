@@ -1259,8 +1259,8 @@ uglyURLs = false
 
     enableHighlight = true
 
-    enableOverflowY = true
-    maxHeight = 20
+    enableOverflowY = false
+    #maxHeight = 20
     # Unit: em
 
     enableCopy = true
