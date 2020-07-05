@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">thork.net</title>
     <subtitle type="html">Thor Kamphefner&#39;s personal site and blog</subtitle>
-    <updated>2020-07-05T15:39:15&#43;02:00</updated>
+    <updated>2020-07-05T18:56:48&#43;02:00</updated>
     <id>https://thork.net/</id>
     <link rel="alternate" type="text/html" href="https://thork.net/" />
     <link rel="self" type="application/atom&#43;xml" href="https://thork.net/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Tipping Cows, a Primer on Rust’s Most Bovine Data Structure</title>
             <link rel="alternate" type="text/html" href="https://thork.net/posts/cows_in_the_wild/" />
             <id>https://thork.net/posts/cows_in_the_wild/</id>
-            <updated>2020-07-05T15:09:23&#43;02:00</updated>
+            <updated>2020-07-05T18:56:10&#43;02:00</updated>
             <published>2020-07-05T00:00:00&#43;00:00</published>
             <author>
                     <name>Thor Kamphefner </name>
@@ -166,11 +166,11 @@ Copy-on-Write vs Clone-on-Write
 usually means reproducing the data at a new location. This is cloning in Rust.
 Copying is simpler and less expensive: reproduce the data if it&amp;#39;s statically
 sized (ints, floats, bools, etc), or reproduce the pointer if the data is
-dynamically sized (Vec, String, HashMap, etc). Cloning usually happens
+dynamically sized (Vec, String, HashMap, etc). Copying usually happens
 implicitly; meaning the compiler just does it for us, no muss, no fuss. Cloning,
-not so: we have to explicitly tell the compiler to clone the data. Anything that
-can be cloned can also be copied; the reverse is not true. Copy is cheap, Clone
-is expensive.
+not so: we have to explicitly tell the compiler to clone the data. Any data that
+can be cloned (fixed or dynamically size) can also be copied (only fixed size);
+the reverse is not true. Copy is cheap, Clone is expensive.
 &lt;/p&gt;
 &lt;div class=&#34;src src-rust&#34;&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
