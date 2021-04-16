@@ -7,7 +7,6 @@ categories: ["rust"]
 description: "all about the Clone-on-write Rust data structure"
 ---
 
-*  Tipping Cows, a Primer on Rust's Most Bovine Data Structure
 The year was 2020. An epidemic swept across the globe, driving all human life
 indoors. Unrest concerning police action and longstanding racial inequality in
 the US drove the very same back into the streets. Like cattle, driven back and
