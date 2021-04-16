@@ -56,7 +56,7 @@ know where an attack came from; only if the player has revealed the coordinates
 of an attacking planet will they be able to see the red line indicative of an
 enemy movement.
 
-[[file:photos/zkg1.png][fog of war]]
+[[/photos/zkg1.png]]
 
 What makes the game possible is *valid state transitions*: how does the game
 move resources between planets, as on-chain data, without revealing the data, or
@@ -131,7 +131,7 @@ receiving hints about when to attack. To eliminate even that information, Dark
 Forest would have to operate on a blockchain with shielded addresses or a
 privacy-enabled Layer 2.
 
-[[file:photos/zkg2.png][attack]]
+[[/photos/zkg2.png]]
 
 It’s important to note that this applies to more than just games. Zero knowledge
 technology has broad application beyond Dark Forest. Experiments with zero

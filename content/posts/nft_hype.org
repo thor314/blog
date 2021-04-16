@@ -1,25 +1,31 @@
 ---
-title: "NFT Hype"
+title: "NFT Hype: What’s What and What’s to Come"
 date: 2021-03-26T12:16:49+01:00
 draft: false
 tags: ["nft", "crypto", "predictions"]
 categories: ["crypto"]
 ---
 
+#+begin_quote
+What's that? Anna asked.
 
-** What's That?
-#+begin_verse
-"What's that?" Anna asked.
 "It's anything you want it to be," said Ted the Tokenmaker.
+
 "But that's not a thing," said Anna.
+
 "That's the magic of crypto," said Olly the Optimist, "the more people believe
 in these, the more they are."
+
 ...
+
 "What's that?" said Alex.
+
 "It's anything you want it to be," said Anna.
+
 "Sounds like magic beans," said Alex.
+
 "They are until they're not, unless they are, but I like them so who cares?" said Anna.
-#+end_verse
+#+end_quote
 
 This article responds to the [[https://medium.com/zeroknowledge/nfts-so-hot-but-would-you-buy-one-31fe280d7cb7][thoughtful piece]] by Anna Rose, which is recommended
 pre-reading, as this piece will attempt to respond to the posed questions:
