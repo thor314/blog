@@ -1,12 +1,11 @@
 ---
-title: "Zero Knowledge Game"
-date: 2021-04-16T12:16:49+01:00
+title: "Zero Knowledge: The Game"
+date: 2021-02-11T12:16:49+01:00
 draft: false
 tags: ["zeroknowledge", "cryptography", "game", "explainer"]
 categories: ["crypto"]
 ---
 
-* Zero Knowledge: The Game
 /first posted at the [[https://medium.com/zeroknowledge/zero-knowledge-the-game-688ec3709b41][ZKPodcast blog]]/
 
 What makes a game a “blockchain game”? A simple definition: some part of the
