@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">thork.net</title>
     <subtitle type="html">Thor&#39;s personal site and blog</subtitle>
-    <updated>2021-04-16T13:20:14&#43;01:00</updated>
+    <updated>2021-04-16T13:42:51&#43;01:00</updated>
     <id>https://thork.net/</id>
     <link rel="alternate" type="text/html" href="https://thork.net/" />
     <link rel="self" type="application/atom&#43;xml" href="https://thork.net/atom.xml" />
@@ -17,36 +17,42 @@
     
     <generator uri="https://gohugo.io/" version="0.74.3">Hugo</generator>
         <entry>
-            <title type="text">NFT Hype</title>
+            <title type="text">NFT Hype: What’s What and What’s to Come</title>
             <link rel="alternate" type="text/html" href="https://thork.net/posts/nft_hype/" />
             <id>https://thork.net/posts/nft_hype/</id>
-            <updated>2021-04-16T12:31:38&#43;01:00</updated>
+            <updated>2021-04-16T13:24:33&#43;01:00</updated>
             <published>2021-03-26T12:16:49&#43;01:00</published>
             <author>
                     <name>Thor</name>
                     <uri>https://thork.net/</uri>
                     <email>thorck@protonmail.com</email>
                     </author>
-            <summary type="html">What&amp;#39;s That?  &amp;#34;What&amp;#39;s that?&amp;#34; Anna asked. &amp;#34;It&amp;#39;s anything you want it to be,&amp;#34; said Ted the Tokenmaker. &amp;#34;But that&amp;#39;s not a thing,&amp;#34; said Anna. &amp;#34;That&amp;#39;s the magic of crypto,&amp;#34; said Olly the Optimist, &amp;#34;the more people believe in these, the more they are.</summary>
+            <summary type="html">What&amp;#39;s that? Anna asked.
+ &amp;#34;It&amp;#39;s anything you want it to be,&amp;#34; said Ted the Tokenmaker.
+ &amp;#34;But that&amp;#39;s not a thing,&amp;#34; said Anna.
+ &amp;#34;That&amp;#39;s the magic of crypto,&amp;#34; said Olly the Optimist, &amp;#34;the more people believe in these, the more they are.</summary>
             
                 <content type="html">
-&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-1&#34;&gt;
-What&amp;#39;s That?
-&lt;/h3&gt;
-&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;
-&lt;div class=&#34;verse-block&#34;&gt;
-&lt;p&gt;&amp;#34;What&amp;#39;s that?&amp;#34; Anna asked.
-&amp;#34;It&amp;#39;s anything you want it to be,&amp;#34; said Ted the Tokenmaker.
-&amp;#34;But that&amp;#39;s not a thing,&amp;#34; said Anna.
+&lt;blockquote&gt;
+&lt;p&gt;What&amp;#39;s that? Anna asked.&lt;/p&gt;
+&lt;p&gt;
+&amp;#34;It&amp;#39;s anything you want it to be,&amp;#34; said Ted the Tokenmaker.&lt;/p&gt;
+&lt;p&gt;
+&amp;#34;But that&amp;#39;s not a thing,&amp;#34; said Anna.&lt;/p&gt;
+&lt;p&gt;
 &amp;#34;That&amp;#39;s the magic of crypto,&amp;#34; said Olly the Optimist, &amp;#34;the more people believe
-in these, the more they are.&amp;#34;
-…
-&amp;#34;What&amp;#39;s that?&amp;#34; said Alex.
-&amp;#34;It&amp;#39;s anything you want it to be,&amp;#34; said Anna.
-&amp;#34;Sounds like magic beans,&amp;#34; said Alex.
+in these, the more they are.&amp;#34;&lt;/p&gt;
+&lt;p&gt;
+…&lt;/p&gt;
+&lt;p&gt;
+&amp;#34;What&amp;#39;s that?&amp;#34; said Alex.&lt;/p&gt;
+&lt;p&gt;
+&amp;#34;It&amp;#39;s anything you want it to be,&amp;#34; said Anna.&lt;/p&gt;
+&lt;p&gt;
+&amp;#34;Sounds like magic beans,&amp;#34; said Alex.&lt;/p&gt;
+&lt;p&gt;
 &amp;#34;They are until they&amp;#39;re not, unless they are, but I like them so who cares?&amp;#34; said Anna.&lt;/p&gt;
-&lt;/div&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;
 This article responds to the &lt;a href=&#34;https://medium.com/zeroknowledge/nfts-so-hot-but-would-you-buy-one-31fe280d7cb7&#34;&gt;thoughtful piece&lt;/a&gt; by Anna Rose, which is recommended
 pre-reading, as this piece will attempt to respond to the posed questions:
@@ -54,13 +60,11 @@ What exactly are NFTs for, and what would make me buy an NFT?&lt;/p&gt;
 &lt;p&gt;
 How to price NFTs is beyond the scope of this article, but I recommend &lt;a href=&#34;https://medium.com/@nic__carter/why-nfts-are-hard-to-explain-48f0ab0a35bf&#34;&gt;Nic Carter&lt;/a&gt; and
 &lt;a href=&#34;https://newsletter.banklesshq.com/p/how-to-value-nfts&#34;&gt;William Peaster&lt;/a&gt; for some useful takes.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-2&#34;&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-1&#34;&gt;
 What are NFTs for, and Why you might want one
 &lt;/h3&gt;
-&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;
 &lt;p&gt;Much of the noise around NFTs stems from the question, what the hell am I going
 to do with this? An NFT is a sufficiently general technology that, in theory,
 there are &lt;a href=&#34;https://twitter.com/jbrukh/status/1367471632932085760&#34;&gt;many&lt;/a&gt; uses for NFTs; yet in practice, art and gaming have attracted the
@@ -122,11 +126,11 @@ from the hype cycle, some great projects are taking form, with NFTs at their
 core.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-3&#34;&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-2&#34;&gt;
 Like what?
 &lt;/h3&gt;
-&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;
 &lt;p&gt;NFTs are a tool for collaboration and creation. The NFT might be best understood
 as a &lt;a href=&#34;https://en.wikipedia.org/wiki/Public-key_cryptography&#34;&gt;Public Key&lt;/a&gt; for an item or service, on a public database. The departure from
 a private database model allows for ease of collaboration, while guaranteeing
@@ -169,11 +173,11 @@ and (3) shared interface to each of these application areas mean that the realm
 of possibilities of NFT-enabled technology is far-reaching.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-3&#34;&gt;
-&lt;h3 id=&#34;headline-4&#34;&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-3&#34;&gt;
 Wrap up
 &lt;/h3&gt;
-&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-3&#34;&gt;
 &lt;p&gt;To recap. What are NFTs for? At the moment, speculation, status signalling, and
 artwork are the ascendant NFT applications. But NFTs are &lt;a href=&#34;https://threadreaderapp.com/thread/1365390455957950464.html&#34;&gt;incredibly flexible&lt;/a&gt; as
 technological tools, and could someday be for lots of things, or at least, much
@@ -236,7 +240,7 @@ us out.&lt;/p&gt;
             <title type="text">Zero Knowledge: The Game</title>
             <link rel="alternate" type="text/html" href="https://thork.net/posts/zero_knowledge_game/" />
             <id>https://thork.net/posts/zero_knowledge_game/</id>
-            <updated>2021-04-16T12:31:47&#43;01:00</updated>
+            <updated>2021-04-16T13:36:14&#43;01:00</updated>
             <published>2021-02-11T12:16:49&#43;01:00</published>
             <author>
                     <name>Thor</name>
@@ -300,7 +304,7 @@ know where an attack came from; only if the player has revealed the coordinates
 of an attacking planet will they be able to see the red line indicative of an
 enemy movement.&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;photos/zkg1.png&#34;&gt;fog of war&lt;/a&gt;&lt;/p&gt;
+&lt;img src=&#34;https://thork.net/photos/zkg1.png&#34; alt=&#34;/photos/zkg1.png&#34; title=&#34;/photos/zkg1.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;
 What makes the game possible is &lt;strong&gt;valid state transitions&lt;/strong&gt;: how does the game
 move resources between planets, as on-chain data, without revealing the data, or
@@ -402,7 +406,7 @@ receiving hints about when to attack. To eliminate even that information, Dark
 Forest would have to operate on a blockchain with shielded addresses or a
 privacy-enabled Layer 2.&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;photos/zkg2.png&#34;&gt;attack&lt;/a&gt;&lt;/p&gt;
+&lt;img src=&#34;https://thork.net/photos/zkg2.png&#34; alt=&#34;/photos/zkg2.png&#34; title=&#34;/photos/zkg2.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;
 It’s important to note that this applies to more than just games. Zero knowledge
 technology has broad application beyond Dark Forest. Experiments with zero

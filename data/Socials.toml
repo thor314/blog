@@ -13,13 +13,6 @@
     weight = 1
 
 [[socials]]
-    id = "email"
-    url = "mailto:thor314@gmail.com"
-    icon = "envelope"
-    title = "Email"
-    weight = 2
-
-[[socials]]
     id = "github"
     url = "https://github.com/thor314"
     icon = "github"
@@ -35,7 +28,7 @@
 
 [[socials]]
     id = "linkedin"
-    url = "https://www.linkedin.com/in/thor-kamphefner-5a4b20132/"
+    url = "https://www.linkedin.com/in/thor-yours-cryptographically-5a4b20132/"
     icon = "linkedin"
     title = "LinkedIn"
     weight = 5

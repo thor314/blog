@@ -1120,7 +1120,7 @@ uglyURLs = false
 
     shareOnTwitter = true
     shareOnFacebook = true
-    shareOnLinkedIn = true
+    shareOnLinkedIn = false
     #shareOnTelegram = true
     #shareOnWeibo = true
     #shareOnDouban = true
