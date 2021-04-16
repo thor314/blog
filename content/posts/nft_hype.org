@@ -151,4 +151,5 @@ create and their own NFT minting contracts. We're on [[https://mintbase.io/][Eth
 launched on [[https://near.mintbase.io/][NEAR testnet]]! If you're exploring what's possible with NFTs, check
 us out.
 
-/first posted at the [[https://medium.com/zeroknowledge/zero-knowledge-the-game-688ec3709b41][ZKPodcast blog]]/
+/first posted at the [[https://medium.com/zeroknowledge/nft-hype-whats-what-and-what-s-to-come-9a7642defcb1
+][ZKPodcast blog]]/
