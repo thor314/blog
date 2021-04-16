@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.72.0" /><meta name="theme-color" content="#fff" />
+    <meta name="generator" content="Hugo 0.74.3" /><meta name="theme-color" content="#fff" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
@@ -14,7 +14,7 @@
 
     <title>Tipping Cows, a Primer on Rust’s Most Bovine Data Structure | thork.net</title>
 
-    <link rel="stylesheet" href="/css/meme.min.65512aa8fec8daec727f62bab266f05d992b31e096b23b26c2377ce298577857.css" integrity="sha256-ZVEqqP7I2uxyf2K6smbwXZkrMeCWsjsmwjd84phXeFc=" />
+    <link rel="stylesheet" href="/css/meme.min.19b3c76a5477236927b86e6e5eab1e84541ade1ace3634c4abb25283b9ec24f9.css" integrity="sha256-GbPHalR3I2knuG5uXqsehFQa3hrONjTEq7JSg7nsJPk=" />
 
     
     
@@ -27,7 +27,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM&#43;Plex&#43;Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Comfortaa:wght@700&amp;display=swap" media="print" onload="this.media='all'" />
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM&#43;Plex&#43;Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Comfortaa:wght@700&amp;display=swap" /></noscript>
 
-    <meta name="author" content="Thor Kamphefner " /><meta name="description" content="all about the Clone-on-write Rust data structure" />
+    <meta name="author" content="Thor" /><meta name="description" content="all about the Clone-on-write Rust data structure" />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
@@ -54,7 +54,7 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2020-07-05T00:00:00+00:00",
-        "dateModified": "2020-07-05T18:59:48+02:00",
+        "dateModified": "2021-04-16T12:04:38+01:00",
         "url": "https://thork.net/posts/cows_in_the_wild/",
         "headline": "Tipping Cows, a Primer on Rust’s Most Bovine Data Structure",
         "description": "all about the Clone-on-write Rust data structure",
@@ -64,11 +64,10 @@
         "image": "https://thork.net/icons/apple-touch-icon.png",
         "author": {
             "@type": "Person",
-            "description": "building better human systems",
-            "email": "thor314@gmail.com",
+            "email": "thorck@protonmail.com",
             "image": "https://thork.net/icons/apple-touch-icon.png",
             "url": "https://thork.net/",
-            "name": "Thor Kamphefner "
+            "name": "Thor"
         },
         "publisher": {
             "@type": "Organization",
@@ -104,7 +103,7 @@
 <meta property="og:locale" content="en" /><meta property="og:image" content="https://thork.net/icons/apple-touch-icon.png" />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2020-07-05T00:00:00&#43;00:00" />
-    <meta property="article:modified_time" content="2020-07-05T18:59:48&#43;02:00" />
+    <meta property="article:modified_time" content="2021-04-16T12:04:38&#43;01:00" />
     
     <meta property="article:section" content="posts" />
 
@@ -238,7 +237,7 @@
     
     
         
-        <time datetime="2020-07-05T18:59:48&#43;02:00" class="post-meta-item modified"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2020.7.5</time>
+        <time datetime="2021-04-16T12:04:38&#43;01:00" class="post-meta-item modified"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2021.4.16</time>
     
     
     
@@ -266,40 +265,36 @@
 
             <div class="post-body">
               
+<div id="outline-container-headline-1" class="outline-2">
 <h2 id="headline-1">
 Tipping Cows, a Primer on Rust&#39;s Most Bovine Data Structure
 </h2>
-<p style="text-indent:0"><span class="drop-cap">
-</span>The year was 2020. An epidemic swept across the globe, driving all human life
+<div id="outline-text-headline-1" class="outline-text-2">
+<p style="text-indent:0"><span class="drop-cap">T</span>he year was 2020. An epidemic swept across the globe, driving all human life
 indoors. Unrest concerning police action and longstanding racial inequality in
 the US drove the very same back into the streets. Like cattle, driven back and
-forth we were, with global sociopolitical and health trends our ranger.
-</p>
+forth we were, with global sociopolitical and health trends our ranger.</p>
 <p>
 In other words, there was never a better time to read an primer on Cows. Yes,
 those magical moo-ers. No, that was a lie. This is going to be about the <a href="https://doc.rust-lang.org/std/borrow/enum.Cow.html" target="_blank" rel="noopener">Cow</a>
 data structure in Rust, <a href="https://www.infoworld.com/article/3560970/c-and-rust-programming-languages-continue-to-rise.html" target="_blank" rel="noopener">systems programming language and global phenomenon</a>,
-sorry for the confusion.
-</p>
+sorry for the confusion.</p>
 <p>
 So now that I&#39;ve lied to you once, I hear you asking &#34;Why should I stay?&#34; Well.
 I offer ye nothing less than knowledge of dark bovine arts. Along the way you&#39;ll
-be sprinkled with Rust language insights and regular attempts at cow-humor.
-</p>
+be sprinkled with Rust language insights and regular attempts at cow-humor.</p>
 <p>
 When you&#39;ve finished this cool glass of milk, you will know what a Cow is doing
 when you spot one (in Rust that is, for the alternative consult a local farmer),
 see several examples of Cow in practice, and maybe even raise your own Cows.
 <a href="https://www.youtube.com/watch?v=FavUpD_IjVY" target="_blank" rel="noopener">Like this</a>. If you&#39;re unfamiliar with smart pointers, lifetimes, or the
 borrowing/ownership system in Rust, don&#39;t panic. They&#39;re totally on the docket.
-Cowabunga.
-</p>
+Cowabunga.</p>
 <p>
 But if you&#39;re new to Rust, you might consider first visiting <a href="https://medium.com/better-programming/rust-ownership-and-borrowing-9cf7f081ade0" target="_blank" rel="noopener">one</a> <a href="https://medium.com/better-programming/rust-ownership-and-borrowing-9cf7f081ade0" target="_blank" rel="noopener">of</a> <a href="https://doc.rust-lang.org/1.8.0/book/references-and-borrowing.html" target="_blank" rel="noopener">the</a> many great
 explainers of how the compiler helps us avoid careless reference errors by way
 of its borrow checker. But if you&#39;re not here to click links, here&#39;s the basic
-idea:
-</p>
+idea:</p>
 <p>
 Similar to C and C++, Rust doesn&#39;t have a garbage collector: a process that runs
 in a program&#39;s runtime that tracks which variables reference what data, and when
@@ -311,14 +306,13 @@ may not be obvious until things break). In Rust, the borrow checker does memory
 management for us, which is ergonomic (don&#39;t have to manually manage memory),
 safe (prevents security errors and issues, especially in concurrent programs),
 and fast (on par with C and C++). By strictly enforcing a couple rules about
-mutable and immutable references, we get these nice things.
-</p>
+mutable and immutable references, we get these nice things.</p>
+<div id="outline-container-headline-2" class="outline-3">
 <h3 id="headline-2">
 Enter Cows
 </h3>
-<p>
-If we run over to the <a href="https://doc.rust-lang.org/std/borrow/enum.Cow.html" target="_blank" rel="noopener">Zoo of Rust&#39;s Creatures</a>, we find a Cow in captivity:
-</p>
+<div id="outline-text-headline-2" class="outline-text-3">
+<p>If we run over to the <a href="https://doc.rust-lang.org/std/borrow/enum.Cow.html" target="_blank" rel="noopener">Zoo of Rust&#39;s Creatures</a>, we find a Cow in captivity:</p>
 <div class="src src-rust">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
@@ -342,9 +336,7 @@ If we run over to the <a href="https://doc.rust-lang.org/std/borrow/enum.Cow.htm
 </div>
 </div>
 </div>
-<p>
-The zoo helpfully informs us,
-</p>
+<p>The zoo helpfully informs us,</p>
 <pre class="example">
  _________________________________________
 / The type Cow is a smart pointer         \
@@ -364,41 +356,33 @@ The zoo helpfully informs us,
 </pre>
 <p>
 Moo. That&#39;s a lot to parse. There&#39;s roughly three concepts baked into that
-definition:
-</p>
+definition:</p>
 <ul>
 <li>
-<p>
-What is clone-on-write functionality, and what&#39;s the diff to copy-on-write
-</p>
+<p>What is clone-on-write functionality, and what&#39;s the diff to copy-on-write</p>
 </li>
 <li>
-<p>
-Why this elitist smart pointer
-</p>
+<p>Why this elitist smart pointer</p>
 </li>
 <li>
-<p>
-Where do lifetimes enter in
-</p>
+<p>Where do lifetimes enter in</p>
 </li>
 </ul>
 <p>
 If you know the answer to all of those questions, you can probably skip ahead to
-examples. Don&#39;t know? Read on!
-</p>
+examples. Don&#39;t know? Read on!</p>
 <p>
 Let&#39;s start with why we care about these concepts: what do we win if we collect
 them all? Well, in simplest form, we win an runtime optimization technique, for
 when the data we&#39;re handling will sometimes be acceptable to immutably borrow
 (which is cheap), but other times will have to be owned, which would happen if
-we had to mutate the data in some way. Back to the concepts.
-</p>
+we had to mutate the data in some way. Back to the concepts.</p>
+<div id="outline-container-headline-3" class="outline-4">
 <h4 id="headline-3">
 Copy-on-Write vs Clone-on-Write
 </h4>
-<p>
-<a href="https://doc.rust-lang.org/std/marker/trait.Copy.html" target="_blank" rel="noopener">Copy</a> and <a href="https://doc.rust-lang.org/std/clone/trait.Clone.html" target="_blank" rel="noopener">Clone</a> in Rust mean different things. In the non-Rust world, copying
+<div id="outline-text-headline-3" class="outline-text-4">
+<p><a href="https://doc.rust-lang.org/std/marker/trait.Copy.html" target="_blank" rel="noopener">Copy</a> and <a href="https://doc.rust-lang.org/std/clone/trait.Clone.html" target="_blank" rel="noopener">Clone</a> in Rust mean different things. In the non-Rust world, copying
 usually means reproducing the data at a new location. This is cloning in Rust.
 Copying is simpler and less expensive: reproduce the data if it&#39;s statically
 sized (ints, floats, bools, etc), or reproduce the pointer if the data is
@@ -406,8 +390,7 @@ dynamically sized (Vec, String, HashMap, etc). Copying usually happens
 implicitly; meaning the compiler just does it for us, no muss, no fuss. Cloning,
 not so: we have to explicitly tell the compiler to clone the data. Any data that
 can be copied (only fixed size) can also be cloned (fixed or dynamically sized);
-the reverse is not true. Copy is cheap, Clone is expensive.
-</p>
+the reverse is not true. Copy is cheap, Clone is expensive.</p>
 <div class="src src-rust">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
@@ -447,11 +430,14 @@ the reverse is not true. Copy is cheap, Clone is expensive.
 </div>
 </div>
 </div>
+</div>
+</div>
+<div id="outline-container-headline-4" class="outline-4">
 <h4 id="headline-4">
 Smart Pointers are Runtime Friends
 </h4>
-<p>
-They say runners are are smart (don&#39;t ask who &#34;they&#34; are, I&#39;m sure they&#39;re out
+<div id="outline-text-headline-4" class="outline-text-4">
+<p>They say runners are are smart (don&#39;t ask who &#34;they&#34; are, I&#39;m sure they&#39;re out
 there somewhere). And Smart Pointers are your running friends. Smart pointers
 were introduced by C++ in the 1990s as a tool to manage resources related to the
 memory they&#39;re pointing to. Like Rust, C++ doesn&#39;t have automatic garbage
@@ -460,8 +446,7 @@ Rust does it&#39;s best to manages memory without a garbage collector at
 compile-time with it&#39;s ownership system, but at runtime, it&#39;s all smart
 pointers. That&#39;s why smart pointers aren&#39;t generally a necessary concept to
 anyone coming from a garbage collected language, like Java or Python (though
-Java does have a <a href="https://javamex.com/tutorials/synchronization_concurrency_8_copy_on_write.shtml" target="_blank" rel="noopener">cow</a>).
-</p>
+Java does have a <a href="https://javamex.com/tutorials/synchronization_concurrency_8_copy_on_write.shtml" target="_blank" rel="noopener">cow</a>).</p>
 <p>
 In the context of Cows, the Cow smart pointer acts like a normal pointer when it
 merely borrows data, but at runtime, the Cow smart pointer can take ownership of
@@ -471,8 +456,7 @@ taking ownership requires the data to be cloned, meaning the runtime will have
 to reproduce the data on the Heap (whenever we allocate memory in runtime, it&#39;s
 usually safe to assume it&#39;s happening on the heap). If the data is particularly
 large, (a long string or text file, for instance), lazily cloning only when it
-becomes obviously necessary is a useful optimization.
-</p>
+becomes obviously necessary is a useful optimization.</p>
 <div class="src src-rust">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
@@ -502,19 +486,19 @@ becomes obviously necessary is a useful optimization.
 </div>
 </div>
 </div>
-<p>
-From <a href="https://doc.rust-lang.org/std/borrow/enum.Cow.html" target="_blank" rel="noopener">Rust&#39;s Cow documentation</a>.
-</p>
+<p>From <a href="https://doc.rust-lang.org/std/borrow/enum.Cow.html" target="_blank" rel="noopener">Rust&#39;s Cow documentation</a>.</p>
+</div>
+</div>
+<div id="outline-container-headline-5" class="outline-4">
 <h4 id="headline-5">
 Where do lifetimes enter
 </h4>
-<p>
-<a href="https://doc.rust-lang.org/rust-by-example/scope/lifetime.html" target="_blank" rel="noopener">Lifetimes</a> tell the borrow checker when a borrow is going to end. When a Cow
+<div id="outline-text-headline-5" class="outline-text-4">
+<p><a href="https://doc.rust-lang.org/rust-by-example/scope/lifetime.html" target="_blank" rel="noopener">Lifetimes</a> tell the borrow checker when a borrow is going to end. When a Cow
 borrows some data, the Cow should never outlive the data. Further, if the Cow
 takes ownership of the data with a clone, it makes sense that the cloned data
 still shouldn&#39;t outlive the original data. Rememer how we defined Cow? You don&#39;t
-have to, here it is again.
-</p>
+have to, here it is again.</p>
 <div class="src src-rust">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
@@ -540,17 +524,20 @@ have to, here it is again.
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-6" class="outline-3">
 <h3 id="headline-6">
 Putting it all together
 </h3>
-<p>
-You made it this far cowpoke. Hold onto your milk, because it&#39;s time for a pop
-quiz.
-</p>
+<div id="outline-text-headline-6" class="outline-text-3">
+<p>You made it this far cowpoke. Hold onto your milk, because it&#39;s time for a pop
+quiz.</p>
 <p>
 Suppose we&#39;ve got a struct containing an immutable generic vector. How
-would we update it to wrap a Cow?
-</p>
+would we update it to wrap a Cow?</p>
 <div class="src src-rust">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
@@ -581,8 +568,7 @@ would we update it to wrap a Cow?
 <p>
 Well, for starters, we&#39;re going to need to import Cow, add lifetimes, and modify
 some definitions. Let&#39;s sprinkle lifetimes
-everywhere a generic definition appears, and wrap our Vector in a Cow.
-</p>
+everywhere a generic definition appears, and wrap our Vector in a Cow.</p>
 <div class="src src-rust">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
@@ -631,8 +617,7 @@ should be noted that the <em>authentic</em> Rust learning experience involves wr
 code, having the compiler scream at you, and trying to figure out what the heck
 that means.&#34; We&#39;re living that dream. But the rust compiler is actually pretty
 helpful here. We need to put a trait bound on T, so that our pet Cow can clone T
-if and when it needs to.
-</p>
+if and when it needs to.</p>
 <div class="src src-rust">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
@@ -683,8 +668,7 @@ warning: struct is never constructed: `VecWrapper`
 <p>
 Success! If we wanted to take our implementation one step further, the
 <a href="https://doc.rust-lang.org/std/borrow/enum.Cow.html" target="_blank" rel="noopener">documentation</a> gives an example of wrapping a generic array with a Cow, which
-would require a couple more trait bounds.
-</p>
+would require a couple more trait bounds.</p>
 <div class="src src-rust">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
@@ -714,29 +698,30 @@ would require a couple more trait bounds.
 </div>
 </div>
 </div>
-<p>
-Which ends up looking pretty close to our vector wrapper, but since the Vec type
+<p>Which ends up looking pretty close to our vector wrapper, but since the Vec type
 implements ToOwned for us and the array doesn&#39;t, a we&#39;d have to implement
-`ToOwned` for our generic array by hand.
-</p>
+`ToOwned` for our generic array by hand.</p>
 <p>
 Alright, so there&#39;s a lot more that can be done with Cows than we got
 into here. But I&#39;m hoping this was enough of a prod to get you up and mooving
 with cows. Thanks for joining me, and best of luck in all your future Rust
-endeavors.
-</p>
+endeavors.</p>
+</div>
+</div>
+<div id="outline-container-headline-7" class="outline-3">
 <h3 id="headline-7">
 Sources:
 </h3>
+<div id="outline-text-headline-7" class="outline-text-3">
+<p><a href="https://doc.rust-lang.org/1.26.1/std/borrow/enum.Cow.html" target="_blank" rel="noopener">Documentation std::borrow::Cow</a></p>
 <p>
-<a href="https://doc.rust-lang.org/1.26.1/std/borrow/enum.Cow.html" target="_blank" rel="noopener">Documentation std::borrow::Cow</a>
-</p>
+<a href="https://en.wikipedia.org/wiki/Smart_pointer#cite_note-1" target="_blank" rel="noopener">Smart Pointers Wikipedia</a></p>
 <p>
-<a href="https://en.wikipedia.org/wiki/Smart_pointer#cite_note-1" target="_blank" rel="noopener">Smart Pointers Wikipedia</a>
-</p>
-<p>
-<a href="https://deterministic.space/secret-life-of-cows.html#fn:deref" target="_blank" rel="noopener">Secret Life of Cows</a>
-</p>
+<a href="https://deterministic.space/secret-life-of-cows.html#fn:deref" target="_blank" rel="noopener">Secret Life of Cows</a></p>
+</div>
+</div>
+</div>
+</div>
 
             </div>
 
@@ -748,7 +733,7 @@ Sources:
     
     
         <ul class="post-copyright">
-            <li class="copyright-item author"><span class="copyright-item-text">Author</span>: <a href="https://thork.net/" target="_blank" rel="noopener">Thor Kamphefner </a></li>
+            <li class="copyright-item author"><span class="copyright-item-text">Author</span>: <a href="https://thork.net/" target="_blank" rel="noopener">Thor</a></li>
             
                 
                 
@@ -764,9 +749,9 @@ Sources:
 
         
     <div class="updated-badge-container">
-        <span title="Updated @ 2020-07-05 18:59:48 CEST" style="cursor:help">
+        <span title="Updated @ 2021-04-16 12:04:38 WEST" style="cursor:help">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2020-07-05</text><text x="915" y="140" textLength="650" transform="scale(.1)">2020-07-05</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2021-04-16</text><text x="915" y="140" textLength="650" transform="scale(.1)">2021-04-16</text></g></svg>
         </span></div>
 
 
@@ -883,6 +868,10 @@ Sources:
     
         <ul class="post-nav">
             
+                <li class="post-nav-prev">
+                    <a href="/posts/zero_knowledge_game/" rel="prev">&lt; Zero Knowledge: The Game</a>
+                </li>
+            
             
                 <li class="post-nav-next">
                     <a href="/posts/prediction_markets_climate/" rel="next">Leveraging Prediction Markets to Mitigate the Tragedy of the Commons Problem in International Climate Change Agreements &gt;</a>
@@ -909,7 +898,7 @@ Sources:
             
     <footer id="footer" class="footer">
         <div class="footer-inner">
-            <div class="site-info">©&nbsp;2020–2020&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;Thor Kamphefner </div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div><div class="site-copyright"></div>
+            <div class="site-info">©&nbsp;2020–2021&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;Thor</div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div><div class="site-copyright"></div>
 
             
     

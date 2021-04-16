@@ -3,67 +3,514 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">thork.net</title>
-    <subtitle type="html">Thor Kamphefner&#39;s personal site and blog</subtitle>
-    <updated>2020-07-05T19:00:30&#43;02:00</updated>
+    <subtitle type="html">Thor&#39;s personal site and blog</subtitle>
+    <updated>2021-04-16T13:20:14&#43;01:00</updated>
     <id>https://thork.net/</id>
     <link rel="alternate" type="text/html" href="https://thork.net/" />
     <link rel="self" type="application/atom&#43;xml" href="https://thork.net/atom.xml" />
     <author>
-            <name>Thor Kamphefner </name>
+            <name>Thor</name>
             <uri>https://thork.net/</uri>
             
-                <email>thor314@gmail.com</email>
+                <email>thorck@protonmail.com</email>
             </author>
     
-    <generator uri="https://gohugo.io/" version="0.72.0">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.74.3">Hugo</generator>
+        <entry>
+            <title type="text">NFT Hype</title>
+            <link rel="alternate" type="text/html" href="https://thork.net/posts/nft_hype/" />
+            <id>https://thork.net/posts/nft_hype/</id>
+            <updated>2021-04-16T12:31:38&#43;01:00</updated>
+            <published>2021-03-26T12:16:49&#43;01:00</published>
+            <author>
+                    <name>Thor</name>
+                    <uri>https://thork.net/</uri>
+                    <email>thorck@protonmail.com</email>
+                    </author>
+            <summary type="html">What&amp;#39;s That?  &amp;#34;What&amp;#39;s that?&amp;#34; Anna asked. &amp;#34;It&amp;#39;s anything you want it to be,&amp;#34; said Ted the Tokenmaker. &amp;#34;But that&amp;#39;s not a thing,&amp;#34; said Anna. &amp;#34;That&amp;#39;s the magic of crypto,&amp;#34; said Olly the Optimist, &amp;#34;the more people believe in these, the more they are.</summary>
+            
+                <content type="html">
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-1&#34;&gt;
+What&amp;#39;s That?
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;div class=&#34;verse-block&#34;&gt;
+&lt;p&gt;&amp;#34;What&amp;#39;s that?&amp;#34; Anna asked.
+&amp;#34;It&amp;#39;s anything you want it to be,&amp;#34; said Ted the Tokenmaker.
+&amp;#34;But that&amp;#39;s not a thing,&amp;#34; said Anna.
+&amp;#34;That&amp;#39;s the magic of crypto,&amp;#34; said Olly the Optimist, &amp;#34;the more people believe
+in these, the more they are.&amp;#34;
+…
+&amp;#34;What&amp;#39;s that?&amp;#34; said Alex.
+&amp;#34;It&amp;#39;s anything you want it to be,&amp;#34; said Anna.
+&amp;#34;Sounds like magic beans,&amp;#34; said Alex.
+&amp;#34;They are until they&amp;#39;re not, unless they are, but I like them so who cares?&amp;#34; said Anna.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;
+This article responds to the &lt;a href=&#34;https://medium.com/zeroknowledge/nfts-so-hot-but-would-you-buy-one-31fe280d7cb7&#34;&gt;thoughtful piece&lt;/a&gt; by Anna Rose, which is recommended
+pre-reading, as this piece will attempt to respond to the posed questions:
+What exactly are NFTs for, and what would make me buy an NFT?&lt;/p&gt;
+&lt;p&gt;
+How to price NFTs is beyond the scope of this article, but I recommend &lt;a href=&#34;https://medium.com/@nic__carter/why-nfts-are-hard-to-explain-48f0ab0a35bf&#34;&gt;Nic Carter&lt;/a&gt; and
+&lt;a href=&#34;https://newsletter.banklesshq.com/p/how-to-value-nfts&#34;&gt;William Peaster&lt;/a&gt; for some useful takes.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-2&#34;&gt;
+What are NFTs for, and Why you might want one
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;Much of the noise around NFTs stems from the question, what the hell am I going
+to do with this? An NFT is a sufficiently general technology that, in theory,
+there are &lt;a href=&#34;https://twitter.com/jbrukh/status/1367471632932085760&#34;&gt;many&lt;/a&gt; uses for NFTs; yet in practice, art and gaming have attracted the
+greatest share of attention. Looming behind these is the spectre of rampant
+price speculation, divorcing many NFT products from any semblance of intuitive
+valuations. At its &lt;a href=&#34;https://www.theverge.com/2021/3/11/22325054/beeple-christies-nft-sale-cost-everydays-69-million&#34;&gt;highest echelons&lt;/a&gt;, the NFT investment game is being played by
+&lt;a href=&#34;https://cryptounit.com/2021/01/25/flamingodao-acquires-cryptopunk-nft-for-761k-in-ether/&#34;&gt;DAOs&lt;/a&gt; and whales playing a game of chicken, taking turns in bidding increasingly
+unbelievable amounts, in turn raising the overall value of their impressive
+collections (which may then be quietly sold for a &lt;a href=&#34;https://twitter.com/pranksyNFT/status/1366589669568360457&#34;&gt;tidy profit&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;
+NFTs aren&amp;#39;t just for speculation. They&amp;#39;re also for status signalling, as &lt;a href=&#34;https://medium.com/@nic__carter/why-nfts-are-hard-to-explain-48f0ab0a35bf&#34;&gt;Nic
+Carter&lt;/a&gt; of Castle Island Ventures points out:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Most likely, I’m betting that newly-rich Ethereum enthusiasts will see the NFTs
+as a kind of totem of status, signalling membership in an exclusive club (people
+that had the foresight to buy the first NFTs on Ethereum, or the financial clout
+to buy them once they got popular.) My best thesis here is that these are
+effectively a form of resalable social signalling, like a digital Hermes Birkin
+bag. The actual contents of the NFT is largely irrelevant.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+We see this playing out on Crypto Twitter, where &lt;a href=&#34;https://www.larvalabs.com/cryptopunks&#34;&gt;CryptoPunks&lt;/a&gt; and &lt;a href=&#34;https://mooncatrescue.com/&#34;&gt;MoonCats&lt;/a&gt; are
+becoming increasingly common avatars for prominent crypto community members.
+Paying the exorbitant price to acquire one of these cements one&amp;#39;s identity as a
+crypto OG, or at least as a community member willing to pay for their status.&lt;/p&gt;
+&lt;p&gt;
+Finally though art NFT prices are wild, prices go to supporting artists and
+artist communities (assuming you&amp;#39;re not being duped into &lt;a href=&#34;https://cryptobriefing.com/crypto-art-fraud-rarible-sparks-governance-discussion/&#34;&gt;fraudulent art&lt;/a&gt;!). Much
+like any piece of art, if a piece on an NFT marketplace like &lt;a href=&#34;https://mintbase.io/&#34;&gt;Mintbase&lt;/a&gt;, &lt;a href=&#34;https://opensea.io/&#34;&gt;OpenSea&lt;/a&gt;,
+or &lt;a href=&#34;https://rarible.com/&#34;&gt;Rarible&lt;/a&gt; catches your eye enough to warrant purchase, do some research about
+the artist to verify the piece is non-fraudulent before buying. If you do
+purchase an art NFT, virtual reality worlds like CryptoVoxels and Somnium Space
+allow users to show off NFTs inside their virtual property (which of course, you
+may purchase with an NFT).&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s worth taking a time-out to address one criticism of NFTs that seems
+undeserved. &lt;a href=&#34;http://cryptoart.wtf/&#34;&gt;Environmentalist&lt;/a&gt; &lt;a href=&#34;https://joanielemercier.com/the-problem-of-cryptoart/&#34;&gt;critics&lt;/a&gt; have accused NFT artists consuming
+excessive amounts of energy on Proof of Work chains. But as artist &lt;a href=&#34;https://sterlingcrispin.blogspot.com/2021/02/crypto-art-sky-is-not-falling.html&#34;&gt;Stirling
+Crispin points out&lt;/a&gt; in an excellently researched essay, NFTs account for about &lt;a href=&#34;https://etherscan.io/gastracker&#34;&gt;3%&lt;/a&gt;
+of gas consumption on Ethereum, which in turn uses 0.02% of the total Earth CO2
+footprint. There are greater obstacles to energy neutrality than a small
+community of talented people exploring ways to monetize their work:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The real problem is the giant 72%…it’s fossil fuel subsidies, its coal power
+plants, its fracking. If your number one motivation is the environment, and
+you’re behaving rationally, it makes sense to focus on the big things most and
+the little things least.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+Further, NFT platforms are not married to Proof-of-Work blockchains. &lt;a href=&#34;https://near.mintbase.io/&#34;&gt;Mintbase&lt;/a&gt;
+gives our users the tools to deploy their own NFT contracts. We opted to add
+support for the Proof-of-Stake chain &lt;a href=&#34;https://near.org/&#34;&gt;NEAR&lt;/a&gt;, so that our users may minimize their
+transaction costs and environmental impact.&lt;/p&gt;
+&lt;p&gt;
+So we&amp;#39;ve got speculation, status, and support for art and artist communities. I
+haven&amp;#39;t exactly painted a glamorous picture of NFTs, so you&amp;#39;d be excused for the
+suspicion that NFTs aren&amp;#39;t actually that cool. But you&amp;#39;d be WRONG. Downstream
+from the hype cycle, some great projects are taking form, with NFTs at their
+core.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-3&#34;&gt;
+Like what?
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;NFTs are a tool for collaboration and creation. The NFT might be best understood
+as a &lt;a href=&#34;https://en.wikipedia.org/wiki/Public-key_cryptography&#34;&gt;Public Key&lt;/a&gt; for an item or service, on a public database. The departure from
+a private database model allows for ease of collaboration, while guaranteeing
+users to the longevity of their data.&lt;/p&gt;
+&lt;p&gt;
+Gaming NFTs, like &lt;a href=&#34;https://zkga.me/&#34;&gt;Dark Forest&lt;/a&gt;, &lt;a href=&#34;https://axieinfinity.com/&#34;&gt;Axie Infinity&lt;/a&gt;, and &lt;a href=&#34;https://godsunchained.com/&#34;&gt;Gods Unchained&lt;/a&gt; scratch the
+surface of what&amp;#39;s possible, by tokenizing in-game assets, which are easily
+exchanged on on-chain marketplaces. Further, gaming NFTs can do more than one
+thing. Imagine if after spending 100 hours grinding in World of Warcraft, the
+Sword of Coolness item you earned gave you a rare playing card in Hearthstone, a
+skin in Fortnite, and a ticket to a League of Legends esports event. Since NFTs
+live on a public ledger, a single NFT can do as many things as there are
+services willing to attach value to that NFT. Storing game data as an NFT,
+thereby on a public database, is a departure from prior models, where all data
+is stored privately. Private databases limit not only users&amp;#39; ability to access
+and profit from their efforts and data but also limits opportunities for
+cross-pollination between projects.&lt;/p&gt;
+&lt;p&gt;
+Beyond gaming application NFTs in the decades to come are likely to be a force
+for standardizing an extensible concept of ownership. Extensible, as the base
+concept of an NFT is &lt;a href=&#34;http://erc721.org/&#34;&gt;very simple&lt;/a&gt;. Simplicity that can be extended as the use
+case demands, by way of extending the base contract, or else by attaching
+services to the ownership of an NFT. Much like smartphones have simplified the
+interface to communication, transportation, and social media, NFTs simplify the
+interface to ownership of access to goods and services.&lt;/p&gt;
+&lt;p&gt;
+The NFT-maximal future doesn&amp;#39;t have much in common with the NFT speculation
+today, but for that goods and services that can be represented as NFTs will have
+incentive to do so, so as to take advantage of ease of issuance, verification,
+integration with other NFT-enabled businesses, and to reap royalty payments for
+NFT transfers. Users will be able to view, manage, buy, and sell goods and
+services across domains. Imagine if your gym membership, blog subscriptions,
+rewards programs, event tickets, and more, could all be managed, bought, and
+sold within a single application.&lt;/p&gt;
+&lt;p&gt;
+In place of the myriad interfaces we use daily to prove our right of access to
+goods and services, from tickets to titles to coupons to login credentials, the
+(1) public, uncensorable verifiability of NFTs, (2) ease of transfer of NFTs,
+and (3) shared interface to each of these application areas mean that the realm
+of possibilities of NFT-enabled technology is far-reaching.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-4&#34;&gt;
+Wrap up
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;To recap. What are NFTs for? At the moment, speculation, status signalling, and
+artwork are the ascendant NFT applications. But NFTs are &lt;a href=&#34;https://threadreaderapp.com/thread/1365390455957950464.html&#34;&gt;incredibly flexible&lt;/a&gt; as
+technological tools, and could someday be for lots of things, or at least, much
+more than what they&amp;#39;re currently used for. Gaming applications are allowing
+users to reap dividends from their play-time, by representing in-game assets as
+NFTs. And an NFT future could involve much more (maybe after a hype cycle or
+two).&lt;/p&gt;
+&lt;p&gt;
+The &lt;a href=&#34;https://twitter.com/cryptograthor&#34;&gt;author&lt;/a&gt; is a developer at Mintbase, a platform giving users an interface to
+create and their own NFT minting contracts. We&amp;#39;re on &lt;a href=&#34;https://mintbase.io/&#34;&gt;Ethereum&lt;/a&gt; and have recently
+launched on &lt;a href=&#34;https://near.mintbase.io/&#34;&gt;NEAR testnet&lt;/a&gt;! If you&amp;#39;re exploring what&amp;#39;s possible with NFTs, check
+us out.&lt;/p&gt;
+&lt;p&gt;
+&lt;em&gt;first posted at the &lt;a href=&#34;https://medium.com/zeroknowledge/zero-knowledge-the-game-688ec3709b41&#34;&gt;ZKPodcast blog&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://thork.net/categories/crypto/" term="crypto" label="crypto" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://thork.net/tags/nft/" term="nft" label="nft" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://thork.net/tags/crypto/" term="crypto" label="crypto" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://thork.net/tags/predictions/" term="predictions" label="predictions" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Zero Knowledge: The Game</title>
+            <link rel="alternate" type="text/html" href="https://thork.net/posts/zero_knowledge_game/" />
+            <id>https://thork.net/posts/zero_knowledge_game/</id>
+            <updated>2021-04-16T12:31:47&#43;01:00</updated>
+            <published>2021-02-11T12:16:49&#43;01:00</published>
+            <author>
+                    <name>Thor</name>
+                    <uri>https://thork.net/</uri>
+                    <email>thorck@protonmail.com</email>
+                    </author>
+            <summary type="html">What makes a game a “blockchain game”? A simple definition: some part of the state of the game is stored on a blockchain and is therefore publicly visible. Think chess or tic-tac-toe: each move is a state change on a publicly visible ledger.</summary>
+            
+                <content type="html">
+&lt;p&gt;
+What makes a game a “blockchain game”? A simple definition: some part of the
+state of the game is stored on a blockchain and is therefore publicly visible.
+Think chess or tic-tac-toe: each move is a state change on a publicly visible
+ledger. Compare this to games like League of Legends or Call of Duty, where the
+game state lives entirely on a private game server.&lt;/p&gt;
+&lt;p&gt;
+Suppose we wanted to store the entire game state on-chain. But then, every
+player would be able to see the entire “game board” and the position of every
+opposing player. For games like chess, that’s fine. But can we build a game with
+hidden information like Civilization where players have only a partial view of
+their environment and opponents?&lt;/p&gt;
+&lt;p&gt;
+The game Dark Forest is exactly that. By using zkSNARK cryptography (zero
+knowledge Succinct Non-interactive ARguments of Knowledge), the developers of
+Dark Forest have designed a universe and created a game where the state is
+completely stored on-chain. And yet each coordinate is hidden behind a hash that
+players may compute. This way all participants can explore and conquer a corner
+of the universe, and what they discover is consistent with what other
+participants see when they explore that region.&lt;/p&gt;
+&lt;p&gt;
+This article will focus on the game mechanics that the Dark Forest team were
+able to implement by applying SNARKs, and explore how these schemes push the
+limit of possible game interaction beyond the limits of prior art, such as
+commit-reveal schemes.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-1&#34;&gt;
+The Game, Succinctly
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;In the game of Dark Forest, players compete with one another for interplanetary
+territory. Players begin in complete darkness. A fog of war covers the universe
+surrounding their home planet. To explore, the browser makes use of players’
+local computing power to compute a hash for each coordinate. Thereafter, that
+coordinate is revealed to the player and the map is slowly explored. Most
+coordinates contain nothing but empty space, but some contain planets, either
+uninhabited, or owned by other players. Once a planet is revealed, the browser
+can check on-chain to see if another player has staked a claim to the revealed
+rock, and see if other players try to take that planet.&lt;/p&gt;
+&lt;p&gt;
+Beginning with the one planet, a player (let’s call her Alice) publishes state
+transitions from her original planet to other planets. A state transition moves
+resources (population and silver) from an owned planet to the discovered planet,
+thereby colonizing a new planet, or attacking another player’s planet. Moving
+population between planets is limited by the origin planet’s range and
+population to move. Players can also upgrade their planets with silver — an
+in-game resource generated on certain planets that is used to purchase upgrades.&lt;/p&gt;
+&lt;p&gt;
+Planets gradually accumulate resources and, as players discover one another,
+wars break out over high value planets. However, a player is not guaranteed to
+know where an attack came from; only if the player has revealed the coordinates
+of an attacking planet will they be able to see the red line indicative of an
+enemy movement.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;photos/zkg1.png&#34;&gt;fog of war&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+What makes the game possible is &lt;strong&gt;valid state transitions&lt;/strong&gt;: how does the game
+move resources between planets, as on-chain data, without revealing the data, or
+committing invalid transitions?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-2&#34;&gt;
+What can we do without SNARKing?
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;Here’s the problem: Alice has a planet X with population N, and wants to send n
+people from X to planet Y, without revealing information about X, N, n, or Y to
+the rest of the world (state transitions on silver are in effect identical to
+population, so we’ll ignore them). Alice will have to prove:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ownership of X&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;n &amp;lt; N&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A ship from planet X with n population has enough range to reach Y&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Without SNARKs, Alice and company can still set their computers to the task of
+de-fogging the map: hashing each coordinate, looking for planets. There are two
+schemes that would allow Alice and company to play: 1) a centralized
+coordinator, or 2) a commit reveal scheme.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-3&#34;&gt;
+Centralized Coordinator Scheme
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;In the centralized coordinator scheme, Alice and company submit state
+transitions to a centralized coordinator with a god’s eye view. The coordinator
+can see X, N, n, and Y, and easily verify that each transition is valid. Most
+existing games rely on a centralized coordinator.&lt;/p&gt;
+&lt;p&gt;
+However, the centralized coordinator is a target for attacks and collusion,
+either of which could halt the game or reveal the universe to the
+attacking/colluding party. It’s not really a “Dark Forest” if someone has a
+universal floodlight, as is the norm with games on hosted game servers! As a
+cultural side note, companies who host games on servers assuage players’ fears
+by creating strong punishments for those caught cheating or attempting to cheat
+by hacking or other measures: players must trust the company’s promise to seek
+out and ban cheating players.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-4&#34;&gt;
+Commit-Reveal
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;In a commit-reveal scheme, each participant has some secret s that they want to
+hide from other players until some event occurs, or after a time delay T.
+Players publish the hash of their secret, H(s), and reveal the secret after the
+delay. Poker provides an example: players commit the hash of their cards at the
+beginning of the round, publishing H(s), and a player reveals the value of s if
+the hand does not terminate early.&lt;/p&gt;
+&lt;p&gt;
+In Dark Forest, players could agree on a time elapse to reveal their actions. If
+a player revealed an invalid action after the time delay, they could have some
+or all of their actions reverted, and optionally be punished in some other way
+(removal, temporary deactivation, etc). In each period, players would commit the
+hashes of their actions, H(a_1, …, a_k), and the game could proceed, except that
+no action would be publicly visible until after the period elapsed, along with
+X, N, n, and Y.&lt;/p&gt;
+&lt;p&gt;
+The core problem with a Commit-Reveal scheme is that information eventually must
+be revealed. Actions are only private up to the point of the next period, not
+for the entire duration of the game. This incentivizes a longer period of play,
+but a long period slows game pace, without resolving the fundamental issue of
+keeping game state private. Revealing concealed information at the end of each
+interval is fine for round-based games like poker, but not for games with a vast
+global state with a fog-of-war element (or for that matter, any application that
+would like to keep mutable state elements indefinitely concealed).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-3&#34;&gt;
+&lt;h3 id=&#34;headline-5&#34;&gt;
+SNARKing through the Fog of Space
+&lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;By applying a SNARK, Dark Forest players can submit proofs to the Dark Forest
+contract that X, N, n, and Y satisfy the necessary conditions. The Dark Forest
+contract verifies the proof, without ever having to know the values of X, N, n,
+and Y. Therefore, a player can submit moves and upgrade actions to the smart
+contract without allowing other players to know the contents of their actions.&lt;/p&gt;
+&lt;p&gt;
+This is almost perfect zero-knowledge. Other players are still able to see the
+number of transactions submitted by their rivals, and the block at which each
+transaction was included. From that on-chain information, a rival could
+determine when a player was most and least likely to be online, thereby
+receiving hints about when to attack. To eliminate even that information, Dark
+Forest would have to operate on a blockchain with shielded addresses or a
+privacy-enabled Layer 2.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;photos/zkg2.png&#34;&gt;attack&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+It’s important to note that this applies to more than just games. Zero knowledge
+technology has broad application beyond Dark Forest. Experiments with zero
+knowledge systems are underway in voting systems, financial privacy,
+authentication without identification schemes, and even nuclear disarmament. In
+a broader context, the power of zero knowledge schemes is to conceal
+participants’ private information, while guaranteeing honest system-interaction.
+The Dark Forest zero knowledge game may serve as an approachable introduction to
+a field that has been respectfully referred to as “moon math”, in reference to
+its complexity. By bringing broader awareness to this technology, Dark Forest is
+a harbinger of novel zero-knowledge enabled experiments and applications,
+introducing the advantages of greater privacy and security in new ways.&lt;/p&gt;
+&lt;p&gt;
+&lt;em&gt;first posted at the &lt;a href=&#34;https://medium.com/zeroknowledge/zero-knowledge-the-game-688ec3709b41&#34;&gt;ZKPodcast blog&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://thork.net/categories/crypto/" term="crypto" label="crypto" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://thork.net/tags/zeroknowledge/" term="zeroknowledge" label="zeroknowledge" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://thork.net/tags/cryptography/" term="cryptography" label="cryptography" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://thork.net/tags/game/" term="game" label="game" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://thork.net/tags/explainer/" term="explainer" label="explainer" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Tipping Cows, a Primer on Rust’s Most Bovine Data Structure</title>
             <link rel="alternate" type="text/html" href="https://thork.net/posts/cows_in_the_wild/" />
             <id>https://thork.net/posts/cows_in_the_wild/</id>
-            <updated>2020-07-05T18:59:48&#43;02:00</updated>
+            <updated>2021-04-16T12:04:38&#43;01:00</updated>
             <published>2020-07-05T00:00:00&#43;00:00</published>
             <author>
-                    <name>Thor Kamphefner </name>
+                    <name>Thor</name>
                     <uri>https://thork.net/</uri>
-                    <email>thor314@gmail.com</email>
+                    <email>thorck@protonmail.com</email>
                     </author>
             <summary type="html">all about the Clone-on-write Rust data structure</summary>
             
                 <content type="html">
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
 Tipping Cows, a Primer on Rust&amp;#39;s Most Bovine Data Structure
 &lt;/h2&gt;
-&lt;p&gt;
-The year was 2020. An epidemic swept across the globe, driving all human life
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;The year was 2020. An epidemic swept across the globe, driving all human life
 indoors. Unrest concerning police action and longstanding racial inequality in
 the US drove the very same back into the streets. Like cattle, driven back and
-forth we were, with global sociopolitical and health trends our ranger.
-&lt;/p&gt;
+forth we were, with global sociopolitical and health trends our ranger.&lt;/p&gt;
 &lt;p&gt;
 In other words, there was never a better time to read an primer on Cows. Yes,
 those magical moo-ers. No, that was a lie. This is going to be about the &lt;a href=&#34;https://doc.rust-lang.org/std/borrow/enum.Cow.html&#34;&gt;Cow&lt;/a&gt;
 data structure in Rust, &lt;a href=&#34;https://www.infoworld.com/article/3560970/c-and-rust-programming-languages-continue-to-rise.html&#34;&gt;systems programming language and global phenomenon&lt;/a&gt;,
-sorry for the confusion.
-&lt;/p&gt;
+sorry for the confusion.&lt;/p&gt;
 &lt;p&gt;
 So now that I&amp;#39;ve lied to you once, I hear you asking &amp;#34;Why should I stay?&amp;#34; Well.
 I offer ye nothing less than knowledge of dark bovine arts. Along the way you&amp;#39;ll
-be sprinkled with Rust language insights and regular attempts at cow-humor.
-&lt;/p&gt;
+be sprinkled with Rust language insights and regular attempts at cow-humor.&lt;/p&gt;
 &lt;p&gt;
 When you&amp;#39;ve finished this cool glass of milk, you will know what a Cow is doing
 when you spot one (in Rust that is, for the alternative consult a local farmer),
 see several examples of Cow in practice, and maybe even raise your own Cows.
 &lt;a href=&#34;https://www.youtube.com/watch?v=FavUpD_IjVY&#34;&gt;Like this&lt;/a&gt;. If you&amp;#39;re unfamiliar with smart pointers, lifetimes, or the
 borrowing/ownership system in Rust, don&amp;#39;t panic. They&amp;#39;re totally on the docket.
-Cowabunga.
-&lt;/p&gt;
+Cowabunga.&lt;/p&gt;
 &lt;p&gt;
 But if you&amp;#39;re new to Rust, you might consider first visiting &lt;a href=&#34;https://medium.com/better-programming/rust-ownership-and-borrowing-9cf7f081ade0&#34;&gt;one&lt;/a&gt; &lt;a href=&#34;https://medium.com/better-programming/rust-ownership-and-borrowing-9cf7f081ade0&#34;&gt;of&lt;/a&gt; &lt;a href=&#34;https://doc.rust-lang.org/1.8.0/book/references-and-borrowing.html&#34;&gt;the&lt;/a&gt; many great
 explainers of how the compiler helps us avoid careless reference errors by way
 of its borrow checker. But if you&amp;#39;re not here to click links, here&amp;#39;s the basic
-idea:
-&lt;/p&gt;
+idea:&lt;/p&gt;
 &lt;p&gt;
 Similar to C and C++, Rust doesn&amp;#39;t have a garbage collector: a process that runs
 in a program&amp;#39;s runtime that tracks which variables reference what data, and when
@@ -75,14 +522,13 @@ may not be obvious until things break). In Rust, the borrow checker does memory
 management for us, which is ergonomic (don&amp;#39;t have to manually manage memory),
 safe (prevents security errors and issues, especially in concurrent programs),
 and fast (on par with C and C++). By strictly enforcing a couple rules about
-mutable and immutable references, we get these nice things.
-&lt;/p&gt;
+mutable and immutable references, we get these nice things.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-2&#34;&gt;
 Enter Cows
 &lt;/h3&gt;
-&lt;p&gt;
-If we run over to the &lt;a href=&#34;https://doc.rust-lang.org/std/borrow/enum.Cow.html&#34;&gt;Zoo of Rust&amp;#39;s Creatures&lt;/a&gt;, we find a Cow in captivity:
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;If we run over to the &lt;a href=&#34;https://doc.rust-lang.org/std/borrow/enum.Cow.html&#34;&gt;Zoo of Rust&amp;#39;s Creatures&lt;/a&gt;, we find a Cow in captivity:&lt;/p&gt;
 &lt;div class=&#34;src src-rust&#34;&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -106,9 +552,7 @@ If we run over to the &lt;a href=&#34;https://doc.rust-lang.org/std/borrow/enum.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;
-The zoo helpfully informs us,
-&lt;/p&gt;
+&lt;p&gt;The zoo helpfully informs us,&lt;/p&gt;
 &lt;pre class=&#34;example&#34;&gt;
  _________________________________________
 / The type Cow is a smart pointer         \
@@ -128,41 +572,33 @@ The zoo helpfully informs us,
 &lt;/pre&gt;
 &lt;p&gt;
 Moo. That&amp;#39;s a lot to parse. There&amp;#39;s roughly three concepts baked into that
-definition:
-&lt;/p&gt;
+definition:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;
-What is clone-on-write functionality, and what&amp;#39;s the diff to copy-on-write
-&lt;/p&gt;
+&lt;p&gt;What is clone-on-write functionality, and what&amp;#39;s the diff to copy-on-write&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-Why this elitist smart pointer
-&lt;/p&gt;
+&lt;p&gt;Why this elitist smart pointer&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-Where do lifetimes enter in
-&lt;/p&gt;
+&lt;p&gt;Where do lifetimes enter in&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
 If you know the answer to all of those questions, you can probably skip ahead to
-examples. Don&amp;#39;t know? Read on!
-&lt;/p&gt;
+examples. Don&amp;#39;t know? Read on!&lt;/p&gt;
 &lt;p&gt;
 Let&amp;#39;s start with why we care about these concepts: what do we win if we collect
 them all? Well, in simplest form, we win an runtime optimization technique, for
 when the data we&amp;#39;re handling will sometimes be acceptable to immutably borrow
 (which is cheap), but other times will have to be owned, which would happen if
-we had to mutate the data in some way. Back to the concepts.
-&lt;/p&gt;
+we had to mutate the data in some way. Back to the concepts.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-3&#34;&gt;
 Copy-on-Write vs Clone-on-Write
 &lt;/h4&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://doc.rust-lang.org/std/marker/trait.Copy.html&#34;&gt;Copy&lt;/a&gt; and &lt;a href=&#34;https://doc.rust-lang.org/std/clone/trait.Clone.html&#34;&gt;Clone&lt;/a&gt; in Rust mean different things. In the non-Rust world, copying
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://doc.rust-lang.org/std/marker/trait.Copy.html&#34;&gt;Copy&lt;/a&gt; and &lt;a href=&#34;https://doc.rust-lang.org/std/clone/trait.Clone.html&#34;&gt;Clone&lt;/a&gt; in Rust mean different things. In the non-Rust world, copying
 usually means reproducing the data at a new location. This is cloning in Rust.
 Copying is simpler and less expensive: reproduce the data if it&amp;#39;s statically
 sized (ints, floats, bools, etc), or reproduce the pointer if the data is
@@ -170,8 +606,7 @@ dynamically sized (Vec, String, HashMap, etc). Copying usually happens
 implicitly; meaning the compiler just does it for us, no muss, no fuss. Cloning,
 not so: we have to explicitly tell the compiler to clone the data. Any data that
 can be copied (only fixed size) can also be cloned (fixed or dynamically sized);
-the reverse is not true. Copy is cheap, Clone is expensive.
-&lt;/p&gt;
+the reverse is not true. Copy is cheap, Clone is expensive.&lt;/p&gt;
 &lt;div class=&#34;src src-rust&#34;&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -211,11 +646,14 @@ the reverse is not true. Copy is cheap, Clone is expensive.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-4&#34;&gt;
 Smart Pointers are Runtime Friends
 &lt;/h4&gt;
-&lt;p&gt;
-They say runners are are smart (don&amp;#39;t ask who &amp;#34;they&amp;#34; are, I&amp;#39;m sure they&amp;#39;re out
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;They say runners are are smart (don&amp;#39;t ask who &amp;#34;they&amp;#34; are, I&amp;#39;m sure they&amp;#39;re out
 there somewhere). And Smart Pointers are your running friends. Smart pointers
 were introduced by C++ in the 1990s as a tool to manage resources related to the
 memory they&amp;#39;re pointing to. Like Rust, C++ doesn&amp;#39;t have automatic garbage
@@ -224,8 +662,7 @@ Rust does it&amp;#39;s best to manages memory without a garbage collector at
 compile-time with it&amp;#39;s ownership system, but at runtime, it&amp;#39;s all smart
 pointers. That&amp;#39;s why smart pointers aren&amp;#39;t generally a necessary concept to
 anyone coming from a garbage collected language, like Java or Python (though
-Java does have a &lt;a href=&#34;https://javamex.com/tutorials/synchronization_concurrency_8_copy_on_write.shtml&#34;&gt;cow&lt;/a&gt;).
-&lt;/p&gt;
+Java does have a &lt;a href=&#34;https://javamex.com/tutorials/synchronization_concurrency_8_copy_on_write.shtml&#34;&gt;cow&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;
 In the context of Cows, the Cow smart pointer acts like a normal pointer when it
 merely borrows data, but at runtime, the Cow smart pointer can take ownership of
@@ -235,8 +672,7 @@ taking ownership requires the data to be cloned, meaning the runtime will have
 to reproduce the data on the Heap (whenever we allocate memory in runtime, it&amp;#39;s
 usually safe to assume it&amp;#39;s happening on the heap). If the data is particularly
 large, (a long string or text file, for instance), lazily cloning only when it
-becomes obviously necessary is a useful optimization.
-&lt;/p&gt;
+becomes obviously necessary is a useful optimization.&lt;/p&gt;
 &lt;div class=&#34;src src-rust&#34;&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -266,19 +702,19 @@ becomes obviously necessary is a useful optimization.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;
-From &lt;a href=&#34;https://doc.rust-lang.org/std/borrow/enum.Cow.html&#34;&gt;Rust&amp;#39;s Cow documentation&lt;/a&gt;.
-&lt;/p&gt;
+&lt;p&gt;From &lt;a href=&#34;https://doc.rust-lang.org/std/borrow/enum.Cow.html&#34;&gt;Rust&amp;#39;s Cow documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-5&#34;&gt;
 Where do lifetimes enter
 &lt;/h4&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://doc.rust-lang.org/rust-by-example/scope/lifetime.html&#34;&gt;Lifetimes&lt;/a&gt; tell the borrow checker when a borrow is going to end. When a Cow
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://doc.rust-lang.org/rust-by-example/scope/lifetime.html&#34;&gt;Lifetimes&lt;/a&gt; tell the borrow checker when a borrow is going to end. When a Cow
 borrows some data, the Cow should never outlive the data. Further, if the Cow
 takes ownership of the data with a clone, it makes sense that the cloned data
 still shouldn&amp;#39;t outlive the original data. Rememer how we defined Cow? You don&amp;#39;t
-have to, here it is again.
-&lt;/p&gt;
+have to, here it is again.&lt;/p&gt;
 &lt;div class=&#34;src src-rust&#34;&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -304,17 +740,20 @@ have to, here it is again.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-6&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-6&#34;&gt;
 Putting it all together
 &lt;/h3&gt;
-&lt;p&gt;
-You made it this far cowpoke. Hold onto your milk, because it&amp;#39;s time for a pop
-quiz.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-6&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;You made it this far cowpoke. Hold onto your milk, because it&amp;#39;s time for a pop
+quiz.&lt;/p&gt;
 &lt;p&gt;
 Suppose we&amp;#39;ve got a struct containing an immutable generic vector. How
-would we update it to wrap a Cow?
-&lt;/p&gt;
+would we update it to wrap a Cow?&lt;/p&gt;
 &lt;div class=&#34;src src-rust&#34;&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -345,8 +784,7 @@ would we update it to wrap a Cow?
 &lt;p&gt;
 Well, for starters, we&amp;#39;re going to need to import Cow, add lifetimes, and modify
 some definitions. Let&amp;#39;s sprinkle lifetimes
-everywhere a generic definition appears, and wrap our Vector in a Cow.
-&lt;/p&gt;
+everywhere a generic definition appears, and wrap our Vector in a Cow.&lt;/p&gt;
 &lt;div class=&#34;src src-rust&#34;&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -395,8 +833,7 @@ should be noted that the &lt;em&gt;authentic&lt;/em&gt; Rust learning experience
 code, having the compiler scream at you, and trying to figure out what the heck
 that means.&amp;#34; We&amp;#39;re living that dream. But the rust compiler is actually pretty
 helpful here. We need to put a trait bound on T, so that our pet Cow can clone T
-if and when it needs to.
-&lt;/p&gt;
+if and when it needs to.&lt;/p&gt;
 &lt;div class=&#34;src src-rust&#34;&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -447,8 +884,7 @@ warning: struct is never constructed: `VecWrapper`
 &lt;p&gt;
 Success! If we wanted to take our implementation one step further, the
 &lt;a href=&#34;https://doc.rust-lang.org/std/borrow/enum.Cow.html&#34;&gt;documentation&lt;/a&gt; gives an example of wrapping a generic array with a Cow, which
-would require a couple more trait bounds.
-&lt;/p&gt;
+would require a couple more trait bounds.&lt;/p&gt;
 &lt;div class=&#34;src src-rust&#34;&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -478,29 +914,30 @@ would require a couple more trait bounds.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;
-Which ends up looking pretty close to our vector wrapper, but since the Vec type
+&lt;p&gt;Which ends up looking pretty close to our vector wrapper, but since the Vec type
 implements ToOwned for us and the array doesn&amp;#39;t, a we&amp;#39;d have to implement
-`ToOwned` for our generic array by hand.
-&lt;/p&gt;
+`ToOwned` for our generic array by hand.&lt;/p&gt;
 &lt;p&gt;
 Alright, so there&amp;#39;s a lot more that can be done with Cows than we got
 into here. But I&amp;#39;m hoping this was enough of a prod to get you up and mooving
 with cows. Thanks for joining me, and best of luck in all your future Rust
-endeavors.
-&lt;/p&gt;
+endeavors.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-7&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-7&#34;&gt;
 Sources:
 &lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-7&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://doc.rust-lang.org/1.26.1/std/borrow/enum.Cow.html&#34;&gt;Documentation std::borrow::Cow&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://doc.rust-lang.org/1.26.1/std/borrow/enum.Cow.html&#34;&gt;Documentation std::borrow::Cow&lt;/a&gt;
-&lt;/p&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Smart_pointer#cite_note-1&#34;&gt;Smart Pointers Wikipedia&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Smart_pointer#cite_note-1&#34;&gt;Smart Pointers Wikipedia&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://deterministic.space/secret-life-of-cows.html#fn:deref&#34;&gt;Secret Life of Cows&lt;/a&gt;
-&lt;/p&gt;
+&lt;a href=&#34;https://deterministic.space/secret-life-of-cows.html#fn:deref&#34;&gt;Secret Life of Cows&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </content>
             
             
@@ -541,61 +978,68 @@ Sources:
             <title type="text">Leveraging Prediction Markets to Mitigate the Tragedy of the Commons Problem in International Climate Change Agreements</title>
             <link rel="alternate" type="text/html" href="https://thork.net/posts/prediction_markets_climate/" />
             <id>https://thork.net/posts/prediction_markets_climate/</id>
-            <updated>2020-06-30T17:51:19&#43;02:00</updated>
+            <updated>2021-04-16T12:04:38&#43;01:00</updated>
             <published>2020-04-16T00:00:00&#43;00:00</published>
             <author>
-                    <name>Thor Kamphefner </name>
+                    <name>Thor</name>
                     <uri>https://thork.net/</uri>
-                    <email>thor314@gmail.com</email>
+                    <email>thorck@protonmail.com</email>
                     </author>
             <summary type="html">prediction markets applied to solving international agreements incentive problems</summary>
             
                 <content type="html">
-&lt;p&gt;
-I wrote this paper as a course paper in sustainability and innovation at the University of Oslo. In the section before the conclusion I propose an original (possibly not, but I didn&amp;#39;t find it elsewhere) system for coordinating government agreements around international policy.
-&lt;/p&gt;
+&lt;p&gt;I wrote this paper as a course paper in sustainability and innovation at the University of Oslo. In the section before the conclusion I propose an original (possibly not, but I didn&amp;#39;t find it elsewhere) system for coordinating government agreements around international policy.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-1&#34;&gt;
 Abstract
 &lt;/h3&gt;
-&lt;p&gt;
-Climate change presents a pressing range of tragedy of the commons problems, eg. global sea level and atmospheric carbon dioxide concentration. Barring the reduction of democracy to technocracy, there is a niche for innovation in the methodology employed by political bodies toward assessing solution quality and the probable outcome landscape of implementing a policy or resolution. Multilateral policy agendas coordinated between political actors represents one such opportunity. Attempts at collective action solutions often result in the emergence of tragedy-of-the-commons problems. I will analyze the tragedy-of-the-commons failure as pertaining to international climate summit resolutions, and introduce several implementations of prediction markets as a possible solution to the problems incumbent to global climate agreements, and tragedy-of-the-commons problems more generally.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;Climate change presents a pressing range of tragedy of the commons problems, eg. global sea level and atmospheric carbon dioxide concentration. Barring the reduction of democracy to technocracy, there is a niche for innovation in the methodology employed by political bodies toward assessing solution quality and the probable outcome landscape of implementing a policy or resolution. Multilateral policy agendas coordinated between political actors represents one such opportunity. Attempts at collective action solutions often result in the emergence of tragedy-of-the-commons problems. I will analyze the tragedy-of-the-commons failure as pertaining to international climate summit resolutions, and introduce several implementations of prediction markets as a possible solution to the problems incumbent to global climate agreements, and tragedy-of-the-commons problems more generally.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-2&#34;&gt;
 Introduction
 &lt;/h3&gt;
-&lt;p&gt;
-Global climate summits an example of the tragedy-of-the-commons problem: political actors employ the ecopragmatist-originated sustainable transformation rhetoric as umbrage for resolution-reneging political failures, while the political incentive to meet international climate summit commitments is regularly outweighed by competing local political factors. Incentivizing multilateral follow-through on climate agreements requires addressing several sub-problems.
-I will address and analyze the problems incumbent to the present system of climate resolution. Then I explore technocracy as a naive solution to the political problem of information aggregation. Then I will introduce prediction markets, applied to these problems in two possible implementations. Last, I will discuss some of the more common criticisms with prediction markets.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;Global climate summits an example of the tragedy-of-the-commons problem: political actors employ the ecopragmatist-originated sustainable transformation rhetoric as umbrage for resolution-reneging political failures, while the political incentive to meet international climate summit commitments is regularly outweighed by competing local political factors. Incentivizing multilateral follow-through on climate agreements requires addressing several sub-problems.
+I will address and analyze the problems incumbent to the present system of climate resolution. Then I explore technocracy as a naive solution to the political problem of information aggregation. Then I will introduce prediction markets, applied to these problems in two possible implementations. Last, I will discuss some of the more common criticisms with prediction markets.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-3&#34;&gt;
 Criticisms of the 2030 Agenda for Sustainable Development
 &lt;/h3&gt;
-&lt;p&gt;
-The 2030 Agenda for Sustainable Development and SDGs [a], adopted in 2015 by the UN, outlines 17 goals and 169 targets for reducing poverty and engaging sustainable practices in participating nations. One might infer from the self-congratulatory language used on the website of the European Union that the Agenda’s success is all but assured: “the adoption of the 2030 Agenda was a landmark achievement, providing for a shared global vision towards sustainable development for all.” Claims to the contrary are in evidence.
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;The 2030 Agenda for Sustainable Development and SDGs [a], adopted in 2015 by the UN, outlines 17 goals and 169 targets for reducing poverty and engaging sustainable practices in participating nations. One might infer from the self-congratulatory language used on the website of the European Union that the Agenda’s success is all but assured: “the adoption of the 2030 Agenda was a landmark achievement, providing for a shared global vision towards sustainable development for all.” Claims to the contrary are in evidence.
 425 days after the adoption of the Agenda (in 2016),  “tangible progress in terms of implementing the SDGs at the country level has been hard to come by” [c], and in the 2019 SDG report, United Nations Secretary-General António Guterres wrote “it is abundantly clear that a much deeper, faster and more ambitious response is needed to unleash the social and economic transformation needed to achieve our 2030 goals” [d].
 One obvious problem is the excessive use of vague language in the agenda’s goals, eg. “3. Good Health and Well-Being for people– Ensure healthy lives and promote well-being for all at all ages”, in combination with ludicrously overzealous goals, eg. “1. No Poverty-End poverty in all its forms everywhere.” A child might have written these. For these among other reasons, the SDG goals were called “worse than useless” by The Economist in 2015 [b]. The document continues “All countries have a shared responsibility to achieve the SDGs.” To clarify: the term “shared responsibility” is political umbrage, indicative of no responsibility at all. Political leaders’ motives at summits such as these are not to acquire the relevant information, assemble coherent policy agendas, or otherwise solve any problems at all, but to author rhetorical nonsense, while pretending to be doing something.
 A better system for aggregating the relevant information and constructing coherent policy agendas is in need. Before proposing an alternative, I analyze some of the problems inherent to the present system.
 [a] &lt;a href=&#34;https://ec.europa.eu/environment/sustainable-development/SDGs/index_en.htm&#34;&gt;https://ec.europa.eu/environment/sustainable-development/SDGs/index_en.htm&lt;/a&gt;
 [b] &lt;a href=&#34;https://www.economist.com/leaders/2015/03/26/the-169-commandments&#34;&gt;https://www.economist.com/leaders/2015/03/26/the-169-commandments&lt;/a&gt;
 [c] &lt;a href=&#34;https://www.idea.int/sites/default/files/news/16-11-22-The_slumber_of_the_SDGs.pdf&#34;&gt;https://www.idea.int/sites/default/files/news/16-11-22-The_slumber_of_the_SDGs.pdf&lt;/a&gt;
-[d] &lt;a href=&#34;https://www.un.org/sustainabledevelopment/progress-report/&#34;&gt;https://www.un.org/sustainabledevelopment/progress-report/&lt;/a&gt;
-&lt;/p&gt;
+[d] &lt;a href=&#34;https://www.un.org/sustainabledevelopment/progress-report/&#34;&gt;https://www.un.org/sustainabledevelopment/progress-report/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-4&#34;&gt;
 Problems Inherent to International Policy Consensus
 &lt;/h3&gt;
-&lt;p&gt;
-Three key problems emerge in the UN methodology in designing and implementing goals. The first has to do with the distributed nature of responsibility for implementing policy, resulting in a tragedy-of-the-commons problem. The second has to do with the existing processes by which existing information is aggregated into resolutions and policies. The last has to do with the reporting and accountability process, after resolutions and policies are put in place.
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;Three key problems emerge in the UN methodology in designing and implementing goals. The first has to do with the distributed nature of responsibility for implementing policy, resulting in a tragedy-of-the-commons problem. The second has to do with the existing processes by which existing information is aggregated into resolutions and policies. The last has to do with the reporting and accountability process, after resolutions and policies are put in place.
 The distributed nature of responsibility among United Nations member nations decreases the degree of accountability any particular nation holds in following through on its commitments, eg. As member countries A and B commit to reducing it’s net carbon footprint, country B benefits from country A reducing its carbon footprint, but pays none of the costs incurred by decreasing country B’s own footprint. Thus country B has incentive to renege on its agreements while saddling country A with the costs. The scale of the problem increases with the number of countries, and their relative power differential. For instance, in our previous example, if country B is economically or militarily dependent on country A, country A has further less incentive to sacrifice immediate economic productivity to satisfy an international agreement. This puts weak nations in an impossible political situation, as Leichenko and Silva identify that “not only are the poorest and most marginalized disproportionately affected, but climate change impacts can also exacerbate existing inequalities” [e]. Note that country A may still enter an agreement with no intention of holding to it, so as to enjoy the benefits of other nations’ carbon footprint reduction while paying none of the costs. This provides context for how all 193 of the member countries of the United Nations committed to the SDG agenda, while funding for achieving these goals is 2.5 trillion dollars short of the 5 trillion per annum price tag [f]. The incentive to defect from agreements is a hallmark of the Tragedy-of-the-Commons problem. Holding to the international agreement is in direct competition with satisfying interest groups, promoting economic activity, and securing local objectives.
 Solving tragedy-of-the-commons problems requires optimization in selecting realistically limited objectives, implementing effective policy to resolve those objectives, and measuring results.
 Beginning with rational information acquisition, we may ask the question, how well informed with respect to realistic outcomes is current policy? Given that only 2 of the 17 SDG goals are currently on track, it seems safe to conclude: not very. This is a characteristic property of democracy: from the local to the international, voters have little chance to be pivotal in voting, irrational in selecting realistic policy paths, under-informed in policy relevant to them, and tribal in their ultimate policy preference.  Their representative politicians, responsible to their constituents, reflect these failures in information aggregation. In this system, relevant information for policy selection is regularly subverted to tribal preference, miscommunicated by media, deprioritized on the basis of technicality, or never brought to light in the first place. The result is the commitment toward ineffective and unrealistic solutions, as in the case of the 17 SDGs. As the power for humans to effect changes on our environment monotonically increases with time, political systems incorporating such failures as these doom the quality of our political decisions.
 [e] &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1002/wcc.287&#34;&gt;https://onlinelibrary.wiley.com/doi/abs/10.1002/wcc.287&lt;/a&gt;
-[f] &lt;a href=&#34;https://www.nature.com/articles/d41586-019-03907-4&#34;&gt;https://www.nature.com/articles/d41586-019-03907-4&lt;/a&gt;
-&lt;/p&gt;
+[f] &lt;a href=&#34;https://www.nature.com/articles/d41586-019-03907-4&#34;&gt;https://www.nature.com/articles/d41586-019-03907-4&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-5&#34;&gt;
 Naive Solution: Technocracy
 &lt;/h3&gt;
-&lt;p&gt;
-The most naive solution to the criticisms above, in particular with regards to climate action as a primarily scientific and economic domain of policy, would be to simply reduce the poIr of our representative democracy with respect to policy decisions inside certain domains, reallocating the poIr to shape policy to the set of experts perceived to be most relevant. Political systems in this arrangement are referred to as technocracies, and emerge commonly in businesses requiring technical expertise. Though a full analysis of the merits and weaknesses of technocracy is beyond the scope of this paper, a brief treatment of the most relevant problems of technocracy will prepare the ground for prediction markets.
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;The most naive solution to the criticisms above, in particular with regards to climate action as a primarily scientific and economic domain of policy, would be to simply reduce the poIr of our representative democracy with respect to policy decisions inside certain domains, reallocating the poIr to shape policy to the set of experts perceived to be most relevant. Political systems in this arrangement are referred to as technocracies, and emerge commonly in businesses requiring technical expertise. Though a full analysis of the merits and weaknesses of technocracy is beyond the scope of this paper, a brief treatment of the most relevant problems of technocracy will prepare the ground for prediction markets.
 Technocracy’s primary advantage in practice is an approximation of meritocracy flavored towards elevating the hierarchical importance of fact-based reasoning and technical ability to engage a somewhat predefined domain of technical problems.
 The first problem in technocracy one might encounter is a problem with the very definition of what constitutes an “acceptable group of relevant experts.” Each word presents myriad problems. Acceptable to whom? Being acceptable to the public reduces our group of experts to little more than politicians. Being acceptable to other experts (if such a group even exists) exposes age bias, and is still vulnerable to a certain degree of politicking. Does relevant indicate the group should represent a sampling of interdisciplinary fields or should it be more constrained? Should the group’s participants be a dynamic set or a static one? What about overlapping expertise groups? This is to demonstrate that the problem of electing a set of experts in a democracy is quickly reduced to the problem electing politicians. Were it politically popular to elect expects, such would already be the status quo.
 Even presupposing a mechanism for expert committee selection, a second class of political problem exists: technocracies are aristocracies with a chrome polish. That is, technocracies are closed political systems; once established, members of a technocracy could gate-keep even other experts out of the technocracy. This is acceptable in business, where gatekeeping takes the form of filtering new hires, but not in government, where a political near-invulnerability to criticism is unacceptable.
@@ -606,38 +1050,45 @@ Participants in a prediction market bet on the outcome of a particular event by 
 In the context of policy selection, a political committee could propose several policy alternatives to a betting market in reference to their ability to achieve some outcome.  After some waiting period (requiring some mechanism to avoid allowing last minute interference bets), the committee could then implement the policy alternative seen as most likely to succeed, and reset all markets of policy alternatives not taken.
 One of the most common criticisms of prediction markets as a vector to inform policy decisions is the opportunity for interest groups to tip the scale by betting overwhelmingly in their preferred direction. But placing restrictions on the maximum bet should not be necessary. The event of an interest group betting tremendously in one direction should be seen as a tremendous arbitrage opportunity for prediction market participants, as the interest group is not strictly buying “votes” per se, but expressing an opinion concerning the likelihood of an outcome. For instance, if a petroleum company sought to sabotage a prediction market around the probability that policy A achieves outcome Z by betting overwhelmingly that an alternative policy B achieves outcome Z better than policy A, bettors are incentivized to take the counter-bet of petroleum company on policy B, reaping an arbitrage opportunity. This is because bets are not votes: votes are expressions of preference (which deserve discussion in a paper in their own right), bets are expressions of belief about the state of the world, and the consequences of a given action.
 [g] &lt;a href=&#34;http://mason.gmu.edu/~rhanson/futarchy2013.pdf&#34;&gt;http://mason.gmu.edu/~rhanson/futarchy2013.pdf&lt;/a&gt;
-[h] &lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0169207008000320&#34;&gt;https://www.sciencedirect.com/science/article/abs/pii/S0169207008000320&lt;/a&gt;
-&lt;/p&gt;
+[h] &lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0169207008000320&#34;&gt;https://www.sciencedirect.com/science/article/abs/pii/S0169207008000320&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-6&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-6&#34;&gt;
 Prediction Markets as Staking Mechanisms
 &lt;/h3&gt;
-&lt;p&gt;
-Bets are mechanisms for forcing alignment between beliefs and actions. Among the problems inherent to the tragedy-of-the-commons is that actors are incentivized to lie about intentions, or to otherwise express under-calibrated opinions. In addition to their role in information aggregation, prediction markets can serve a mechanism for constructing stake in international policy agreements.
+&lt;div id=&#34;outline-text-headline-6&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;Bets are mechanisms for forcing alignment between beliefs and actions. Among the problems inherent to the tragedy-of-the-commons is that actors are incentivized to lie about intentions, or to otherwise express under-calibrated opinions. In addition to their role in information aggregation, prediction markets can serve a mechanism for constructing stake in international policy agreements.
 A staking mechanism is a procedure in which a participating party accept some quantity of risk, for one or more of the following purposes: (i) as collateral against the party to breaking agreements, (ii) as a signaling mechanism intended to encourage further action by other parties, ie. the public, (iii) as a substitute for, or complement to reputation, in systems where reputation is insufficient in one of the two above ways, (iv) as a bet on a particular outcome with some probability and expectation of returns with positive expected value (v) from the perspective of an observer to the staking process, a mechanism for collecting information about the belief state of participants in the staking system. All but definition (iv) are directly relevant to the discussion of inducing actors to commit to and engage in a more desirable set of actions, in particular, with respect to preserving the environment among other desirable outcomes.
 A proposed system for international politics could proceed as follows: First, a desired outcome is determined, for instance, a k% reduction in carbon footprint by each nation within 3 years, where each nation gets to choose their value for k, but exponentially increasing upfront costs to a nation’s choice of k below some value. Nations would be required to bet some minimum percentage of their GDP as stake toward meeting their target. Finally, delegates from each nation would proceed to place bets on each other nation’s objective being met with and against that nation’s staked bet.
 This system has several advantages. First, it avoids a one-size-fits-all problem of international politics: policy that is effective or reasonable in one nation may not at all be in another. By calibrating goals with respect to each nation, we avoid the problems inherent to the SDG goals’ being simultaneously vague and exaggerated.
 Second, if nation A’s delegates bet that nation B succeeds at meeting its policy goal, nation A is incentivized to pressure and assist nation B in meeting that policy goal, fostering international cooperation, rather than creating opportunity for defection from agenda agreements.
-Third, the process creates a reasonably interesting opportunity for popular engagement in international politics. An international betting market between nations would be the international policy equivalent of the Olympics, and would likely draw a great deal of popular attention, raising the stakes for failing to meet commitments.
-&lt;/p&gt;
+Third, the process creates a reasonably interesting opportunity for popular engagement in international politics. An international betting market between nations would be the international policy equivalent of the Olympics, and would likely draw a great deal of popular attention, raising the stakes for failing to meet commitments.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-7&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-7&#34;&gt;
 Conclusion
 &lt;/h3&gt;
-&lt;p&gt;
-I have analyzed several problems with the international political process, embodied in the 2015 SDGs, and proposed two possible implementations of prediction markets as solutions for rationally aggregating information. I introduced technocracy as a toy solution to better information aggregation, and explored the undesirable properties inherent to that solution as an alternative for eliminating the irrationality inherent to democratic processes. I aimed to attempt to solve the tragedy-of-the-commons problem emergent in international politics, while identifying the economic mechanism failures of the existing process.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-7&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;I have analyzed several problems with the international political process, embodied in the 2015 SDGs, and proposed two possible implementations of prediction markets as solutions for rationally aggregating information. I introduced technocracy as a toy solution to better information aggregation, and explored the undesirable properties inherent to that solution as an alternative for eliminating the irrationality inherent to democratic processes. I aimed to attempt to solve the tragedy-of-the-commons problem emergent in international politics, while identifying the economic mechanism failures of the existing process.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-8&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-8&#34;&gt;
 Bibliography
 &lt;/h3&gt;
-&lt;p&gt;
-Berg, J. E., Nelson, F. D., &amp;amp; Rietz, T. A. (2008, April 28). Prediction market accuracy in the long run. Retrieved from &lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0169207008000320&#34;&gt;https://www.sciencedirect.com/science/article/abs/pii/S0169207008000320&lt;/a&gt;
+&lt;div id=&#34;outline-text-headline-8&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;Berg, J. E., Nelson, F. D., &amp;amp; Rietz, T. A. (2008, April 28). Prediction market accuracy in the long run. Retrieved from &lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0169207008000320&#34;&gt;https://www.sciencedirect.com/science/article/abs/pii/S0169207008000320&lt;/a&gt;
 Get the Sustainable Development Goals back on track. (2020, January 1). Retrieved from &lt;a href=&#34;https://www.nature.com/articles/d41586-019-03907-4&#34;&gt;https://www.nature.com/articles/d41586-019-03907-4&lt;/a&gt;
 Hanson, R. (n.d.). Shall We Vote on Values, But Bet on Beliefs? Retrieved from &lt;a href=&#34;http://mason.gmu.edu/~rhanson/futarchy2013.pdf&#34;&gt;http://mason.gmu.edu/~rhanson/futarchy2013.pdf&lt;/a&gt;
 Leichenko, R., &amp;amp; Silva, J. A. (2014, May 2). Climate change and poverty: vulnerability, impacts, and alleviation strategies. Retrieved from &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1002/wcc.287&#34;&gt;https://onlinelibrary.wiley.com/doi/abs/10.1002/wcc.287&lt;/a&gt;
 Sustainable Development Goals Report - United Nations Sustainable Development. (n.d.). Retrieved from &lt;a href=&#34;https://www.un.org/sustainabledevelopment/progress-report/&#34;&gt;https://www.un.org/sustainabledevelopment/progress-report/&lt;/a&gt;
 The 169 commandments. (2015, March 26). Retrieved from &lt;a href=&#34;https://www.economist.com/leaders/2015/03/26/the-169-commandments&#34;&gt;https://www.economist.com/leaders/2015/03/26/the-169-commandments&lt;/a&gt;
 The 2030 Agenda for Sustainable Development and the SDGs. (n.d.). Retrieved from &lt;a href=&#34;https://ec.europa.eu/environment/sustainable-development/SDGs/index_en.htm&#34;&gt;https://ec.europa.eu/environment/sustainable-development/SDGs/index_en.htm&lt;/a&gt;
-Vandemoortele, J. (2016, November 22). How to bring the SDGs out of their current slumber? Retrieved from &lt;a href=&#34;https://www.idea.int/sites/default/files/news/16-11-22-The_slumber_of_the_SDGs.pdf&#34;&gt;https://www.idea.int/sites/default/files/news/16-11-22-The_slumber_of_the_SDGs.pdf&lt;/a&gt;
-&lt;/p&gt;
+Vandemoortele, J. (2016, November 22). How to bring the SDGs out of their current slumber? Retrieved from &lt;a href=&#34;https://www.idea.int/sites/default/files/news/16-11-22-The_slumber_of_the_SDGs.pdf&#34;&gt;https://www.idea.int/sites/default/files/news/16-11-22-The_slumber_of_the_SDGs.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </content>
             
             
@@ -696,235 +1147,263 @@ Vandemoortele, J. (2016, November 22). How to bring the SDGs out of their curren
             <title type="text">2020 Jan-Mar Book Review Rundown</title>
             <link rel="alternate" type="text/html" href="https://thork.net/posts/2020_jan_mar_book_review/" />
             <id>https://thork.net/posts/2020_jan_mar_book_review/</id>
-            <updated>2020-06-30T18:25:55&#43;02:00</updated>
+            <updated>2021-04-16T12:04:38&#43;01:00</updated>
             <published>2020-04-08T00:00:00&#43;00:00</published>
             <author>
-                    <name>Thor Kamphefner </name>
+                    <name>Thor</name>
                     <uri>https://thork.net/</uri>
-                    <email>thor314@gmail.com</email>
+                    <email>thorck@protonmail.com</email>
                     </author>
             <summary type="html">I review the twenty or so books I read this quarter</summary>
             
                 <content type="html">
 &lt;p&gt;
 23 books, 3 unfinished with no intention to finish anytime soon.
-5 fiction, 18 nonfiction (would it be cheeky to count The Little Bitcoin Book as fiction?)
-&lt;/p&gt;
+5 fiction, 18 nonfiction (would it be cheeky to count The Little Bitcoin Book as fiction?)&lt;/p&gt;
 &lt;p&gt;
-Trends:
-&lt;/p&gt;
+Trends:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;
-non-fiction especially about business, identity, and climate science early on
-&lt;/p&gt;
+&lt;p&gt;non-fiction especially about business, identity, and climate science early on&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-Biographies and Neal Stephenson towards the end
-&lt;/p&gt;
+&lt;p&gt;Biographies and Neal Stephenson towards the end&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;
-I&amp;#39;ll give a couple sentences of my thoughts about each book and a rating out of 10.
-&lt;/p&gt;
+&lt;p&gt;I&amp;#39;ll give a couple sentences of my thoughts about each book and a rating out of 10.&lt;/p&gt;
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-1&#34;&gt;
 The books:
 &lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-2&#34;&gt;
 Climate and Society, Robin Leinchenko and Karen O&amp;#39;Brien
 &lt;/h4&gt;
-&lt;p&gt;
-Information sparse, introduces the integrative approach to climate change solutions. Well researched, useful to get a bearing on the complexity of proposing a &amp;#34;solution&amp;#34; to climate change, but prolix. 7/10
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;Information sparse, introduces the integrative approach to climate change solutions. Well researched, useful to get a bearing on the complexity of proposing a &amp;#34;solution&amp;#34; to climate change, but prolix. 7/10&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-3&#34;&gt;
 The Ecology of Commerce, Paul Hawken, unfinished
 &lt;/h4&gt;
-&lt;p&gt;
-Hawken is an ecological warrior whose writing should be dated given its publication date of 1992, yet one could rewrite the book today with few changes. Lends support to the conclusion that the environment is doomed and our static political systems are to blame. Unfinished because the book is repetitive. 6/10
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;Hawken is an ecological warrior whose writing should be dated given its publication date of 1992, yet one could rewrite the book today with few changes. Lends support to the conclusion that the environment is doomed and our static political systems are to blame. Unfinished because the book is repetitive. 6/10&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-4&#34;&gt;
 The End of Jobs, Taylor Pearson
 &lt;/h4&gt;
-&lt;p&gt;
-The 4 hour work week, but 10 years later and less interesting. Was interested in his blog, not polished or content dense enough to justify a book. 3/10
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;The 4 hour work week, but 10 years later and less interesting. Was interested in his blog, not polished or content dense enough to justify a book. 3/10&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-5&#34;&gt;
 What You Do is Who You Are, Ben Horowitz
 &lt;/h4&gt;
-&lt;p&gt;
-Great read on values, stories about vivid figures from history who demonstrate values in motion, which Horowitz terms &amp;#34;virtues&amp;#34;, borrowed from samurai literature. Less interested in the business anecdotes, but Horowitz is all around a great story teller. May reread. 9/10.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;Great read on values, stories about vivid figures from history who demonstrate values in motion, which Horowitz terms &amp;#34;virtues&amp;#34;, borrowed from samurai literature. Less interested in the business anecdotes, but Horowitz is all around a great story teller. May reread. 9/10.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-6&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-6&#34;&gt;
 A Liberated Mind, Steven C. Hayes
 &lt;/h4&gt;
-&lt;p&gt;
-Hayes is the father of Acceptance and Commitment Therapy. All the feely goody bubbly nonsense anecdotes therapy is infamous for, but not without a complete lack of substance–Hayes delivers the principles of ACT effectively, despite himself. 7/10.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-6&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;Hayes is the father of Acceptance and Commitment Therapy. All the feely goody bubbly nonsense anecdotes therapy is infamous for, but not without a complete lack of substance–Hayes delivers the principles of ACT effectively, despite himself. 7/10.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-7&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-7&#34;&gt;
 Sapiens, A Brief History of Humankind, Yuval Noah Harari
 &lt;/h4&gt;
-&lt;p&gt;
-Overrated, but not by much. Seemed like a good thing to read to kids, if I had any. 8/10
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-7&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;Overrated, but not by much. Seemed like a good thing to read to kids, if I had any. 8/10&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-8&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-8&#34;&gt;
 The Hard Thing about Hard Things, Ben Horowitz, reread
 &lt;/h4&gt;
-&lt;p&gt;
-Reread after WYDiWYD. Hard thing about hard things is, as with the next book, about taking the hard things in your hands, communicating honesty in business and in life. Horowitz weaves lessons into the story of his time as CEO of Loudcloud, and a great storyteller he is. 9/10.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-8&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;Reread after WYDiWYD. Hard thing about hard things is, as with the next book, about taking the hard things in your hands, communicating honesty in business and in life. Horowitz weaves lessons into the story of his time as CEO of Loudcloud, and a great storyteller he is. 9/10.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-9&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-9&#34;&gt;
 Models, Attract Women Through Honesty, Mark Manson
 &lt;/h4&gt;
-&lt;p&gt;
-An exploration of masculinity, an area of conversation I find underrated, possibly because it only seems to happen when men talk about dating. Book cogently delivers on its premise, investigating the particulars of holding honest as a value, and using it to connect with others (including women). 9/10
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-9&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;An exploration of masculinity, an area of conversation I find underrated, possibly because it only seems to happen when men talk about dating. Book cogently delivers on its premise, investigating the particulars of holding honest as a value, and using it to connect with others (including women). 9/10&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-10&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-10&#34;&gt;
 Homo Deus, Yuval Noah Harari, unfinished
 &lt;/h4&gt;
-&lt;p&gt;
-Worse than Sapiens due to a greater degree of speculation. Harari is more in his element in 21 Lessons and Sapiens. Was often bored. 6/10.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-10&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;Worse than Sapiens due to a greater degree of speculation. Harari is more in his element in 21 Lessons and Sapiens. Was often bored. 6/10.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-11&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-11&#34;&gt;
 Range, Why Generalists Triumph in a Specialized World, David Epstein
 &lt;/h4&gt;
-&lt;p&gt;
-This book and the next fall into my &amp;#34;standard MBA business book&amp;#34; category, delivering loosely connected anecdotes and studies as defenses of an over-general principle. Barely managed to finish each of them. This one did it better. I&amp;#39;m squarely in the target audience for each and was constantly bored. 6/10.
+&lt;div id=&#34;outline-text-headline-11&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;This book and the next fall into my &amp;#34;standard MBA business book&amp;#34; category, delivering loosely connected anecdotes and studies as defenses of an over-general principle. Barely managed to finish each of them. This one did it better. I&amp;#39;m squarely in the target audience for each and was constantly bored. 6/10.
 Rebel Talent, Why it Pays to Break the Rules at Work and in Life, Francesca Gino
-5/10.
-&lt;/p&gt;
+5/10.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-12&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-12&#34;&gt;
 Tribe, On Homecoming and Belonging, Sebastian Junger, reread
 &lt;/h4&gt;
-&lt;p&gt;
-Junger&amp;#39;s message in Tribe is clearer than Lake Tahoe, and timeless as her mountains. Conciseness is underrated; Junger delivers in 180 short pages several well constructed narratives highlighting our separation from one another, and how we may come together again. 10/10.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-12&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;Junger&amp;#39;s message in Tribe is clearer than Lake Tahoe, and timeless as her mountains. Conciseness is underrated; Junger delivers in 180 short pages several well constructed narratives highlighting our separation from one another, and how we may come together again. 10/10.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-13&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-13&#34;&gt;
 Talking to Strangers, Malcolm Gladwell
 &lt;/h4&gt;
-&lt;p&gt;
-Depressingly the opposite of the above. Gladwell&amp;#39;s winding narrative style is acceptable when he has more to say. He remains an excellent, if somewhat roundabout narrator. I found the premise–that we underrate the value of context and overrate the importance of identity–uninspiring. 7/10.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-13&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;Depressingly the opposite of the above. Gladwell&amp;#39;s winding narrative style is acceptable when he has more to say. He remains an excellent, if somewhat roundabout narrator. I found the premise–that we underrate the value of context and overrate the importance of identity–uninspiring. 7/10.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-14&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-14&#34;&gt;
 Words and Rules, Steven Pinker, unfinished
 &lt;/h4&gt;
-&lt;p&gt;
-A book only a linguist could love, or finish. Long, thorough, and by the sixth chapter, too systematic for even a man with Aspergers. 6/10
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-14&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;A book only a linguist could love, or finish. Long, thorough, and by the sixth chapter, too systematic for even a man with Aspergers. 6/10&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-15&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-15&#34;&gt;
 The Little Bitcoin Book, The Bitcoin Collective
 &lt;/h4&gt;
-&lt;p&gt;
-Useful in offering the Bitcoin maximalist system of the world. I&amp;#39;d wanted to get a better idea of what this system of the world was, and especially found it in chapter 5, which offers a pair of speculative anecdotes of the world in 2030 with and without decentralized currency. Conciseness is good. 9/10.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-15&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;Useful in offering the Bitcoin maximalist system of the world. I&amp;#39;d wanted to get a better idea of what this system of the world was, and especially found it in chapter 5, which offers a pair of speculative anecdotes of the world in 2030 with and without decentralized currency. Conciseness is good. 9/10.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-16&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-16&#34;&gt;
 Emmy in the Key of Code, Aimee Lucido
 &lt;/h4&gt;
-&lt;p&gt;
-What a delightful and unusual children&amp;#39;s book this is, discovered through the Embedded.fm podcast. A collection of poems from the perspective of a musical child struggling to find herself in a new place. Struggles with chauvinism, self discovery, appeals to the similarity of code and poetry, musical references, and an utter delight. 10/10.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-16&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;What a delightful and unusual children&amp;#39;s book this is, discovered through the Embedded.fm podcast. A collection of poems from the perspective of a musical child struggling to find herself in a new place. Struggles with chauvinism, self discovery, appeals to the similarity of code and poetry, musical references, and an utter delight. 10/10.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-17&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-17&#34;&gt;
 Hackers and Painters, Paul Graham, reread
 &lt;/h4&gt;
-&lt;p&gt;
-The best collection of essays I&amp;#39;ve ever read on what it is to be a hacker, beyond the obvious: we make stuff. The first chapter, about the quality of education (despite my general agreement with most of the premises), was arguably the worst. The remainder of the book is a welcome investigation into value, hacking, and what it is to be a technologist, without fear of delving deep. 10/10.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-17&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;The best collection of essays I&amp;#39;ve ever read on what it is to be a hacker, beyond the obvious: we make stuff. The first chapter, about the quality of education (despite my general agreement with most of the premises), was arguably the worst. The remainder of the book is a welcome investigation into value, hacking, and what it is to be a technologist, without fear of delving deep. 10/10.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-18&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-18&#34;&gt;
 King Lear, &amp;#39;ol Bill Shakespeare
 &lt;/h4&gt;
-&lt;p&gt;
-Unrateable: a low rating marks me as uncultured swine, and a high rating suggests a mastery of Shakespeare I am yet to attain. I continue to find reading Shakespeare as challenging and worthwhile a literary exercise as the best mathematical exercise.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-18&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;Unrateable: a low rating marks me as uncultured swine, and a high rating suggests a mastery of Shakespeare I am yet to attain. I continue to find reading Shakespeare as challenging and worthwhile a literary exercise as the best mathematical exercise.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-19&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-19&#34;&gt;
 Elon Musk, Ashlee Vance, reread
 &lt;/h4&gt;
-&lt;p&gt;
-Reread this biography a few months after the more recent controversies of Musk&amp;#39;s making an ass out of himself to see if I still resonate with his story and self image as a man possessed to make an impact in the world. I do. It&amp;#39;s interesting that he seems content to piss off people so much, something I feel I nearly understand, but just somehow miss. The biography is excellent, and makes me want to defend him. It also makes me want to be like him, which I&amp;#39;m only somewhat uncomfortable with. 10/10.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-19&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;Reread this biography a few months after the more recent controversies of Musk&amp;#39;s making an ass out of himself to see if I still resonate with his story and self image as a man possessed to make an impact in the world. I do. It&amp;#39;s interesting that he seems content to piss off people so much, something I feel I nearly understand, but just somehow miss. The biography is excellent, and makes me want to defend him. It also makes me want to be like him, which I&amp;#39;m only somewhat uncomfortable with. 10/10.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-20&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-20&#34;&gt;
 Steve Jobs, Walter Isaacson
 &lt;/h4&gt;
-&lt;p&gt;
-I wanted to compare the Musk biography to another pivotal figure, who exists in the same strata of obscenely multitalented entrepreneur defining and propelling the boundary of technology. I&amp;#39;m unsure if it&amp;#39;s simply a testament to Vance&amp;#39;s ability as a biographer, or if I simply resonate more deeply with the Musk story, but I came away from the Jobs biography with a certain, &amp;#34;why do I care again?&amp;#34; taste in my mouth. The early half of the book felt more alive. Maybe this is my becoming a Wozniak fan. 7/10.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-20&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;I wanted to compare the Musk biography to another pivotal figure, who exists in the same strata of obscenely multitalented entrepreneur defining and propelling the boundary of technology. I&amp;#39;m unsure if it&amp;#39;s simply a testament to Vance&amp;#39;s ability as a biographer, or if I simply resonate more deeply with the Musk story, but I came away from the Jobs biography with a certain, &amp;#34;why do I care again?&amp;#34; taste in my mouth. The early half of the book felt more alive. Maybe this is my becoming a Wozniak fan. 7/10.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-21&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-21&#34;&gt;
 Atmosphæra Incognita, Neal Stephenson
 &lt;/h4&gt;
-&lt;p&gt;
-Stephenson at his shortest. In 100 pages or so, Stephenson lets loose a short story of the tallest building mankind could ever construct. The story appears to be an allegory for technology, progressively hoisting mankind to uncharted heights, with newfound danger and excitement at each new level. I can&amp;#39;t stop reading Stephenson after this. 10/10.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-21&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;Stephenson at his shortest. In 100 pages or so, Stephenson lets loose a short story of the tallest building mankind could ever construct. The story appears to be an allegory for technology, progressively hoisting mankind to uncharted heights, with newfound danger and excitement at each new level. I can&amp;#39;t stop reading Stephenson after this. 10/10.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-22&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-22&#34;&gt;
 The Diamond Age, Neal Stephenson
 &lt;/h4&gt;
-&lt;p&gt;
-Snow Crash (read in December) was fantastic, but only periodically ran as deep as I would have liked. The Diamond Age scratches that itch. Stephenson trots out a gorgeous fragmented world replete with a new element: nanotechnology. Deftly exploring coming of age, what it means to be a hypocrite, moral life in a corrupt society, the education of a subversive, and the difference of having everything one needs and having everything one needs to build that which one needs, I&amp;#39;m captured with The Diamond Age world, and its protagonist. 10/10.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-22&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;Snow Crash (read in December) was fantastic, but only periodically ran as deep as I would have liked. The Diamond Age scratches that itch. Stephenson trots out a gorgeous fragmented world replete with a new element: nanotechnology. Deftly exploring coming of age, what it means to be a hypocrite, moral life in a corrupt society, the education of a subversive, and the difference of having everything one needs and having everything one needs to build that which one needs, I&amp;#39;m captured with The Diamond Age world, and its protagonist. 10/10.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-23&#34; class=&#34;outline-4&#34;&gt;
 &lt;h4 id=&#34;headline-23&#34;&gt;
 Anathem, Neal Stephenson
 &lt;/h4&gt;
-&lt;p&gt;
-I wanted The Diamond Age to be Stephenson at his best. I wanted to think, alright, I can stop reading Stephenson now. I especially wanted to avoid reading 2700 pages of the Baroque cycle. But after this, I think I&amp;#39;m doomed to read everything Stephenson ever wrote. I&amp;#39;m absolutely taken by the world building, the allegories to mathematics and technology, the incorporation of astronomical physics and the multiple worlds hypothesis, and of course, Neal Stephenson&amp;#39;s uncanny ability to bring his characters to life. 10/10.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-23&#34; class=&#34;outline-text-4&#34;&gt;
+&lt;p&gt;I wanted The Diamond Age to be Stephenson at his best. I wanted to think, alright, I can stop reading Stephenson now. I especially wanted to avoid reading 2700 pages of the Baroque cycle. But after this, I think I&amp;#39;m doomed to read everything Stephenson ever wrote. I&amp;#39;m absolutely taken by the world building, the allegories to mathematics and technology, the incorporation of astronomical physics and the multiple worlds hypothesis, and of course, Neal Stephenson&amp;#39;s uncanny ability to bring his characters to life. 10/10.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-24&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-24&#34;&gt;
 Current
 &lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-24&#34; class=&#34;outline-text-3&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;
-Snow Crash, Neal Stephenson, rereading
-&lt;/p&gt;
+&lt;p&gt;Snow Crash, Neal Stephenson, rereading&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-Turing&amp;#39;s Cathedral, George Dyson, reading slowly
-&lt;/p&gt;
+&lt;p&gt;Turing&amp;#39;s Cathedral, George Dyson, reading slowly&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-Disunited Nations, Peter Zeihan, Roy Worley, unsure if I&amp;#39;ll finish
-&lt;/p&gt;
+&lt;p&gt;Disunited Nations, Peter Zeihan, Roy Worley, unsure if I&amp;#39;ll finish&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-25&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-25&#34;&gt;
 On the &amp;#34;soon&amp;#34; List:
 &lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-25&#34; class=&#34;outline-text-3&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;
-The Critique of Pure Reason Kant, forever procrastinating
-&lt;/p&gt;
+&lt;p&gt;The Critique of Pure Reason Kant, forever procrastinating&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-Reprogramming the American Dream, Kevin Scott, Greg Shaw
-&lt;/p&gt;
+&lt;p&gt;Reprogramming the American Dream, Kevin Scott, Greg Shaw&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-The Sovereign Individual James Dale Davidson, Lord William Rees-Mogg
-&lt;/p&gt;
+&lt;p&gt;The Sovereign Individual James Dale Davidson, Lord William Rees-Mogg&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-Evidence for Hope, Kathryn Sikkink
-&lt;/p&gt;
+&lt;p&gt;Evidence for Hope, Kathryn Sikkink&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-Radical Markets Eric Posner, Glen Weyl, a reread
-&lt;/p&gt;
+&lt;p&gt;Radical Markets Eric Posner, Glen Weyl, a reread&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-The Machinery of Freedom, David D. Friedman
-&lt;/p&gt;
+&lt;p&gt;The Machinery of Freedom, David D. Friedman&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-The Baroque Cycle, trilogy Neal Stephenson
-&lt;/p&gt;
+&lt;p&gt;The Baroque Cycle, trilogy Neal Stephenson&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </content>
             
             
@@ -965,22 +1444,23 @@ The Baroque Cycle, trilogy Neal Stephenson
             <title type="text">Review of Ai Superpowers: China, Silicon Valley, and the New World Order, by Kai Fu Lee</title>
             <link rel="alternate" type="text/html" href="https://thork.net/posts/ai_superpowers/" />
             <id>https://thork.net/posts/ai_superpowers/</id>
-            <updated>2020-06-30T16:50:04&#43;02:00</updated>
+            <updated>2021-04-16T12:04:38&#43;01:00</updated>
             <published>2020-01-26T00:00:00&#43;00:00</published>
             <author>
-                    <name>Thor Kamphefner </name>
+                    <name>Thor</name>
                     <uri>https://thork.net/</uri>
-                    <email>thor314@gmail.com</email>
+                    <email>thorck@protonmail.com</email>
                     </author>
-            <summary type="html">Review   Rating: 7/10* (9/10 for the first six chapters)  AI Superpowers is an China-optimistic perspective from a Chinese venture capitalist on the state of advancing competition between China and the rest of the world, which one might (understandably) believe was only Silicon Valley after having read this book.</summary>
+            <summary type="html">Review  Rating: 7/10* (9/10 for the first six chapters)
+ AI Superpowers is an China-optimistic perspective from a Chinese venture capitalist on the state of advancing competition between China and the rest of the world, which one might (understandably) believe was only Silicon Valley after having read this book.</summary>
             
                 <content type="html">
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-1&#34;&gt;
 Review
 &lt;/h2&gt;
-&lt;p&gt;
-Rating: 7/10* (9/10 for the first six chapters)
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;Rating: 7/10* (9/10 for the first six chapters)&lt;/p&gt;
 &lt;p&gt;
 AI Superpowers is an China-optimistic perspective from a Chinese
 venture capitalist on the state of advancing competition between China and the
@@ -998,8 +1478,7 @@ gain better understanding of how entrepreneurship operates in China, and how the
 rising Chinese technology economy may overwhelm expectations as an unprecedented
 powerhouse in emerging technology areas. My interest I suspect the emergence of China as a
 technological superpower bodes ill as a spectre of things to come with regards
-to the Chinese reputation of undermining humanism and political freedoms.
-&lt;/p&gt;
+to the Chinese reputation of undermining humanism and political freedoms.&lt;/p&gt;
 &lt;p&gt;
 Lee’s deconstruction of AI as a field is most comprehensive in the middle of the
 book. Lee gives a careful analysis of the four application “waves” of Artificial
@@ -1008,8 +1487,7 @@ in. He weighs questions about “grid” versus “battery” approaches to arti
 intelligence. Championing for the Chinese government’s inefficient, yet clear,
 approach to stimulating growth with massive incentives, and invasive data
 collection practices, Lee’s analyses are sometimes poetic, but always
-optimistic.
-&lt;/p&gt;
+optimistic.&lt;/p&gt;
 &lt;p&gt;
 In the last half of the book, Lee (rather abruptly) changes topic. His close
 encounter with cancer drives him to climb a mountain, to talk to a monk, to
@@ -1024,8 +1502,7 @@ culture code for society, around the principles of human love, service, and
 compassion, over present imperatives to find productivity. His transformation
 story, both for himself and for society land a bit clumsily: his personal
 transformation from human-turned-work-algorithm to friend and teacher read as an
-abrupt turn: an out of place single chapter in the book.
-&lt;/p&gt;
+abrupt turn: an out of place single chapter in the book.&lt;/p&gt;
 &lt;p&gt;
 By the end of the book, I felt I had a plausible and detailed thesis for how
 Chinese entrepreneurs might compete with their American counterparts. I
@@ -1033,22 +1510,23 @@ understood the advantages that Chinese businesses wield, and the role the
 Chinese culture and government may play in that transition. The latter half of
 the book read more clumsily. Lee’s arguments for how we may transform society to
 avoid dramatic social upheaval were well considered, though less insightful, and
-more castle-in-the-sky than his exposition on the Chinese technology story.
-&lt;/p&gt;
+more castle-in-the-sky than his exposition on the Chinese technology story.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;
 &lt;h2 id=&#34;headline-2&#34;&gt;
 Rating
 &lt;/h2&gt;
-&lt;p&gt;
-First half (6 chapters): information dense enough for a 9/10.
-&lt;/p&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;
+&lt;p&gt;First half (6 chapters): information dense enough for a 9/10.&lt;/p&gt;
 &lt;p&gt;
 Second half: often off topic, with a cancer story, an underdeveloped thesis for
 post-work social change, punctuated with emotionally disingenuous personal
-anecdotes. 5/10
-&lt;/p&gt;
+anecdotes. 5/10&lt;/p&gt;
 &lt;p&gt;
-Total: 7/10
-&lt;/p&gt;
+Total: 7/10&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </content>
             
             
@@ -1101,154 +1579,135 @@ Total: 7/10
             <title type="text">Human Rights: Entertaining the Illusion</title>
             <link rel="alternate" type="text/html" href="https://thork.net/posts/four_floundering_eras_of_human_rights/" />
             <id>https://thork.net/posts/four_floundering_eras_of_human_rights/</id>
-            <updated>2020-06-30T16:49:18&#43;02:00</updated>
+            <updated>2021-04-16T12:04:38&#43;01:00</updated>
             <published>2019-12-10T00:00:00&#43;00:00</published>
             <author>
-                    <name>Thor Kamphefner </name>
+                    <name>Thor</name>
                     <uri>https://thork.net/</uri>
-                    <email>thor314@gmail.com</email>
+                    <email>thorck@protonmail.com</email>
                     </author>
             <summary type="html">a pessimistic insistance on honesty in the story of human rights history</summary>
             
                 <content type="html">
+&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-1&#34;&gt;
 Introduction
 &lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;“The speed with which human rights has penetrated every corner of the globe is astounding. Compared to human rights, no other system of universal values has spread so far so fast…. In what amounts to a historical blink of the eye, the idea of human rights has become the lingua franca of international morality” (Normand 8). With the simultaneous rise of secularism and the middle class in colonial Europe in the 19th Century, so rose the need for the decoupling of moral justifications for imperialism from religious precedents. Human rights left the sacred behind as a construction of universal humanist norms, to inspire the support of a rising middle class in a modernizing Europe. By donning the vestiges of moral supremacy, Europeans gained new justification for civilizing, educating, and employing the next century of colonial labor, while stemming criticisms of the rising bourgeois class. Human rights have always been a farce, and they remain expensive moral umbrage for nations and the elite.&lt;/p&gt;
 &lt;p&gt;
-“The speed with which human rights has penetrated every corner of the globe is astounding. Compared to human rights, no other system of universal values has spread so far so fast…. In what amounts to a historical blink of the eye, the idea of human rights has become the lingua franca of international morality” (Normand 8). With the simultaneous rise of secularism and the middle class in colonial Europe in the 19th Century, so rose the need for the decoupling of moral justifications for imperialism from religious precedents. Human rights left the sacred behind as a construction of universal humanist norms, to inspire the support of a rising middle class in a modernizing Europe. By donning the vestiges of moral supremacy, Europeans gained new justification for civilizing, educating, and employing the next century of colonial labor, while stemming criticisms of the rising bourgeois class. Human rights have always been a farce, and they remain expensive moral umbrage for nations and the elite.
-&lt;/p&gt;
-&lt;p&gt;
-The International Criminal Court, established in 2002, took ten years before its first successful prosecution, of Congolese warlord Thomas Lubanga Dyilo. The cost of the ICC, in the first 10 years, exceeds 1 billion dollars. The major international criminal courts in aggregate exceed 6 billion dollars (Stuart 968). The United States, on whom much of the funding and legitimacy for international human rights relies, maintains immunity for its citizens by the 2002 American Service Members’ Protection Act. The rise of political rivals, most prominently Brazil, Russia, India, China, and South Africa, to American and European power, present a valid challenge to the underlying assumption embedded in the most basic premise of human rights: can human rights be truly universal, or are these simply the last vestiges of the once religious, now secular, hypocrite phoenix of moral supremacy? In an examination of the accomplishments of human rights through four eras, I’ll attempt to disentangle the self-aggrandizing mythos of human rights from reality.
-&lt;/p&gt;
+The International Criminal Court, established in 2002, took ten years before its first successful prosecution, of Congolese warlord Thomas Lubanga Dyilo. The cost of the ICC, in the first 10 years, exceeds 1 billion dollars. The major international criminal courts in aggregate exceed 6 billion dollars (Stuart 968). The United States, on whom much of the funding and legitimacy for international human rights relies, maintains immunity for its citizens by the 2002 American Service Members’ Protection Act. The rise of political rivals, most prominently Brazil, Russia, India, China, and South Africa, to American and European power, present a valid challenge to the underlying assumption embedded in the most basic premise of human rights: can human rights be truly universal, or are these simply the last vestiges of the once religious, now secular, hypocrite phoenix of moral supremacy? In an examination of the accomplishments of human rights through four eras, I’ll attempt to disentangle the self-aggrandizing mythos of human rights from reality.&lt;/p&gt;
 &lt;p&gt;
 Ford, S. “How Leadership in International Criminal Law is Shifting from the U.S. to Europe and Asia: An Analysis of Spending on Contributions to International Criminal Courts (2011). Saint Louis University Law Journal, Vol. 55, p. 953.
-Normand, R., Zaidi, S. “Human Rights at the UN: The Political History of Universal Justice” (2008). Bloomington: Indiana University Press.
-&lt;/p&gt;
+Normand, R., Zaidi, S. “Human Rights at the UN: The Political History of Universal Justice” (2008). Bloomington: Indiana University Press.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-2&#34;&gt;
 1776-1947: Era of The Bourgeoisie, Secularism, and Capitalism
 &lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;The modern age of human rights very little resembles its prehistory. Democracies and autocracies, including monarchies, have vastly different requirements of their populations and legal frameworks. Democracies are held to higher standards of justification for political action. The overthrow of European monarchs marks one of the more productive eras in de-facto human rights development, though the language of human rights is mostly a post World War II invention.&lt;/p&gt;
 &lt;p&gt;
-The modern age of human rights very little resembles its prehistory. Democracies and autocracies, including monarchies, have vastly different requirements of their populations and legal frameworks. Democracies are held to higher standards of justification for political action. The overthrow of European monarchs marks one of the more productive eras in de-facto human rights development, though the language of human rights is mostly a post World War II invention.
-&lt;/p&gt;
+While difficult to quantify, one can reasonably hypothesize that the great advances of this era in human rights is the product of the success of popular uprisings, and the initial successes of expanding democracy, and its deceleration in the 20th century represents conflict of haves and have-nots: wealthy democratic countries have no more incentive than wealthy autocratic ones to preserve the human rights of other nations, especially when these rights conflict with at-home economic interests.&lt;/p&gt;
 &lt;p&gt;
-While difficult to quantify, one can reasonably hypothesize that the great advances of this era in human rights is the product of the success of popular uprisings, and the initial successes of expanding democracy, and its deceleration in the 20th century represents conflict of haves and have-nots: wealthy democratic countries have no more incentive than wealthy autocratic ones to preserve the human rights of other nations, especially when these rights conflict with at-home economic interests.
-&lt;/p&gt;
+At the beginnings of the Age of Exploration, beginning with Portueguese navigators in the 15th and 16th Century, monarchs had little need of moral justification towards the end colonizing and enslaving. In the twin, unrivaled power structures of church and state, were generally sufficient justifications for expansion of empire in the name of God and country.  But the trappings of exploration produced rivals to the landed elite: the bourgeoisie, in whom the elites invested.&lt;/p&gt;
 &lt;p&gt;
-At the beginnings of the Age of Exploration, beginning with Portueguese navigators in the 15th and 16th Century, monarchs had little need of moral justification towards the end colonizing and enslaving. In the twin, unrivaled power structures of church and state, were generally sufficient justifications for expansion of empire in the name of God and country.  But the trappings of exploration produced rivals to the landed elite: the bourgeoisie, in whom the elites invested.
-&lt;/p&gt;
+The British, with far-flung colonies and powerful shipping merchants bore witness to this. The Declaration of Independence, penned by American plantation owner Thomas Jefferson, is the product of the realization by American bourgeoisie that they possess sufficient wealth to contest, and even field armies against traditional monarchical power. Jefferson couches protestations towards monarchal Europe in proto-human rights declarations of offenses by the crown, violating “certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.” The American Constitution re-affirms and cements the political rights of American citizens in The Bill of Rights albeit, excluding most of the population.&lt;/p&gt;
 &lt;p&gt;
-The British, with far-flung colonies and powerful shipping merchants bore witness to this. The Declaration of Independence, penned by American plantation owner Thomas Jefferson, is the product of the realization by American bourgeoisie that they possess sufficient wealth to contest, and even field armies against traditional monarchical power. Jefferson couches protestations towards monarchal Europe in proto-human rights declarations of offenses by the crown, violating “certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.” The American Constitution re-affirms and cements the political rights of American citizens in The Bill of Rights albeit, excluding most of the population.
-&lt;/p&gt;
+Two decades later, revolutionaries in France mirror the American uprising, and take advantage of the financially drained Louis XVI to declare their rights as justification for revolution in The French Declaration of the Rights of Man. The age of the bourgeoisie, while still exclusionary to the vast majority of citizens, makes the beginnings of human rights discussion possible. But by this point in history, rights are not declared by top-down organizations and governments, but are the product of bottom-up uprisings.&lt;/p&gt;
 &lt;p&gt;
-Two decades later, revolutionaries in France mirror the American uprising, and take advantage of the financially drained Louis XVI to declare their rights as justification for revolution in The French Declaration of the Rights of Man. The age of the bourgeoisie, while still exclusionary to the vast majority of citizens, makes the beginnings of human rights discussion possible. But by this point in history, rights are not declared by top-down organizations and governments, but are the product of bottom-up uprisings.
-&lt;/p&gt;
+The year 1848, known as the Spring of Nations, brought a wave of popular uprisings across over 50 countries in Europe (Evans). The revolutions mostly aimed to overthrow monarchical power, while demanding democracy, freedom for the press, and rights for the working class. These rebellions were mostly secular: religious leaders traditionally worked in concert with monarchs suppress challenges to existing power structures. The revolutions succeeded to varying degrees at establishing democracies, but the agitation for a definitive set of rights, was impossible for elites to ignore. European humanist norms grew out of the revolutions, supporting the rights of the newly established bourgeois.&lt;/p&gt;
 &lt;p&gt;
-The year 1848, known as the Spring of Nations, brought a wave of popular uprisings across over 50 countries in Europe (Evans). The revolutions mostly aimed to overthrow monarchical power, while demanding democracy, freedom for the press, and rights for the working class. These rebellions were mostly secular: religious leaders traditionally worked in concert with monarchs suppress challenges to existing power structures. The revolutions succeeded to varying degrees at establishing democracies, but the agitation for a definitive set of rights, was impossible for elites to ignore. European humanist norms grew out of the revolutions, supporting the rights of the newly established bourgeois.
-&lt;/p&gt;
+These rights would come under assault in the first half of the 20th Century. The twin cataclysms of the World Wars reduced Western Europe to rubble, allowing the advancing American economy to surpass its European forebears. The devastating effects of the world wars also propelled the advance of democracy and capitalism in Western Europe, and communist dictatorship in Eastern Europe. The positive narrative identifies this struggle as that of competing ideologies in a brawl of how best to assert the political and social rights against a Hobbsian struggle of all against all. The remaining powers needed new language to justify the shattered myths of the previous century, asserting that humanist rights existed, and could not be abused at any time by the existing power structures, as they had been in the world wars.&lt;/p&gt;
 &lt;p&gt;
-These rights would come under assault in the first half of the 20th Century. The twin cataclysms of the World Wars reduced Western Europe to rubble, allowing the advancing American economy to surpass its European forebears. The devastating effects of the world wars also propelled the advance of democracy and capitalism in Western Europe, and communist dictatorship in Eastern Europe. The positive narrative identifies this struggle as that of competing ideologies in a brawl of how best to assert the political and social rights against a Hobbsian struggle of all against all. The remaining powers needed new language to justify the shattered myths of the previous century, asserting that humanist rights existed, and could not be abused at any time by the existing power structures, as they had been in the world wars.
-&lt;/p&gt;
+It’s worth noting that each of the participants in the Second World War abused and repressed citizens in a major way. Though this list is hardly exhaustive: Jim Crow in the United States, colonial oppression by Western Powers, barbaric war crimes by the Japanese, and genocides by Nazis and Soviets. These were the powers submitting diplomats to pen the first modern document of Human Rights, the Universal Declaration of Human Rights (UDHR). This stands in sharp contrast to the emergence of rights following popular uprisings in the 18th and 19th Centuries.&lt;/p&gt;
 &lt;p&gt;
-It’s worth noting that each of the participants in the Second World War abused and repressed citizens in a major way. Though this list is hardly exhaustive: Jim Crow in the United States, colonial oppression by Western Powers, barbaric war crimes by the Japanese, and genocides by Nazis and Soviets. These were the powers submitting diplomats to pen the first modern document of Human Rights, the Universal Declaration of Human Rights (UDHR). This stands in sharp contrast to the emergence of rights following popular uprisings in the 18th and 19th Centuries.
-&lt;/p&gt;
+R.J.W. Evans and Hartmut Pogge von Strandmann, eds., The Revolutions in Europe 1848–1849 (2000) pp. v, 4&lt;/p&gt;
 &lt;p&gt;
-R.J.W. Evans and Hartmut Pogge von Strandmann, eds., The Revolutions in Europe 1848–1849 (2000) pp. v, 4
-&lt;/p&gt;
-&lt;p&gt;
-Declaration of Independence, Paragraph 2 (1776).
-&lt;/p&gt;
+Declaration of Independence, Paragraph 2 (1776).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-3&#34;&gt;
 1947-1976: Era of The Universal Declaration of Human Rights
 &lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-3&#34;&gt;
 &lt;p&gt;
-In the aftermath of the Second World war, world leaders gathered in Paris to pen the UDHR. According to international law professor Stephen Hopgood in The Endtimes of Human Rights, the UDHR was “an antidote to a troubling contradiction, the coexistence of progress with intensifying violence, vast social and economic inequality, and fears of “the disenchantment of the world” (Hopgood 1).
-&lt;/p&gt;
+In the aftermath of the Second World war, world leaders gathered in Paris to pen the UDHR. According to international law professor Stephen Hopgood in The Endtimes of Human Rights, the UDHR was “an antidote to a troubling contradiction, the coexistence of progress with intensifying violence, vast social and economic inequality, and fears of “the disenchantment of the world” (Hopgood 1).&lt;/p&gt;
 &lt;p&gt;
-The modern language of human rights was borne out of the need for a neutral and secular ideology for developed nations to use as a neutered critique of one another, to limit risk of a third world war. European and American leaders sought to weave into the UDHR an ideological alibi for a new globalized economic system designed to promote international collaboration, benefitting the elites, while only supporting an enhanced sentimentality for human rights in tongue. The UDHR, therefore was a set of thirty non-binding articles, agreed upon by world leaders, but not to be taken seriously. Economist Eric Posner writes in The Twilight of Human Rights “the words in the Universal Declaration may have been stirring, but no one believed at the time that they portended a major change in the way international relations would be conducted, nor did they capture the imagination of voters, politicians, intellectuals, leaders of political movements, or anyone else who might have exerted political pressure on governments” (Posner 17).
-&lt;/p&gt;
+The modern language of human rights was borne out of the need for a neutral and secular ideology for developed nations to use as a neutered critique of one another, to limit risk of a third world war. European and American leaders sought to weave into the UDHR an ideological alibi for a new globalized economic system designed to promote international collaboration, benefitting the elites, while only supporting an enhanced sentimentality for human rights in tongue. The UDHR, therefore was a set of thirty non-binding articles, agreed upon by world leaders, but not to be taken seriously. Economist Eric Posner writes in The Twilight of Human Rights “the words in the Universal Declaration may have been stirring, but no one believed at the time that they portended a major change in the way international relations would be conducted, nor did they capture the imagination of voters, politicians, intellectuals, leaders of political movements, or anyone else who might have exerted political pressure on governments” (Posner 17).&lt;/p&gt;
 &lt;p&gt;
-Why were the articles non-binding? The authors of the UDHR were not the surviving revolutionaries seeking to validate the rights of humans against their former governments, but the ambassadors of the most powerful nations, who sought to reaffirm their hegemonic power by a set of tacit agreements to not challenge one another militarily. These diplomats were not defending human rights in the sense that human rights protect people from their governments: they were protecting their nations, developed nations, from the threat of war. Any illusion of possible agreement concerning universal ideals was quickly dispelled: there were clashes between the United States diplomat, Elanor Roosevelt, with the Soviets concerning rights to property and political freedoms, opposition by the Saudis towards articles concerning freedom of religion, Latin American diplomats who wanted God mentioned, and fears of colonial intervention by the British and French, while the Japanese were to be stripped of their recent colonial acquisitions (Loeffler).
-&lt;/p&gt;
+Why were the articles non-binding? The authors of the UDHR were not the surviving revolutionaries seeking to validate the rights of humans against their former governments, but the ambassadors of the most powerful nations, who sought to reaffirm their hegemonic power by a set of tacit agreements to not challenge one another militarily. These diplomats were not defending human rights in the sense that human rights protect people from their governments: they were protecting their nations, developed nations, from the threat of war. Any illusion of possible agreement concerning universal ideals was quickly dispelled: there were clashes between the United States diplomat, Elanor Roosevelt, with the Soviets concerning rights to property and political freedoms, opposition by the Saudis towards articles concerning freedom of religion, Latin American diplomats who wanted God mentioned, and fears of colonial intervention by the British and French, while the Japanese were to be stripped of their recent colonial acquisitions (Loeffler).&lt;/p&gt;
 &lt;p&gt;
-The effects of the UDHR on human rights around the world were underwhelming. The United Nations established a commission for responding to human rights complaints. In the first ten years of operation, roughly 65,000 letters alleging human rights violations arrived at this newly minted defender of human rights. The commission declined to investigate a single complaint (Loeffler). Issues emerged as larger powers did not want to risk upsetting the power balance between the Soviet Union and the United States, potentially triggering war, and smaller powers had neither the political capital, resources, nor incentive to begin investigations. The UDHR proved an empty set of nice sounding words. This was not unexpected, even at the outset: according to international law expert Hersch Laueterpacht in 1947, “to a lawyer, the enunciation of a right without the provision of a remedy is a judicial heresy…It is clear to me that the declaration does not carry things further and that in some important respects has put the clock back.” (Loeffler)
-&lt;/p&gt;
+The effects of the UDHR on human rights around the world were underwhelming. The United Nations established a commission for responding to human rights complaints. In the first ten years of operation, roughly 65,000 letters alleging human rights violations arrived at this newly minted defender of human rights. The commission declined to investigate a single complaint (Loeffler). Issues emerged as larger powers did not want to risk upsetting the power balance between the Soviet Union and the United States, potentially triggering war, and smaller powers had neither the political capital, resources, nor incentive to begin investigations. The UDHR proved an empty set of nice sounding words. This was not unexpected, even at the outset: according to international law expert Hersch Laueterpacht in 1947, “to a lawyer, the enunciation of a right without the provision of a remedy is a judicial heresy…It is clear to me that the declaration does not carry things further and that in some important respects has put the clock back.” (Loeffler)&lt;/p&gt;
 &lt;p&gt;
 Loeffler, J. (2018, December 21) “Human rights treaties promised a better future. Why did they fail?”. Washington Post.
 Hopgood, S. (2015). The Endtimes of Human Rights. Ithaca: Cornell University Press.
-Posner, E. (2014). Twilight of Human Rights Law. Oxford University Press.
-&lt;/p&gt;
+Posner, E. (2014). Twilight of Human Rights Law. Oxford University Press.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-4&#34;&gt;
 1976-1991: Era of Human Rights Treaty Proliferation and American Money
 &lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-3&#34;&gt;
 &lt;p&gt;
-The modern age of human rights organizations begins in earnest in the 1970s with the International Covenant on Economic, Social and Cultural Rights (ICESCR) and the International Covenant on Civil and Political Rights (Moyn). The covenants were intended as an expansion of the UDHR, but this time, gave overseeing commissions more power to enforce violations. The covenants were contemplated as early as 1948, by American historian Arthur Holcombe, as “a project for a piece of international legislation, more ambitious and perhaps more important than any other in the history of international law. If supported by suitable measures of implementation, it could be a great triumph of reason over force and violence in the development of human relations.” (Holcombe, 413)
-&lt;/p&gt;
+The modern age of human rights organizations begins in earnest in the 1970s with the International Covenant on Economic, Social and Cultural Rights (ICESCR) and the International Covenant on Civil and Political Rights (Moyn). The covenants were intended as an expansion of the UDHR, but this time, gave overseeing commissions more power to enforce violations. The covenants were contemplated as early as 1948, by American historian Arthur Holcombe, as “a project for a piece of international legislation, more ambitious and perhaps more important than any other in the history of international law. If supported by suitable measures of implementation, it could be a great triumph of reason over force and violence in the development of human relations.” (Holcombe, 413)&lt;/p&gt;
 &lt;p&gt;
-Thus, the 1970s represent the shifting tide of human rights from general irrelevance to a proliferation of human rights treaties, to mixed effect. Some of these genuinely treated human rights issues, ie. Convention on the Elimination of Discrimination Against Women (CEDAW), while others were microcosms of the symbolic battles between the United States and the Soviet Union. The United States used human rights law as political leverage against the Soviet Union, while in exchange for ideological concessions, the Soviets bought recognition of autonomy in determining the freedoms of Eastern Europe.
-&lt;/p&gt;
+Thus, the 1970s represent the shifting tide of human rights from general irrelevance to a proliferation of human rights treaties, to mixed effect. Some of these genuinely treated human rights issues, ie. Convention on the Elimination of Discrimination Against Women (CEDAW), while others were microcosms of the symbolic battles between the United States and the Soviet Union. The United States used human rights law as political leverage against the Soviet Union, while in exchange for ideological concessions, the Soviets bought recognition of autonomy in determining the freedoms of Eastern Europe.&lt;/p&gt;
 &lt;p&gt;
-The beginnings of American involvement in human rights in the 1970’s signaled the end of a unipolar European human rights era, though for a time human rights became unipolar about the American-centric perspectives, a phenomena that strengthened after the collapse of the Soviet Union, and has only in the last decade seen significant challenges by economic competitors to the United states, most prominently China. The era of American influence saw the demise of what Hopgood describes as European “secular religiosity” and towards the American style of political intervention in the name of defending democracy—where democracy was a thinly veiled stand-in for American economic interests.  Recent examples include American ongoing relations with Saudi Arabia, 1990s support Saddam Hussain in Iraq, and strategic support of torture in Guantanamo Bay.
-&lt;/p&gt;
+The beginnings of American involvement in human rights in the 1970’s signaled the end of a unipolar European human rights era, though for a time human rights became unipolar about the American-centric perspectives, a phenomena that strengthened after the collapse of the Soviet Union, and has only in the last decade seen significant challenges by economic competitors to the United states, most prominently China. The era of American influence saw the demise of what Hopgood describes as European “secular religiosity” and towards the American style of political intervention in the name of defending democracy—where democracy was a thinly veiled stand-in for American economic interests.  Recent examples include American ongoing relations with Saudi Arabia, 1990s support Saddam Hussain in Iraq, and strategic support of torture in Guantanamo Bay.&lt;/p&gt;
 &lt;p&gt;
-The Americans, even under the most ardent human rights supporter, President Carter, were inconsistent allies to the human rights endeavor: “human-rights violating allies like Iran and Saudi Arabia were just too important for American security, and seen as an important counterweight to Soviet influence, so Carter could not consistently follow through on his rhetoric by threatening to withhold diplomatic support or economic resources from some of the worst violators of human rights” (Posner 18). While the United States generally supported and provided funding for major human rights organizations, they seldom ratified human rights treaties, and only with a raft of Reservations, Understandings, and Declarations (RUDs) limiting the United States’ liability to upholding the treaty.
-&lt;/p&gt;
+The Americans, even under the most ardent human rights supporter, President Carter, were inconsistent allies to the human rights endeavor: “human-rights violating allies like Iran and Saudi Arabia were just too important for American security, and seen as an important counterweight to Soviet influence, so Carter could not consistently follow through on his rhetoric by threatening to withhold diplomatic support or economic resources from some of the worst violators of human rights” (Posner 18). While the United States generally supported and provided funding for major human rights organizations, they seldom ratified human rights treaties, and only with a raft of Reservations, Understandings, and Declarations (RUDs) limiting the United States’ liability to upholding the treaty.&lt;/p&gt;
 &lt;p&gt;
-Not that this was likely even necessary. Many authoritarian countries ratified the ICCPR, and other human rights treaties, and although these treaties were designed to be more binding, the same issue of political non-incentive for any particular country to take action resurfaced. Further, the treaties often used vague, sometimes self-negating language, or specified requirements that would be aspirational for all but the richest countries. Article 19 of the ICCPR declares the right to freedom of expression, but in the next paragraph, offers governments a get-out clause:
-&lt;/p&gt;
+Not that this was likely even necessary. Many authoritarian countries ratified the ICCPR, and other human rights treaties, and although these treaties were designed to be more binding, the same issue of political non-incentive for any particular country to take action resurfaced. Further, the treaties often used vague, sometimes self-negating language, or specified requirements that would be aspirational for all but the richest countries. Article 19 of the ICCPR declares the right to freedom of expression, but in the next paragraph, offers governments a get-out clause:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;
-Everyone shall have the right to freedom of expression; this right shall include freedom to seek, receive and impart information and ideas of all kinds, regardless of frontiers, either orally, in writing or in print, in the form of art, or through any other media of his choice.
-&lt;/p&gt;
+&lt;p&gt;Everyone shall have the right to freedom of expression; this right shall include freedom to seek, receive and impart information and ideas of all kinds, regardless of frontiers, either orally, in writing or in print, in the form of art, or through any other media of his choice.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;
-The exercise of the rights provided for in paragraph 2 of this article carries with it special duties and responsibilities. It may therefore be subject to certain restrictions, but these shall only be such as are provided by law and are necessary: (a) For respect of the rights or reputations of others; (b) For the protection of national security or of public order (ordre public), or of public health or morals.
-&lt;/p&gt;
+&lt;p&gt;The exercise of the rights provided for in paragraph 2 of this article carries with it special duties and responsibilities. It may therefore be subject to certain restrictions, but these shall only be such as are provided by law and are necessary: (a) For respect of the rights or reputations of others; (b) For the protection of national security or of public order (ordre public), or of public health or morals.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;
-The gates of plausible deniability in the clause, “protection of national security or of public order.. or morals,” swing wide. The failings of the covenants were appreciated at the time. Pakistani legal scholar, Hamid Kizilbash wrote of the covenants in 1976 that “what is most unsatisfactory about the implementation procedure is the fact that the individual has no role in the preparation of reports. States are not called upon to consult or transmit what an individual group within their territory may wish to have included in the report. No system of hearings, public consultation and individual petitions has been provided for. In the absence of such provisions it is clear that the reports will reflect whatever the government of a state wishes to make known” (Kizilbash 57).
-&lt;/p&gt;
+&lt;p&gt;The gates of plausible deniability in the clause, “protection of national security or of public order.. or morals,” swing wide. The failings of the covenants were appreciated at the time. Pakistani legal scholar, Hamid Kizilbash wrote of the covenants in 1976 that “what is most unsatisfactory about the implementation procedure is the fact that the individual has no role in the preparation of reports. States are not called upon to consult or transmit what an individual group within their territory may wish to have included in the report. No system of hearings, public consultation and individual petitions has been provided for. In the absence of such provisions it is clear that the reports will reflect whatever the government of a state wishes to make known” (Kizilbash 57).&lt;/p&gt;
 &lt;p&gt;
 Holcombe, A.N. &amp;#34;The Covenants on Human Rights&amp;#34;, Law and Contemporary Problems, 14 (Summer 1948), pp. 413-429.
 International Covenant on Civil and Political Rights, Article 19 (1966).
 Kizilbash, H. “United Nations and Human Rights: A Failure Report” (1974). Pakistan Horizon Vol. 27, No. 1 (First Quarter, 1974), pp. 50-60
-Moyn, S. (2010). The Last Utopia. Harvard University Press.
-&lt;/p&gt;
+Moyn, S. (2010). The Last Utopia. Harvard University Press.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-5&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-5&#34;&gt;
 1991-now: Era of American Pseudo-Unipolarity
 &lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-5&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;In the wake of the fall of the Soviet Union, one might reasonably assume a raft of advances human rights could proceed, over the corpse of their most powerful political opponent. However, immediately following the fall of the Soviet Union, events made a mockery of such an assumption. First, the horrifying genocide in Rwanda, where more than 800,000 Tutsis were slaughtered by the Hutu majority in Rwanda (Posner). The event was made for macabre spectator sport for the human rights organizations of Europe, demonstrating the irrelevance of the now nearly 50 year old Convention on the Prevention and Punishment of the Crime of Genocide and the commission appointed to advise the UN. The lesson repeated itself one year later in the civil war in Yugoslavia where Serbians attempted to ethnically cleanse Bosnians from the region, shocking Europeans to see genocide return once more in the 20th Century to their own continent.&lt;/p&gt;
 &lt;p&gt;
-In the wake of the fall of the Soviet Union, one might reasonably assume a raft of advances human rights could proceed, over the corpse of their most powerful political opponent. However, immediately following the fall of the Soviet Union, events made a mockery of such an assumption. First, the horrifying genocide in Rwanda, where more than 800,000 Tutsis were slaughtered by the Hutu majority in Rwanda (Posner). The event was made for macabre spectator sport for the human rights organizations of Europe, demonstrating the irrelevance of the now nearly 50 year old Convention on the Prevention and Punishment of the Crime of Genocide and the commission appointed to advise the UN. The lesson repeated itself one year later in the civil war in Yugoslavia where Serbians attempted to ethnically cleanse Bosnians from the region, shocking Europeans to see genocide return once more in the 20th Century to their own continent.
-&lt;/p&gt;
+The war criminal trials that followed (the UN was basically immobile during the atrocities) were widely criticized for bias and inconsistency, leading to the establishment of the International Criminal Court in 1998, and official opening in 2002. It has tried few, successfully tried fewer, and those it has tried are exclusively from African nations. The court took 10 years before its first successful prosecution, of the Congolese warlord Thomas Lubanga Dyilo. It is also expensive, costing a billion dollars in its first decade.  The United States continues to claim immunity to the court, and refuses to provide funding for the court. Naturally, the court appears mostly irrelevant.&lt;/p&gt;
 &lt;p&gt;
-The war criminal trials that followed (the UN was basically immobile during the atrocities) were widely criticized for bias and inconsistency, leading to the establishment of the International Criminal Court in 1998, and official opening in 2002. It has tried few, successfully tried fewer, and those it has tried are exclusively from African nations. The court took 10 years before its first successful prosecution, of the Congolese warlord Thomas Lubanga Dyilo. It is also expensive, costing a billion dollars in its first decade.  The United States continues to claim immunity to the court, and refuses to provide funding for the court. Naturally, the court appears mostly irrelevant.
-&lt;/p&gt;
+According to Freedom House, every year since 2005 has seen a retreat in democracy and an advance of authoritarianism. Modern democracy has seen a corresponding retreat of the notion of the public space where facts exist as universal. Propaganda experts in Russia successfully used data, with the aid of data company Cambridge Analytica to spread disinformation about political events in the United States and the United Kingdom leading up to the 2016 election, and the Brexit referendum. Facebook has set new norms for the public dialogue between fiction and fact, allowing disinformation to be spread, while making surveillance easier than ever before (Snyder). Democracy has succumbed to populism in Hungary, Poland, Brazil, and Bosnia in the last decade. Human rights efforts, by contrast, appear to be stuck in the 19th century.&lt;/p&gt;
 &lt;p&gt;
-According to Freedom House, every year since 2005 has seen a retreat in democracy and an advance of authoritarianism. Modern democracy has seen a corresponding retreat of the notion of the public space where facts exist as universal. Propaganda experts in Russia successfully used data, with the aid of data company Cambridge Analytica to spread disinformation about political events in the United States and the United Kingdom leading up to the 2016 election, and the Brexit referendum. Facebook has set new norms for the public dialogue between fiction and fact, allowing disinformation to be spread, while making surveillance easier than ever before (Snyder). Democracy has succumbed to populism in Hungary, Poland, Brazil, and Bosnia in the last decade. Human rights efforts, by contrast, appear to be stuck in the 19th century.
-&lt;/p&gt;
+In 2017 the Office of the High Commissioner for Human Rights launched their 70th year anniversary campaign. The campaign feature the hashtag, #standup4humanrights, along with a website proclaiming “we can all be Human Rights Champions.” The website encouraged participants to post stories online, on platforms including Snapchat, Instagram, and yes, Facebook, the last of whom there has received no official comment on, or criticism of, by any of the human rights commissions at the UN. “All it takes, apparently, is posting individual stories online and recording an article of the declaration in one’s own language. There is hardly any mention of law or politics; it suffices to ‘promote, engage and reflect.’” (Loeffler)&lt;/p&gt;
 &lt;p&gt;
-In 2017 the Office of the High Commissioner for Human Rights launched their 70th year anniversary campaign. The campaign feature the hashtag, #standup4humanrights, along with a website proclaiming “we can all be Human Rights Champions.” The website encouraged participants to post stories online, on platforms including Snapchat, Instagram, and yes, Facebook, the last of whom there has received no official comment on, or criticism of, by any of the human rights commissions at the UN. “All it takes, apparently, is posting individual stories online and recording an article of the declaration in one’s own language. There is hardly any mention of law or politics; it suffices to ‘promote, engage and reflect.’” (Loeffler)
-&lt;/p&gt;
-&lt;p&gt;
-Snyder, T. (May 21, 2018) “Facism is back. Blame the Internet.” Washington Post.
-&lt;/p&gt;
+Snyder, T. (May 21, 2018) “Facism is back. Blame the Internet.” Washington Post.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outline-container-headline-6&#34; class=&#34;outline-3&#34;&gt;
 &lt;h3 id=&#34;headline-6&#34;&gt;
 Conclusion
 &lt;/h3&gt;
+&lt;div id=&#34;outline-text-headline-6&#34; class=&#34;outline-text-3&#34;&gt;
+&lt;p&gt;Throughout this essay, I’ve alluded to the differences between revolutionaries’ claims to rights, and governments’ self-justification via an invented language of international law. Hopgood explains the difference between top-down human and bottom-up human rights as follows, “the local and transnational network of activists who bring publicity to abuses they and their communities face and who try to exert pressure on governments and the United Nations for action, often at tremendous personal cost”, versus “a global structure of laws, courts, norms, organizations that raise money, write reports, run international campaigns, open local offices, lobby governments, and claim to speak with singular authority in the name of humanity as a whole” (Hopgood 2). The criticism reflects the conflict of liberal versus the libertarian, in the question, does greater bureaucracy correspond to gains in human potential, or is the growth that of a cancer, whose purpose is not to serve the body out of which it was conceived, but only to grow?&lt;/p&gt;
 &lt;p&gt;
-Throughout this essay, I’ve alluded to the differences between revolutionaries’ claims to rights, and governments’ self-justification via an invented language of international law. Hopgood explains the difference between top-down human and bottom-up human rights as follows, “the local and transnational network of activists who bring publicity to abuses they and their communities face and who try to exert pressure on governments and the United Nations for action, often at tremendous personal cost”, versus “a global structure of laws, courts, norms, organizations that raise money, write reports, run international campaigns, open local offices, lobby governments, and claim to speak with singular authority in the name of humanity as a whole” (Hopgood 2). The criticism reflects the conflict of liberal versus the libertarian, in the question, does greater bureaucracy correspond to gains in human potential, or is the growth that of a cancer, whose purpose is not to serve the body out of which it was conceived, but only to grow?
-&lt;/p&gt;
+This central conflict plays out while human rights activists engage bottom-up, grassroots endeavors around the world. These countries lie beyond the political purview of the International Criminal Court in the Hague, struggling against the rise of tyranny and nationalism in places like Bolivia, Venezuela, China, and Russia. Resistance movements can only seldom rely on the international bureaucracy to provide the assistance promised in lofty covenants. If human rights organizations had any legitimate influence, the Arab Spring would have been unnecessary, and dictators in Egypt and Syria would have been replaced by human rights leaders. Instead, politicians in countries like the United States and Russia used human rights declarations as pawns to maintain economic interests in the region.&lt;/p&gt;
 &lt;p&gt;
-This central conflict plays out while human rights activists engage bottom-up, grassroots endeavors around the world. These countries lie beyond the political purview of the International Criminal Court in the Hague, struggling against the rise of tyranny and nationalism in places like Bolivia, Venezuela, China, and Russia. Resistance movements can only seldom rely on the international bureaucracy to provide the assistance promised in lofty covenants. If human rights organizations had any legitimate influence, the Arab Spring would have been unnecessary, and dictators in Egypt and Syria would have been replaced by human rights leaders. Instead, politicians in countries like the United States and Russia used human rights declarations as pawns to maintain economic interests in the region.
-&lt;/p&gt;
+What is unconscionable is that human rights organizations continue to ignore criticism of the failings of the movement. Foreign policy analyst David Rieff wrote of this phenomenon of cognitive dissonance, “This is predictable. If your expectations are millenarian — if you believe there is a right side of history, yours, and a wrong side of history that is doomed to defeat — skepticism about the human rights project, let alone voices of opposition, is unlikely to sway your position” (Rieff). Human rights activists need to justify the unmerited and costly expansion of their bureaucracies. Human rights documents need to have more substantial teeth than the possibility that a commission will enter into dialogue with a violating nation. The failures of human rights organizations are costly not only in price but in their deception: allowing nations to do the bare minimum to defend democracy and free people around the world.&lt;/p&gt;
 &lt;p&gt;
-What is unconscionable is that human rights organizations continue to ignore criticism of the failings of the movement. Foreign policy analyst David Rieff wrote of this phenomenon of cognitive dissonance, “This is predictable. If your expectations are millenarian — if you believe there is a right side of history, yours, and a wrong side of history that is doomed to defeat — skepticism about the human rights project, let alone voices of opposition, is unlikely to sway your position” (Rieff). Human rights activists need to justify the unmerited and costly expansion of their bureaucracies. Human rights documents need to have more substantial teeth than the possibility that a commission will enter into dialogue with a violating nation. The failures of human rights organizations are costly not only in price but in their deception: allowing nations to do the bare minimum to defend democracy and free people around the world.
-&lt;/p&gt;
-&lt;p&gt;
-Rieff, E. “The End of Human Rights?” (April 9, 2018). Foreign Policy Magazine.
-&lt;/p&gt;
+Rieff, E. “The End of Human Rights?” (April 9, 2018). Foreign Policy Magazine.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </content>
             
             
