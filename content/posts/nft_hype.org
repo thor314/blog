@@ -6,7 +6,6 @@ tags: ["nft", "crypto", "predictions"]
 categories: ["crypto"]
 ---
 
-/first posted at the [[https://medium.com/zeroknowledge/zero-knowledge-the-game-688ec3709b41][ZKPodcast blog]]/
 
 ** What's That?
 #+begin_verse
@@ -145,3 +144,5 @@ The [[https://twitter.com/cryptograthor][author]] is a developer at Mintbase, a 
 create and their own NFT minting contracts. We're on [[https://mintbase.io/][Ethereum]] and have recently
 launched on [[https://near.mintbase.io/][NEAR testnet]]! If you're exploring what's possible with NFTs, check
 us out.
+
+/first posted at the [[https://medium.com/zeroknowledge/zero-knowledge-the-game-688ec3709b41][ZKPodcast blog]]/

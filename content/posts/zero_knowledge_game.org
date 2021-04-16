@@ -6,8 +6,6 @@ tags: ["zeroknowledge", "cryptography", "game", "explainer"]
 categories: ["crypto"]
 ---
 
-/first posted at the [[https://medium.com/zeroknowledge/zero-knowledge-the-game-688ec3709b41][ZKPodcast blog]]/
-
 What makes a game a “blockchain game”? A simple definition: some part of the
 state of the game is stored on a blockchain and is therefore publicly visible.
 Think chess or tic-tac-toe: each move is a state change on a publicly visible
@@ -146,3 +144,5 @@ a field that has been respectfully referred to as “moon math”, in reference 
 its complexity. By bringing broader awareness to this technology, Dark Forest is
 a harbinger of novel zero-knowledge enabled experiments and applications,
 introducing the advantages of greater privacy and security in new ways.
+
+/first posted at the [[https://medium.com/zeroknowledge/zero-knowledge-the-game-688ec3709b41][ZKPodcast blog]]/
