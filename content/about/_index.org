@@ -5,5 +5,5 @@ draft: false
 ---
 
 Passionate about building better systems of economic and human organization.
-Member of Ethereum, Radicalxchange, and Electric Frontier Foundation
-communities. If you're in Lisbon, reach out!
+
+If you're in Lisbon, reach out on Twitter: [[https://twitter.com/cryptograthor][@cryptograthor]]
