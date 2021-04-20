@@ -4,6 +4,8 @@ date: 2020-06-30T16:28:12+02:00
 draft: false
 ---
 
-Passionate about building better systems of economic and human organization.
+Student of cryptography, builder of better systems of economic and human
+organization, and developer of NFT contracts at [[near.mintbase.io][Mintbase]].
+
 
 If you're in Lisbon, reach out on Twitter: [[https://twitter.com/cryptograthor][@cryptograthor]]
