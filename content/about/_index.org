@@ -4,7 +4,19 @@ date: 2020-06-30T16:28:12+02:00
 draft: false
 ---
 
-Student of cryptography, citizen of the internet.
+As of February 2022, 
+I am a cryptographic engineer at [[https://entropy.xyz/][entropy]], a trustless, chain-agnostic custody project. 
+I cowrite the cryptography newsletter, [[https://zkmesh.substack.com/][zkMesh]], with Anna Rose of the [[https://zeroknowledge.fm/][Zero Knowledge Podcast]], which I recommend as a plausibly unbiased source for technical discussion in the blockchain space.
+I'm currently running a zero-knowledge cryptography study group with [[https://people.cs.georgetown.edu/jthaler/][Dr. Justin Thaler]], which you may find [[https://discord.com/invite/tHXyEbEqVN][here]] at the zkHack Discord server.
 
+I'm broadly interested in the intersection of cryptography, economic mechanism design, and human coordination. I'm also thoroughly approachable. Say hi on Twitter. 
 
-If you're in Lisbon, reach out on Twitter: [[https://twitter.com/cryptograthor][@cryptograthor]]
+Previously:
+
+*2021*
+- Architect of NEAR blockchain smart contract system for NFT protocol [[https://www.mintbase.io/][Mintbase]]
+- [[https://github.com/near/NEPs/blob/master/specs/Standards/NonFungibleToken/Payout.md][Authored NEAR Royalties and Payouts Standard for NFTs]]
+
+*2020*
+- Paper: [[https://arxiv.org/abs/2003.03052][Combining GHOST and Casper]] - synthesizing the Ethereum 2.0 beacon chain consensus protocol from Casper FFG and LMD GHOST
+- B.S. Applied Mathematics w/ Discrete Mathematics focus, San Jose State
