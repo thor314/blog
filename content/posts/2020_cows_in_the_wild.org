@@ -1,0 +1,290 @@
+---
+title: "Tipping Cows, a Primer on Rust's Most Bovine Data Structure"
+date: 2020-07-05
+draft: false
+tags: ["rust", "programming"]
+categories: ["rust"]
+description: "all about the Clone-on-write Rust data structure"
+---
+
+The year was 2020. An epidemic swept across the globe, driving all human life
+indoors. Unrest concerning police action and longstanding racial inequality in
+the US drove the very same back into the streets. Like cattle, driven back and
+forth we were, with global sociopolitical and health trends our ranger.
+
+In other words, there was never a better time to read an primer on Cows. Yes,
+those magical moo-ers. No, that was a lie. This is going to be about the [[https://doc.rust-lang.org/std/borrow/enum.Cow.html][Cow]]
+data structure in Rust, [[https://www.infoworld.com/article/3560970/c-and-rust-programming-languages-continue-to-rise.html][systems programming language and global phenomenon]],
+sorry for the confusion.
+
+So now that I've lied to you once, I hear you asking "Why should I stay?" Well.
+I offer ye nothing less than knowledge of dark bovine arts. Along the way you'll
+be sprinkled with Rust language insights and regular attempts at cow-humor.
+
+When you've finished this cool glass of milk, you will know what a Cow is doing
+when you spot one (in Rust that is, for the alternative consult a local farmer),
+see several examples of Cow in practice, and maybe even raise your own Cows.
+[[https://www.youtube.com/watch?v=FavUpD_IjVY][Like this]]. If you're unfamiliar with smart pointers, lifetimes, or the
+borrowing/ownership system in Rust, don't panic. They're totally on the docket.
+Cowabunga.
+
+But if you're new to Rust, you might consider first visiting [[https://medium.com/better-programming/rust-ownership-and-borrowing-9cf7f081ade0][one]] [[https://medium.com/better-programming/rust-ownership-and-borrowing-9cf7f081ade0][of]] [[https://doc.rust-lang.org/1.8.0/book/references-and-borrowing.html][the]] many great
+explainers of how the compiler helps us avoid careless reference errors by way
+of its borrow checker. But if you're not here to click links, here's the basic
+idea:
+
+Similar to C and C++, Rust doesn't have a garbage collector: a process that runs
+in a program's runtime that tracks which variables reference what data, and when
+that data will no longer be used, so that memory can be freed up. Most languages
+(Python, Java, Javascript, C#, Go, etc.) have a garbage collector, which is how
+they manage memory. In C and C++, memory and references are generally managed by
+the programmer (and sometimes, programmers make memory management mistakes that
+may not be obvious until things break). In Rust, the borrow checker does memory
+management for us, which is ergonomic (don't have to manually manage memory),
+safe (prevents security errors and issues, especially in concurrent programs),
+and fast (on par with C and C++). By strictly enforcing a couple rules about
+mutable and immutable references, we get these nice things.
+
+** Enter Cows
+If we run over to the [[https://doc.rust-lang.org/std/borrow/enum.Cow.html][Zoo of Rust's Creatures]], we find a Cow in captivity:
+#+begin_src rust
+pub enum Cow<'a, B>
+where
+    B: 'a + ToOwned + ?Sized,
+ {
+    Borrowed(&'a B),
+    Owned(<B as ToOwned>::Owned),
+}
+#+end_src
+The zoo helpfully informs us,
+#+BEGIN_EXAMPLE
+ _________________________________________
+/ The type Cow is a smart pointer         \
+| providing clone-on-write functionality: |
+| it can enclose and provide immutable    |
+| access to borrowed data, and clone the  |
+| data lazily when mutation or ownership  |
+| is required. The type is designed to    |
+| work with general borrowed data via the |
+\ Borrow trait.                           /
+ -----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+#+end_example
+
+Moo. That's a lot to parse. There's roughly three concepts baked into that
+definition:
+- What is clone-on-write functionality, and what's the diff to copy-on-write
+- Why this elitist smart pointer
+- Where do lifetimes enter in
+
+
+If you know the answer to all of those questions, you can probably skip ahead to
+examples. Don't know? Read on!
+
+Let's start with why we care about these concepts: what do we win if we collect
+them all? Well, in simplest form, we win an runtime optimization technique, for
+when the data we're handling will sometimes be acceptable to immutably borrow
+(which is cheap), but other times will have to be owned, which would happen if
+we had to mutate the data in some way. Back to the concepts.
+
+*** Copy-on-Write vs Clone-on-Write
+[[https://doc.rust-lang.org/std/marker/trait.Copy.html][Copy]] and [[https://doc.rust-lang.org/std/clone/trait.Clone.html][Clone]] in Rust mean different things. In the non-Rust world, copying
+usually means reproducing the data at a new location. This is cloning in Rust.
+Copying is simpler and less expensive: reproduce the data if it's statically
+sized (ints, floats, bools, etc), or reproduce the pointer if the data is
+dynamically sized (Vec, String, HashMap, etc). Copying usually happens
+implicitly; meaning the compiler just does it for us, no muss, no fuss. Cloning,
+not so: we have to explicitly tell the compiler to clone the data. Any data that
+can be copied (only fixed size) can also be cloned (fixed or dynamically sized);
+the reverse is not true. Copy is cheap, Clone is expensive.
+
+#+begin_src rust
+// u32 implements Copy
+let i : u32 = 42;
+let i_copy = i; // copy occurs implicitly
+println!("Can use original int and copy: {}, {}", i, i_copy);
+
+let i_clone = i.clone();
+println!("Can use original int and clone: {}, {}", i, i_clone);
+
+// String implements Clone but not Copy.
+let s: String::From("Don't Panic")
+let s_clone = s.clone();
+println!("Can use original string and clone: {}, {}", s, s_clone);
+
+// this will fail, since String does not implement Copy
+// let copy_s = s;
+#+end_src
+
+*** Smart Pointers are Runtime Friends
+They say runners are are smart (don't ask who "they" are, I'm sure they're out
+there somewhere). And Smart Pointers are your running friends. Smart pointers
+were introduced by C++ in the 1990s as a tool to manage resources related to the
+memory they're pointing to. Like Rust, C++ doesn't have automatic garbage
+collection, and smart pointers were invented to prevent memory leak situations.
+Rust does it's best to manages memory without a garbage collector at
+compile-time with it's ownership system, but at runtime, it's all smart
+pointers. That's why smart pointers aren't generally a necessary concept to
+anyone coming from a garbage collected language, like Java or Python (though
+Java does have a [[https://javamex.com/tutorials/synchronization_concurrency_8_copy_on_write.shtml][cow]]).
+
+In the context of Cows, the Cow smart pointer acts like a normal pointer when it
+merely borrows data, but at runtime, the Cow smart pointer can take ownership of
+the borrowed data. This is more expensive than borrowing the data: a borrow only
+requires the borrower to keep a reference to the data, wherever it is. But
+taking ownership requires the data to be cloned, meaning the runtime will have
+to reproduce the data on the Heap (whenever we allocate memory in runtime, it's
+usually safe to assume it's happening on the heap). If the data is particularly
+large, (a long string or text file, for instance), lazily cloning only when it
+becomes obviously necessary is a useful optimization.
+
+#+begin_src rust
+use std::borrow::Cow;
+fn lazy_abs(input: &mut Cow<[i32]>) {
+  for i in 0..input.len(){
+    let v = input[i];
+		if v < 0 {
+		  // Clone into vector if not already owned
+			input.to_mut()[i] = -v;
+		}
+	}
+}
+#+end_src
+From [[https://doc.rust-lang.org/std/borrow/enum.Cow.html][Rust's Cow documentation]].
+
+*** Where do lifetimes enter
+[[https://doc.rust-lang.org/rust-by-example/scope/lifetime.html][Lifetimes]] tell the borrow checker when a borrow is going to end. When a Cow
+borrows some data, the Cow should never outlive the data. Further, if the Cow
+takes ownership of the data with a clone, it makes sense that the cloned data
+still shouldn't outlive the original data. Rememer how we defined Cow? You don't
+have to, here it is again.
+#+begin_src rust
+pub enum Cow<'a, B> // Cow doesn't outlive data with lifetime 'a
+where
+    // if Cow takes ownership, stay with the herd, keep lifetime 'a
+    B: 'a + ToOwned + ?Sized,
+ {
+    Borrowed(&'a B), // Borrow a generic reference to data B, with lifetime 'a
+    Owned(<B as ToOwned>::Owned), // We haven't gotten here yet.
+}
+#+end_src
+
+** Putting it all together
+You made it this far cowpoke. Hold onto your milk, because it's time for a pop
+quiz.
+
+Suppose we've got a struct containing an immutable generic vector. How
+would we update it to wrap a Cow?
+#+begin_src rust
+struct VecWrapper<T> {
+  v: Vec<T>,
+}
+
+impl<T> VecWrapper<T>{
+  fn new(v: Vec<T>) -> Self{
+    VecWrapper{ v }
+  }
+}
+#+end_src
+
+Well, for starters, we're going to need to import Cow, add lifetimes, and modify
+some definitions. Let's sprinkle lifetimes
+everywhere a generic definition appears, and wrap our Vector in a Cow.
+#+begin_src rust
+use std::borrow::Cow;
+struct VecWrapper<'a, T>{
+  v: Cow<'a, Vec<T>>,
+}
+impl<'a, T> VecWrapper<'a, T>{
+  fn new(v: Cow<'a, Vec<T>>) -> Self{
+    VecWrapper{ v }
+  }
+}
+#+end_src
+
+#+begin_example
+error[E0277]: the trait bound `T: std::clone::Clone` is not satisfied
+   --> src/lib.rs:5:3
+    |
+5   |   v: Cow<'a, Vec<T>>,
+    |   ^^^^^^^^^^^^^^^^^^ the trait `std::clone::Clone` is not implemented for `T`
+    |
+    = note: required because of the requirements on the impl of `std::clone::Clone` for `std::vec::Vec<T>`
+    = note: required because of the requirements on the impl of `std::borrow::ToOwned` for `std::vec::Vec<T>`
+help: consider restricting type parameter `T`
+    |
+2   | struct VecWrapper<'a, T: std::clone::Clone>
+    |                        ^^^^^^^^^^^^^^^^^^^
+...
+#+end_example
+
+Well, it was a noble first try. In the wise words of Rust Sage [[https://rust-unofficial.github.io/too-many-lists/][Gankra]], "It
+should be noted that the /authentic/ Rust learning experience involves writing
+code, having the compiler scream at you, and trying to figure out what the heck
+that means." We're living that dream. But the rust compiler is actually pretty
+helpful here. We need to put a trait bound on T, so that our pet Cow can clone T
+if and when it needs to.
+
+#+begin_src rust
+use std::borrow::Cow;
+struct VecWrapper<'a, T: Clone>
+where T: Clone
+{
+  v: Cow<'a, Vec<T>>,
+}
+
+impl<'a, T> VecWrapper<'a, T>
+where T: Clone
+{
+  fn new(v: Cow<'a, Vec<T>>) -> Self{
+    VecWrapper{ v }
+  }
+}
+#+end_src
+
+#+begin_example
+warning: struct is never constructed: `VecWrapper`
+ --> src/lib.rs:2:8
+  |
+2 | struct VecWrapper<'a, T: Clone>
+  |        ^^^^^^^^^^
+  |
+  = note: `#[warn(dead_code)]` on by default
+...
+#+END_example
+
+Success! If we wanted to take our implementation one step further, the
+[[https://doc.rust-lang.org/std/borrow/enum.Cow.html][documentation]] gives an example of wrapping a generic array with a Cow, which
+would require a couple more trait bounds.
+
+#+begin_src rust
+use std::borrow::Cow
+struct Items<'a, X: 'a> where [X]: ToOwned<Owned = Vec<X>> {
+    values: Cow<'a, [X]>,
+}
+
+impl<'a, X: Clone + 'a> Items<'a, X> where [X]: ToOwned<Owned = Vec<X>> {
+    fn new(v: Cow<'a, [X]>) -> Self {
+        Items { values: v }
+    }
+}
+#+end_src
+Which ends up looking pretty close to our vector wrapper, but since the Vec type
+implements ToOwned for us and the array doesn't, a we'd have to implement
+`ToOwned` for our generic array by hand.
+
+Alright, so there's a lot more that can be done with Cows than we got
+into here. But I'm hoping this was enough of a prod to get you up and mooving
+with cows. Thanks for joining me, and best of luck in all your future Rust
+endeavors.
+
+** Sources:
+[[https://doc.rust-lang.org/1.26.1/std/borrow/enum.Cow.html][Documentation std::borrow::Cow]]
+
+[[https://en.wikipedia.org/wiki/Smart_pointer#cite_note-1][Smart Pointers Wikipedia]]
+
+[[https://deterministic.space/secret-life-of-cows.html#fn:deref][Secret Life of Cows]]
