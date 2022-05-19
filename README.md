@@ -25,4 +25,13 @@ Finally, push to github, and Netlify will pick up my new shtuff. Go manage netli
   Meier](https://twitter.com/cronokirby), thanks Lucas!
   [This](https://www.simonspavound.com/posts/2020/09/equations-with-katex-in-hugo/)
   blog post describes exactly how I did it.
+- I also have support for Mermaid, by way of
+  [this](https://robb.sh/posts/how-to-use-mermaid-diagrams-in-hugo/) post. 
 
+Usage:
+```
+{{< mermaid align="left" theme="neutral" >}}
+flowchart 
+A(hi)
+{{< /mermaid >}}
+```
