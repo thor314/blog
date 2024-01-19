@@ -1,2 +1,3 @@
 public/
+*.swp
 # themes/meme/ # already not tracked because gitmodule

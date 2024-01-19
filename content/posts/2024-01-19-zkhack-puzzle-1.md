@@ -106,7 +106,6 @@ $$
 \newcommand{Edwards}{u^2+v^2=1+u^2v^2}
 \newcommand{TwistedEdwards}{a\Edwards}
 $$
-
 $$\text{Edwards form:}\quad \Edwards$$
 $$\text{Twisted Edwards form:}\quad \TwistedEdwards$$
 
