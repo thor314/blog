@@ -2,6 +2,8 @@
 title: "Solving ZK Hack IV puzzle 1"
 date: 2024-01-18
 draft: false
+tags: ["cryptography", "puzzle", "zk"]
+categories: ["cryptography"]
 ---
 
 *What follows is a solution to [ZK Hack IV, Puzzle 1](https://zkhack.dev/zkhackIV/puzzleF1.html). ZK Hack is a series of zero-knowledge cryptography CTFs, workshops, hackathons, and study groups. Thanks to the ZK Hack organizers for creating this CTF, Geometry for this puzzle, and the ZK Hack community. Thanks to Paul Gafni for discussion.*
