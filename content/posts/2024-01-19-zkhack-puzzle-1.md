@@ -90,24 +90,30 @@ fn get_hack(leaked_secret: MNT4BigFr) -> MNT4BigFr {
 Log was too long to include here, so see [this hackmd](https://hackmd.io/@cryptograthor/ByU_8Sdta).
 
 ## footnotes
-[^1]:  Unrelated to this puzzle, the Zcash nullifier argument also includes a nonce, so that a public key can be used more than once: $N=H(pk,r)$.
-[^2]: Unrelated to this puzzle, the Zcash nullifier must prove two other conditions:
+[1]  Unrelated to this puzzle, the Zcash nullifier argument also includes a nonce, so that a public key can be used more than once: $N=H(pk,r)$.
+
+[2] Unrelated to this puzzle, the Zcash nullifier must prove two other conditions:
 - that nullifier $N$ has not already been published--this is not included in the proof for the puzzle, but is checked elsewhere in the puzzle driver; but, would need to be checked in the proof in real life
 - the existence of the note(s) (coins) that will be spent, via proof of knowledge of:
     - $v$, the value of the note
     - $a$ the address possessing the note
     - $r$ the random nonce for the note
-[^3]: A perhaps interesting note dump on Twisted Edwards and Montgomory Curves: 
+
+[3] a little more on Twisted Edwards and Montgomory Curves: 
 Every montgomery form elliptic curve has a birational Twisted Edwards equivalent. Edwards curves have fast addition algorithms, and Twisted Edwards curves are nearly as fast, enabling faster point operations for many curves currently in use. The twist lies in the $a$ parameter, without which, many Montgomory curves have no Edwards equivalent. 
-$$\begin{align}
+
+$$
 \newcommand{Edwards}{u^2+v^2=1+u^2v^2}
-\text{Edwards form:}\quad &\Edwards\\
 \newcommand{TwistedEdwards}{a\Edwards}
-\text{Twisted Edwards form:}\quad &\TwistedEdwards
- \end{align}$$
+$$
+
+$$\text{Edwards form:}\quad \Edwards$$
+$$\text{Twisted Edwards form:}\quad \TwistedEdwards$$
+
 where $a$ and $d$ are constants in the field over which the curve is defined, and $a \neq d$. These curves are a generalization of Edwards curves (where $a=1$) and are used in cryptography for efficient arithmetic operations. Typically, $c=1$, and is often excluded.
 
 Montgomery elliptic curves are defined by the equation:
 $$By^2 = x^3 + Ax^2 + x$$
 where $A$ and $B$ are constants in the field over which the curve is defined, with $B \neq 0$ and $A^2 \neq 4$, over a field $k$ with $\text{char}(k) \ne 2$. These curves are used in cryptography for their efficient point multiplication properties.
-[^4]: Don't check this by hand. The algebra won't work out nicely, or at least mine didn't. I'm not sure why, but I believe the answer has something to do with algebraic geometers mumbling curses, and at this point I'm not interested enough to dig deeper. But if you, dear reader, know what that's about, do reach out, I'd love to know.
+
+[4] Don't check this by hand. The algebra won't work out nicely, or at least mine didn't. I'm not sure why, but I believe the answer has something to do with algebraic geometers mumbling curses, and at this point I'm not interested enough to dig deeper. But if you, dear reader, know what that's about, do reach out, I'd love to know.
