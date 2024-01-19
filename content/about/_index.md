@@ -1,11 +1,11 @@
 ---
 title: "About the me"
-# date: 2020-06-30T16:28:12+02:00
+# date: 2020-06-30
 draft: false
 ---
 
 Hello Internet! 
-You're at the one and only remaining blog of **Thor Kamphefner**, my posting destination for long-form cognitation, rendered approximately fit for public dissemination.  
+You're at the one and only remaining blog of **Thor Kamphefner**, my posting destination for long-form cognitation, rendered approximately fit for public dissemination. This about me was last updated Jan 2023, and is irregularly updated.
 
 ## Give me Identity Categories or Give me Death
 I'm an independent cryptography engineer and educator.
@@ -14,7 +14,6 @@ My interests, which are my preferred identity categories, include the set of all
 ## Some posts I'm proud of include:
 - [a walkthrough of a Distributed Key Generation Scheme from the 1990s](https://thork.net/posts/2022_4_21_dkg/) 
 - [an experiment measuring my effectiveness as a programmer, varying implementation techniques](https://thork.net/posts/20211015_how_effective_prototyping_euler50/)
-- [my analysis of illusions around Human Rights](https://thork.net/posts/2020_four_floundering_eras_of_human_rights/), originally conceived as an essay for an undergraduate class
 
 ## My attention points are currently directed at:
 - Writing for [Uncloak](uncloak.org), a fledgling cryptography wiki, aiming to increase the accessibility of cryptography engineering, zero knowledge, and distributed systems.
