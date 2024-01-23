@@ -86,13 +86,14 @@ fn get_hack(leaked_secret: MNT4BigFr) -> MNT4BigFr {
 
 One hiccup. We assumed (hoped) that $(x,-y)$ lay on the curve. On Jubjub, it does not. Why does it exist on `MNT_753_4`? It's time to put our twisted Edwards hats on.
 
+![](/photos/2024-01-18/elliptic-curve-hat.jpeg.jpeg)
 ## `puzzle.deets()`
 *extended background on twisted Edwards elliptic curves, Zcash lemma 5.4.7*
 
 ### Twisted Edwards, and proof [Zcash Lemma 5.4.7](https://zips.z.cash/protocol/protocol.pdf#concreteextractorjubjub) with added notes
 *This lemma was initially confusing; thanks to several folks who helped clarify, including the author of the lemma herself. Historical record of my confusion notes [here](https://hackmd.io/@cryptograthor/BycdetdFT).*
 
-It may be helpful to first recall the twisted Edwards (tE) curve equation:
+It may be helpful to first recall the twisted Edwards (tE) curve equation[^3]:
 $$au^2 + v^2 = c^2(1 + du^2v^2)$$
 
 The point addition law:
@@ -250,22 +251,5 @@ s'G &= O-sG = nG-sG\\
 However, note that $s$ lives in the `mnt4::Fr` field, but the order $n$ of generator $G$ will live in `mnt4::Fp`, so we'll have to do a type conversion.
 ## footnotes
 [^1]:  Unrelated to this puzzle, the Zcash nullifier argument also includes a nonce, so that a public key can be used more than once: $N=H(pk,r)$.
-[^2]: Unrelated to this puzzle, the Zcash nullifier must prove two other conditions:
-- that nullifier $N$ has not already been published--this is not included in the proof for the puzzle, but is checked elsewhere in the puzzle driver; but, would need to be checked in the proof in real life
-- the existence of the note(s) (coins) that will be spent, via proof of knowledge of:
-    - $v$, the value of the note
-    - $a$ the address possessing the note
-    - $r$ the random nonce for the note
-[^3]: A perhaps interesting note dump on Twisted Edwards and Montgomory Curves: 
-Every montgomery form elliptic curve has a birational Twisted Edwards equivalent. Edwards curves have fast addition algorithms, and Twisted Edwards curves are nearly as fast, enabling faster point operations for many curves currently in use. The twist lies in the $a$ parameter, without which, many Montgomory curves have no Edwards equivalent. 
-$$\begin{align}
-\newcommand{Edwards}{u^2+v^2=1+u^2v^2}
-\text{Edwards form:}\quad &\Edwards\\
-\newcommand{TwistedEdwards}{a\Edwards}
-\text{Twisted Edwards form:}\quad &\TwistedEdwards
- \end{align}$$
-where $a$ and $d$ are constants in the field over which the curve is defined, and $a \neq d$. These curves are a generalization of Edwards curves (where $a=1$) and are used in cryptography for efficient arithmetic operations. Typically, $c=1$, and is often excluded.
-
-Montgomery elliptic curves are defined by the equation:
-$$By^2 = x^3 + Ax^2 + x$$
-where $A$ and $B$ are constants in the field over which the curve is defined, with $B \neq 0$ and $A^2 \neq 4$, over a field $k$ with $\char k \ne 2$. These curves are used in cryptography for their efficient point multiplication properties.
+[^2]: Unrelated to this puzzle, the Zcash nullifier must prove two other conditions: (1) that nullifier $N$ has not already been published--this is not included in the proof for the puzzle, but is checked elsewhere in the puzzle driver. Would need to be checked in the proof in real life. And (2) the existence of the note(s) (coins) that will be spent, via proof of knowledge of: ($v,a,r$); the value of the note, address possessing the note, and random nonce, respectively.
+[^3]: Why do we use twisted Edwards curves at all? Speed. Every Montgomery form elliptic curve has a birational Twisted Edwards equivalent, though not necessarily a simple Edwards equivalent. Edwards curves have fast addition algorithms, and Twisted Edwards curves are nearly as fast, enabling faster point operations for many curves currently in use.
