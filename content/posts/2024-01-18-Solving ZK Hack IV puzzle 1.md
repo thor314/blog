@@ -66,7 +66,7 @@ Suppose $pk = sG = (x,y)$, and nullifier $N=H(sG.x)$. Recall that nullifiers mus
 Let $s'G=(x,-y)$, *assuming such a point exists on our subgroup*. Let the order of generator $G$ be denoted $n$. Then:
 $$\begin{aligned}
 s'G &= \mathcal O - sG \\
-&= nG - sG \\\
+ \\\\\n&= nG - sG \\\
 &= (n-s)G \\\
 \therefore s'&=n-s
  \end{aligned}$$
