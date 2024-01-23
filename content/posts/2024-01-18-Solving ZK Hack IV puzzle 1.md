@@ -7,7 +7,7 @@ tags: ["cryptography", "puzzle", "zk"]
 categories: ["cryptography"]
 ---
 # Solving ZK Hack IV puzzle 1
-![](/photos/2024-01-18/twisted-elliptic-curve-moon-puzzle-1.jpeg)
+![](/photos/2024-01-18-Solving/twisted-elliptic-curve-moon-puzzle-1.jpeg)
 
 *What follows is a solution to [ZK Hack IV, Puzzle 1](https://zkhack.dev/zkhackIV/puzzleF1.html). ZK Hack is a series of zero-knowledge cryptography CTFs, workshops, hackathons, and study groups. Thanks to the ZK Hack organizers for creating this CTF, Geometry for this puzzle, and the ZK Hack community. Thanks to Paul Gafni and Daira Hopwood for discussion.*
 
@@ -86,7 +86,7 @@ fn get_hack(leaked_secret: MNT4BigFr) -> MNT4BigFr {
 
 One hiccup. We assumed (hoped) that $(x,-y)$ lay on the curve. On Jubjub, it does not. Why does it exist on `MNT_753_4`? It's time to put our twisted Edwards hats on.
 
-![](/photos/2024-01-18/elliptic-curve-hat.jpeg.jpeg)
+![](/photos/2024-01-18-Solving/elliptic-curve-hat.jpeg.jpeg)
 ## `puzzle.deets()`
 *extended background on twisted Edwards elliptic curves, Zcash lemma 5.4.7*
 
@@ -143,7 +143,7 @@ Returning to the problem, we might ask why we were able assume that, given $P=(x
 In the Weierstrass affine coordinate system, we're working over an entirely different group law, and if $(x,y)$ exists on the subgroup, $(x,-y)$ exists too. 
 
 *now we steal all the coins, ahem, submit a whitehat bug report*
-![](/photos/2024-01-18/black-dude-behind-tree-hungry.jpeg.jpeg)
+![](/photos/2024-01-18-Solving/black-dude-behind-tree-hungry.jpeg.jpeg)
 
 ## `puzzle.log()`
 *My puzzle solving log, cut short for readability. You might be interested in this as a map of my state of mind while thinking about the puzzle. Keeping a log helps navigate overwhelming context dumps, and to avoid doing wrong and/or stupid things repeatedly. I use Obsidian to take these notes, for which I have written [an extensive setup and usage guide](https://github.com/thor314/obsidian-setup). To see the full log, see [this hackmd](https://hackmd.io/@cryptograthor/ByU_8Sdta).*
