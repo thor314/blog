@@ -140,6 +140,9 @@ Returning to the problem, we might ask why we were able assume that, given $P=(x
 
 In the Weierstrass affine coordinate system, we're working over an entirely different group law, and if $(x,y)$ exists on the subgroup, $(x,-y)$ exists too. 
 
+*now we steal all the coins, ahem, submit a whitehat bug report*
+![](/photos/2024-01-18/black-dude-behind-tree-hungry.jpeg.jpeg)
+
 ## `puzzle.log()`
 *My puzzle solving log, cut short for readability. You might be interested in this as a map of my state of mind while thinking about the puzzle. Keeping a log helps navigate overwhelming context dumps, and to avoid doing wrong and/or stupid things repeatedly. I use Obsidian to take these notes, for which I have written [an extensive setup and usage guide](https://github.com/thor314/obsidian-setup). To see the full log, see [this hackmd](https://hackmd.io/@cryptograthor/ByU_8Sdta).*
 
@@ -249,6 +252,7 @@ s'G &= O-sG = nG-sG\\
 \therefore s'&=(n-s)
  \end{align}$$
 However, note that $s$ lives in the `mnt4::Fr` field, but the order $n$ of generator $G$ will live in `mnt4::Fp`, so we'll have to do a type conversion.
+
 ## footnotes
 [^1]:  Unrelated to this puzzle, the Zcash nullifier argument also includes a nonce, so that a public key can be used more than once: $N=H(pk,r)$.
 [^2]: Unrelated to this puzzle, the Zcash nullifier must prove two other conditions: (1) that nullifier $N$ has not already been published--this is not included in the proof for the puzzle, but is checked elsewhere in the puzzle driver. Would need to be checked in the proof in real life. And (2) the existence of the note(s) (coins) that will be spent, via proof of knowledge of: ($v,a,r$); the value of the note, address possessing the note, and random nonce, respectively.
