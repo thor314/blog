@@ -66,8 +66,8 @@ Suppose $pk = sG = (x,y)$, and nullifier $N=H(sG.x)$. Recall that nullifiers mus
 Let $s'G=(x,-y)$, *assuming such a point exists on our subgroup*. Let the order of generator $G$ be denoted $n$. Then:
 $$\begin{aligned}
 s'G &= \mathcal O - sG \\
- \\\\\n&= nG - sG \\\
-&= (n-s)G \\\
+&= nG - sGA\\\
+&= (n-s)GA\\\
 \therefore s'&=n-s
  \end{aligned}$$
 
@@ -120,7 +120,7 @@ $$au^2+0^2=1\implies u=\pm \sqrt {1/a}$$
 An application of the group doubling law, gives:
 $$
 \begin{aligned}
-u' &= \frac{0}{1 + 0}=0 \\\
+u' &= \frac{0}{1 + 0}=0A\\\
 v' &= \frac{0 - au^2}{1 - 0}=-au^2= -a(1/a)=-1
 \end{aligned}
 $$
