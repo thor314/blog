@@ -2,7 +2,7 @@
 title: "Solving ZK Hack IV puzzle 2 - Supervillain"
 date: 2024-01-24
 last-update: 2024-01-24
-draft: true
+draft: 
 tags: ["cryptography", "puzzle", "zk", "pairing", "zkhack"]
 categories: ["cryptography"]
 ---

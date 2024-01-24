@@ -28,7 +28,9 @@ This note's target audience is founders, investors, and recruiters, looking to h
     - high levels of technical competence
     - ops / hr lead is *annoying in the right ways* - advocating for what will make the company stronger, advocates for values, tests process for effectiveness, inserts structure where needed and removes or changes it where ineffective.
 - details:
-    - comp range: between (\$200k, 2.0% equity) and (\$500k, and 0.2% equity).
+    - my target comp range is between: 
+        - \$200k, 2.0% equity 
+        - \$500k, 0.2\% equity
         - A note on why I care about high numbers: I want high numbers because I am worth this much. I obviously do not *need* this much, and typically donate 30-50% of my income to organizations like GiveWell.
     - remote-first, or office in SF. Won't relocate.
     - nice to have: subsidizes conference attendance. I have co-organized several zk-industry hackathons, and am likely to continue to want to do so.
