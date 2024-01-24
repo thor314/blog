@@ -2,7 +2,7 @@
 title: "Solving ZK Hack IV puzzle 2 - Supervillain"
 date: 2024-01-24
 last-update: 2024-01-24
-draft: true
+draft: false
 tags: ["cryptography", "puzzle", "zk", "pairing", "zkhack"]
 categories: ["cryptography"]
 ---
@@ -60,11 +60,9 @@ This constrains the choice of our secret key $sk'$ such that (note that we start
 $$sk = sk' + \sum\limits^7_0 sk_i$$
 and 
 
-$$-sk * e(..) = sk * e(..)\implies 2*sk = p$$
+$$-sk * e(..) = sk * e(..)\implies 2 * sk = p$$
 
-where $p$ is the prime modulus of our field. Since $p$ is odd, the group $sk=0$ and $pk= sk*G = \mathcal O$. We don't have the others' secret keys, but we do have their public keys, from which we may construct our own:
-$$$$
-constraining our personal key $pk'$:
+where $p$ is the prime modulus of our field. Since $p$ is odd, the group $sk=0$ and $pk= sk * G = \mathcal O$. We don't have the others' secret keys, but we do have their public keys, from which we may construct our own key $pk'$:
 
 $$pk'= \mathcal O - \sum\limits_0^7 pk_i$$
 And the aggregate signature: 
