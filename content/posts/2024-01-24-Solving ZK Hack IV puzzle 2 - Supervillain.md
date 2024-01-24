@@ -61,10 +61,6 @@ $$sk = sk' + \sum\limits^7_0 sk_i$$
 and 
 
 $$-sk * e(..) = sk * e(..)\implies 2*sk = p$$
-2
-$$-sk * e() = sk * e()\implies 2*sk = p$$
-3
-$$-sk * e(..) = sk * e(..)\to 2*sk = p$$
 
 where $p$ is the prime modulus of our field. Since $p$ is odd, the group $sk=0$ and $pk= sk*G = \mathcal O$. We don't have the others' secret keys, but we do have their public keys, from which we may construct our own:
 $$$$
@@ -190,7 +186,7 @@ $$\begin{aligned}
 ```
 
 And then enjoy a pamplemousse sparkling water to celebrate our triumph.
-![](/photos/2024-01-24-Solving/Pasted image 20240124140606.jpeg)
+![](/photos/2024-01-24-Solving/pamplemousse_glory.jpeg)
 *dalle, upon being asked for triumphant pamplemousse*
 
 ## `puzzle.deets()` 
@@ -222,6 +218,7 @@ We are tasked with forging a signature.
 > Bob has been designing a new optimized signature scheme for his L1 based on BLS signatures. Specifically, he wanted to be able to use the most efficient form of BLS signature aggregation, where you just add the signatures together rather than having to delinearize them. In order to do that, he designed a proof-of-possession scheme based on the B-KEA assumption he found in the the Sapling security analysis paper by Mary Maller [1]. Based the reasoning in the Power of Proofs-of-Possession paper [2], he concluded that his scheme would be secure. After he deployed the protocol, he found it was attacked and there was a malicious block entered the system, fooling all the light nodes...
 
 1: https://github.com/zcash/sapling-security-analysis/blob/master/MaryMallerUpdated.pdf
+
 2: https://rist.tech.cornell.edu/papers/pkreg.pdf
 
 noted keywords:
@@ -272,7 +269,8 @@ fn bls_sign(sk: Fr, msg: &[u8]) -> G2Affine { hasher().hash(msg).unwrap().mul(sk
 ```
 matches signing algorithm given above, $\sigma_i=sk_i*H(M)$
 #### bls verify check 
-recall that we don't verify individual signatures. We have aggregated $pk=G*sk$ and $\sigma=sk*H(M)$. We compute 2 pairings to check:
+recall that we don't verify individual signatures. We have aggregated $pk=G * sk$ and $\sigma=sk * H(M)$. We compute 2 pairings to check:
+
 $$e(pk,H(M))= sk* e(G,H(M))=e(G,\sigma)$$
 
 bls verification code:
@@ -291,7 +289,7 @@ fn bls_verify(pk: G1Affine, sig: G2Affine, msg: &[u8]) {
 
 Looks like we're taking a negative for some reason. That means our pairing looks like:
 $$e(pk, -H(M)) = e(G,\sigma)$$
-but $\sigma=sk*H(M)$, not $-sk*H(M)$, so there's only a few values $sk$ could have:
+but $\sigma=sk * H(M)$, not $-sk * H(M)$, so there's only a few values $sk$ could have:
 $$sk = -sk \mod N \implies 2sk = N $$
 where $N$ is the modulus of field `Fr` that $sk$ lies in. Since $N$ is an odd prime (has no 2 divisor), we have that the aggregate $sk=0$. Our agg sig is then:
 $$\sigma= sk*H(M) = 0 * H(M)=\mathcal O$$
