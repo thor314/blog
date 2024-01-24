@@ -1,7 +1,7 @@
 ---
 title: "I'm looking for a job"
 date: 2024-01-20
-last-update: 2024-01-22
+last-update: 2024-01-24
 draft: true
 tags: ["job", "employer", "zk"]
 categories: ["work"]
@@ -28,9 +28,10 @@ This note's target audience is founders, investors, and recruiters, looking to h
     - high levels of technical competence
     - ops / hr lead is *annoying in the right ways* - advocating for what will make the company stronger, advocates for values, tests process for effectiveness, inserts structure where needed and removes or changes it where ineffective.
 - details:
-    - my target comp range is between: 
+    - my target comp range is roughly between: 
         - \$200k, 2.0% equity 
         - \$500k, 0.2\% equity
+        - as an not entirely useless exercise, assuming a 4-year vesting schedule, and linear extrapolation on that range, I am pricing a 0.45\% difference in annual equity at \$300k in annual pay. That values the hypothetical employer at about \$67m for the scale to lie flat.
         - A note on why I care about high numbers: I want high numbers because I am worth this much. I obviously do not *need* this much, and typically donate 30-50% of my income to organizations like GiveWell.
     - remote-first, or office in SF. Won't relocate.
     - nice to have: subsidizes conference attendance. I have co-organized several zk-industry hackathons, and am likely to continue to want to do so.

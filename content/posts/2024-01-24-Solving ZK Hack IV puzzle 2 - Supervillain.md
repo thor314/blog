@@ -2,14 +2,15 @@
 title: "Solving ZK Hack IV puzzle 2 - Supervillain"
 date: 2024-01-24
 last-update: 2024-01-24
-draft: 
+draft: true
 tags: ["cryptography", "puzzle", "zk", "pairing", "zkhack"]
 categories: ["cryptography"]
 ---
 # Solving ZK Hack IV puzzle 2 - Supervillain
 ![](/photos/2024-01-24-Solving/supervillain-zkhack-puzzle.jpeg)
 
-*What follows is a solution to [ZK Hack IV, Puzzle 2](https://zkhack.dev/zkhackIV/puzzleF2.html). ZK Hack is a series of zero-knowledge cryptography CTFs, workshops, hackathons, and study groups. Thanks to the ZK Hack organizers for creating this CTF, Geometry for this puzzle, and the ZK Hack community. You might also be interested in [solution for puzzle 1](https://thork.net/posts/2024-01-18-solving-zk-hack-iv-puzzle-1/)*.
+*What follows is a solution to [ZK Hack IV, Puzzle 2](https://zkhack.dev/zkhackIV/puzzleF2.html). ZK Hack is a series of zero-knowledge cryptography CTFs, workshops, hackathons, and study groups. Thanks to the ZK Hack organizers for creating this CTF, Geometry for this puzzle, and the ZK Hack community. You might also be interested in [solution for puzzle 1](https://thork.net/posts/2024-01-18-solving-zk-hack-iv-puzzle-1/). If reposting elsewhere, find this post on my blog [here](http://thork.net/posts/2024-01-24-solving-zk-hack-iv-puzzle-2-supervillain/)*.
+
 
 You might be interested in this post if you're interested in:
  - a smattering of zk-related trivia about elliptic curve pairing assumptions and proofs of knowledge
@@ -29,7 +30,7 @@ In this puzzle we are tasked with exploiting a BLS Signature scheme with a home-
 The BLS signature scheme is a simple signature aggregation scheme, relying on a elliptic curve pairing. It consists of 3 algorithms, (sign, aggregate_signatures, verify), where verify checks either any individual's signature, or the whole aggregated signature.
 - **Individual signing** - Each individual signature $\sigma_i=sk_i\cdot H(M)$ is curve point on $\mathbb G_2$. Each public key $pk_i=sk_i\cdot G_1$ is a curve point on $\mathbb G_1$. 
 - **Individual signature verification** and **aggregated verification** - Verification for any individual signature $\sigma_i$ is the same as for the entire signature, so we drop the indices: 
-$$e(pk, H(M)) =_? e(G_1,\sigma)$$
+$$e(pk, H(M)) = e(G_1,\sigma)$$
 Note that we don't typically verify the individual signatures, only the final aggregated signature. The point of a signature aggregation scheme is that *the aggregated signature is valid if and only if each component signature is valid*.
 
 - **Signature aggregation** - Simply compute the sum of the signatures and sum of public keys:
@@ -43,7 +44,7 @@ As noted above, we don't verify the individual signatures. A malicious party cou
 
 Instead, we require each party $i$ to provide a proof of knowledge $\pi_i$ that the party knows their secret key. The proof relies on a pairing check:
 
-$$e(pk_i, \underbrace{R_i}_{\text{random}})=_? e(G_1, \pi_i)$$
+$$e(pk_i, R_i)= e(G_1, \pi_i)$$
 Where $R_i$, is randomly generated within $\mathbb G_2$. That is, we check that the party knows $sk_i$ such that they can compute:
 
 $$\pi_i = sk_i*R_i$$
@@ -51,8 +52,8 @@ $$\pi_i = sk_i*R_i$$
 In the case of this problem, the implementer modifies the BLS signature verification algorithm, negating the message hash:
 
 $$\begin{aligned}
-e(pk, -H(M)) &=_? e(G_1,\sigma) \\\
-e\bigg(\sum\limits(sk_i)G_1, -H(M)\bigg) &=_? e\bigg(G_1,\underbrace{\sum\limits(sk_i)}_{sk}H(M)\bigg)
+e(pk, -H(M)) &= e(G_1,\sigma) \\\
+e\bigg(\sum\limits(sk_i)G_1, -H(M)\bigg) &= e\bigg(G_1,\sum\limits(sk_i)H(M)\bigg)
 \end{aligned}$$
 This constrains the choice of our secret key $sk'$ such that (note that we start with 8 given public keys, and we are to choose the 9th):
 
@@ -60,6 +61,11 @@ $$sk = sk' + \sum\limits^7_0 sk_i$$
 and 
 
 $$-sk * e(..) = sk * e(..)\implies 2*sk = p$$
+2
+$$-sk * e() = sk * e()\implies 2*sk = p$$
+3
+$$-sk * e(..) = sk * e(..)\to 2*sk = p$$
+
 where $p$ is the prime modulus of our field. Since $p$ is odd, the group $sk=0$ and $pk= sk*G = \mathcal O$. We don't have the others' secret keys, but we do have their public keys, from which we may construct our own:
 $$$$
 constraining our personal key $pk'$:
@@ -89,10 +95,10 @@ fn pok_verify(pk: G1Affine, i: usize, proof: G2Affine) {
 
 Note that instead of:
 
-$$e(pk_i, R_i) =_? e(G_1, \pi_i)$$
+$$e(pk_i, R_i) = e(G_1, \pi_i)$$
 We have:
 
-$$e(pk_i, -R_i)=_? e(G_1, \pi_i)$$
+$$e(pk_i, -R_i)= e(G_1, \pi_i)$$
 So we actually need $\pi = -sk_i * R_i$, not $\pi=sk_i*R_i$. Take a moment consider whether this changes anything.[^1]
 
 We now demonstrate the exploit.
@@ -128,7 +134,7 @@ fn derive_point_for_pok(i: usize) -> G2Affine {
 }
 ```
 
-That is, let $R\gets_\$\mathbb G_2$, then:
+That is, let $R\gets\mathbb G_2$, then:
 
 $$R_i = (i+1)R$$
 ₒₕ ₙₒ
@@ -242,7 +248,7 @@ BLS signature aggregation alg:
 Each individual signature $\sigma_i=sk_i\cdot H(M)$ is curve point on G2. Each public key $pk_i=sk_i\cdot G$ is a curve point on G1. 
 #### Individual verification and BLS verification
 Verification for any individual signature $\sigma_i$ is the same as for the entire signature, so we drop the indices: 
-$$e(pk, H(M) =_? e(G_1,\sigma)$$
+$$e(pk, H(M) = e(G_1,\sigma)$$
 #### Signature aggregation
 Simply compute the sum of the signatures and sum of public keys:
 $$\sigma_{\text{agg}} = \sum\limits_{i=1}^{n} \sigma_i=(\sum\limits sk_i)H(M)$$
@@ -284,7 +290,7 @@ fn bls_verify(pk: G1Affine, sig: G2Affine, msg: &[u8]) {
 ```
 
 Looks like we're taking a negative for some reason. That means our pairing looks like:
-$$e(pk, -H(M)) =_? e(G,\sigma)$$
+$$e(pk, -H(M)) = e(G,\sigma)$$
 but $\sigma=sk*H(M)$, not $-sk*H(M)$, so there's only a few values $sk$ could have:
 $$sk = -sk \mod N \implies 2sk = N $$
 where $N$ is the modulus of field `Fr` that $sk$ lies in. Since $N$ is an odd prime (has no 2 divisor), we have that the aggregate $sk=0$. Our agg sig is then:
@@ -347,7 +353,7 @@ fn pok_verify(pk: G1Affine, i: usize, proof: G2Affine) {
 ```
 
 which corresponds to 
-$$e(pk_9, -R_9 =_? e(G,\pi_9)$$
+$$e(pk_9, -R_9 = e(G,\pi_9)$$
 So we need $\pi_9= -sk_9*R_9$ (note that 9 is the index of my key).
 
 They actually give us a nice convenience helper to write proofs, thanks Kobi![^4]
