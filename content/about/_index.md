@@ -32,9 +32,9 @@ This note's target audience is founders, investors, and recruiters, looking to h
 
 - I should believe in the founders (and investors):
     - founders' technical and business ability is credibly demonstrated. I should believe that the founders present the capacity for vision that outstrips my own, and that they have a realistic path toward that vision.
-    - founder(s)' ability as leaders to manage and support employees clearly outstrips their ego (check this with prior or pre-existing employees).
-    - founders should have reasonable, ideally data-based arguments about why the market will favor their product, and how that product will be brought to market.
-    - founders should understand, and be able to state, what risks the company is taking and how their management mitigates for risk.
+    - founders' ability as leaders to manage and support employees clearly outstrips their ego (I may ask pre-existing employees etc.).
+    - founders should have reasonable arguments about why the market will favor their product, and how that product will be brought to market.
+    - founders should be able to state what risks the company is taking and how they intend to navigate that risk.
     - investors have legitimate (not pump-dump) and profitable reputations
 - I should believe that the project is technically and strategically interesting, and likely to develop into a credible business
     - technically interesting: I should be able to understand the idea technically and strategically. I want to understand advantages and disadvantages, and have a sense that the team will succeed in building the product.
@@ -43,10 +43,10 @@ This note's target audience is founders, investors, and recruiters, looking to h
 - people/culture seem "good"
     - norms for strong interpersonal communication skills and engineer independence
     - high levels of technical competence
-    - ops / hr lead is *annoying in the right ways* - advocating for what will make the company stronger, advocates for values, tests process for effectiveness, inserts structure where needed and removes or changes structure where found ineffective.
-- details:
-    - my target comp range is roughly between  \$200k with 2.0% equity and \$500k with 0.2\% equity.
-        - as a not entirely useless exercise, assuming a 4-year vesting schedule, and linear extrapolation on that range, I am pricing a 0.45\% difference in annual equity at about \$300k in annual pay. That values the hypothetical employer at about \$67m for the scale to lie flat. In a nutshell, if you as a founder expect your company to be worth more than that number with high certainty, you save money by paying me in cash rather than equity.
+    - ops / hr lead is *annoying in the right ways* - advocating for what will make the company stronger, advocates for values, tests process for effectiveness, inserts structure where needed and removes or changes structure where found ineffective (yes I really do care about this)
+- comp:
+    - my target comp range is roughly between  \\$200k with 2.0% equity and \\$500k with 0.2% equity.
+        - as a not entirely useless exercise, assuming a 4-year vesting schedule, and linear extrapolation on that range, I am pricing a 0.45% difference in annual equity at about \\$300k in annual pay. That values the hypothetical employer at about \\$67m for the scale to lie flat. In a nutshell, if you as a founder expect your company to be worth more than that number with high certainty, you save money by paying me in cash rather than equity.
         - A note on why I care about high numbers: I want high numbers because I am worth this much. I obviously do not *need* this much, and typically donate 30-50% of my income to organizations like GiveWell. I care about the work that I do, but it's an open question whether cryptography research and engineering is actually very high impact in terms of creating positive downstream societal effects. Donating is a hedge against that uncertainty.
     - remote-first, or office in SF. Won't relocate, but happy to travel frequently.
     - nice to have: subsidizes conference attendance. I have co-organized several hackathons around zero knowledge, and am likely to continue to want to do so.
