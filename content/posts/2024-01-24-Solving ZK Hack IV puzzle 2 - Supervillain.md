@@ -6,7 +6,7 @@ draft: false
 tags: ["cryptography", "puzzle", "zk", "pairing", "zkhack"]
 categories: ["cryptography"]
 ---
-# Solving ZK Hack IV puzzle 2 - Supervillain
+
 ![](/photos/2024-01-24-Solving/supervillain-zkhack-puzzle.jpeg)
 
 *What follows is a solution to [ZK Hack IV, Puzzle 2](https://zkhack.dev/zkhackIV/puzzleF2.html). ZK Hack is a series of zero-knowledge cryptography CTFs, workshops, hackathons, and study groups. Thanks to the ZK Hack organizers for creating this CTF, Geometry for this puzzle, and the ZK Hack community. You might also be interested in [solution for puzzle 1](https://thork.net/posts/2024-01-18-solving-zk-hack-iv-puzzle-1/). If reposting elsewhere, find this post on my blog [here](http://thork.net/posts/2024-01-24-solving-zk-hack-iv-puzzle-2-supervillain/)*.

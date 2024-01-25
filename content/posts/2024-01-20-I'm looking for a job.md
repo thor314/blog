@@ -7,7 +7,6 @@ tags: ["job", "employer", "zk"]
 categories: ["work"]
 ---
 
-# I'm looking for a job
 I am re-entering the zk engineering job market. 
 
 This note's target audience is founders, investors, and recruiters, looking to hire a staff-level zero knowledge engineer.
