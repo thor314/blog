@@ -1,0 +1,52 @@
+---
+title: "About the me"
+date: 2020-06-30
+last-update: 2024-01-24
+draft: false
+---
+
+Hello Internet!
+
+You're at the one and only remaining blog of **Thor Kampefner**, my posting destination for long-form cogitation, rendered sufficiently fit for public dissemination. This about me was last updated Jan 2024, and is irregularly updated. 
+
+I am an independent cryptography engineer and educator. The range of posts you'll find here will generally trend toward cryptography, science-fiction, or other assorted hot takes.
+
+As of Jan 2024, most of my attention is going toward [Pebble Stark](https://github.com/thor314/pebble-stark), my reverse-engineering of the [Starkware Stone prover](https://github.com/starkware-libs/stone-prover/tree/main), which prove the trace of CASM (compiled Cairo) programs.
+
+Also as of Jan 2024, I am looking for a new role! See the bottom of this note for some discussion of what I'm looking for in potential employers.
+
+## Some of my previous projects:
+- Built [Uncloak](https://github.com/thor314/uncloak), a fledgling cryptography [wiki](https://uncloak.org/) and cryptography engineering course, aiming to increase the accessibility of cryptography engineering as a discipline for interested software engineers, supported under a grant by the Ethereum Foundation.
+- I really like Obsidian, which made it possible for to leave the [Church of Emacs](https://stallman.org/saint.html). In gratitude for my freedom, I wrote an obelisk to Obsidian (a guide), which people [seem to like](https://github.com/thor314/obsidian-setup). 
+- Co-organized [ZK Hack](https://zkhack.dev/) [Lisbon]() and [ZK Hack Istanbul](https://www.zkistanbul.com/), a series of zero-knowledge hackathons.
+- A Zero Knowledge [cryptography study group](https://github.com/thor314/pazk) with the good [Dr. Justin Thaler](https://people.cs.georgetown.edu/jthaler/), which you can find through [the zkHack discord server](discord.com/invite/tHXyEbEqVN).
+- Cowriting the [ZK Mesh](https://zkmesh.substack.com) cryptography newsletter with Anna Rose of the [Zero Knowledge Podcast](https://zeroknowledge.fm/), which I highly recommend as a source for independent technical discussion in the blockchain space.
+- Led cryptography engineering at [entropy](https://entropy.xyz/), a trustless, chain-agnostic asset custodian, built with threshold signatures, and the Substrate blockchain building framework.
+- Wrote assorted standards for the Near NFT world [most notably royalties](https://github.com/near/NEPs/blob/master/specs/Standards/NonFungibleToken/Payout.md). NFT Royalties on Ethereum are a sort of non-standard backwards compatibility issue, and are mostly hacked around by centralized NFT marketplaces, which causes issues for NFT creators.
+- Cryptography engineer at [Matter Labs](https://matter-labs.io/), a zero-knowledge rollup Ethereum layer 2.
+- Paper: [Combining GHOST and Casper](https://arxiv.org/abs/2003.03052) - coauthored a mathematical security paper with my mentor [Yan Zhang](https://twitter.com/krzhang) analyzing the security and liveness properties of the Ethereum 2.0 beacon chain consensus protocol (it secure, it synchronously live, it even plausibly asyncronously live!)
+- In 2017, Thor moved to the bay, ran the San Francisco marathon, and never did Thor feel the need to run a marathon again.
+
+## Some things I would like to see in prospective employers:
+This note's target audience is founders, investors, and recruiters, looking to hire a staff-level zero knowledge engineer with management experience.
+
+- I should believe in the founders (and investors):
+    - founders' technical and business ability is credibly demonstrated. I should believe that the founders present the capacity for vision that outstrips my own, and that they have a realistic path toward that vision.
+    - founder(s)' ability as leaders to manage and support employees clearly outstrips their ego (check this with prior or pre-existing employees).
+    - founders should have reasonable, ideally data-based arguments about why the market will favor their product, and how that product will be brought to market.
+    - founders should understand, and be able to state, what risks the company is taking and how their management mitigates for risk.
+    - investors have legitimate (not pump-dump) and profitable reputations
+- I should believe that the project is technically and strategically interesting, and likely to develop into a credible business
+    - technically interesting: I should be able to understand the idea technically and strategically. I want to understand advantages and disadvantages, and have a sense that the team will succeed in building the product.
+    - unique product: I may build a clone of an existing product if it is personally educational, but not to race to the commoditized market bottom.
+    - as an engineer, I should be enabled to learn while building.
+- people/culture seem "good"
+    - norms for strong interpersonal communication skills and engineer independence
+    - high levels of technical competence
+    - ops / hr lead is *annoying in the right ways* - advocating for what will make the company stronger, advocates for values, tests process for effectiveness, inserts structure where needed and removes or changes structure where found ineffective.
+- details:
+    - my target comp range is roughly between  \$200k with 2.0% equity and \$500k with 0.2\% equity.
+        - as a not entirely useless exercise, assuming a 4-year vesting schedule, and linear extrapolation on that range, I am pricing a 0.45\% difference in annual equity at about \$300k in annual pay. That values the hypothetical employer at about \$67m for the scale to lie flat. In a nutshell, if you as a founder expect your company to be worth more than that number with high certainty, you save money by paying me in cash rather than equity.
+        - A note on why I care about high numbers: I want high numbers because I am worth this much. I obviously do not *need* this much, and typically donate 30-50% of my income to organizations like GiveWell. I care about the work that I do, but it's an open question whether cryptography research and engineering is actually very high impact in terms of creating positive downstream societal effects. Donating is a hedge against that uncertainty.
+    - remote-first, or office in SF. Won't relocate, but happy to travel frequently.
+    - nice to have: subsidizes conference attendance. I have co-organized several hackathons around zero knowledge, and am likely to continue to want to do so.
