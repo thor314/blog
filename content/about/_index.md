@@ -1,7 +1,7 @@
 ---
 title: "About the me"
 date: 2020-06-30
-last-update: 2024-01-24
+last-update: 2024-01-28
 draft: false
 ---
 
@@ -47,6 +47,6 @@ This note's target audience is founders, investors, and recruiters, looking to h
 - comp:
     - my target comp range is roughly \\$200k with 2.0% equity to \\$500k with 0.1% equity.
         - as a not entirely useless exercise, assuming a 4-year vesting schedule, and linear extrapolation on that range, I am pricing a 0.475% difference in annual equity at about \\$300k in annual pay. That values the hypothetical employer at about \\$63m for the scale to lie flat. In a nutshell, if you as a founder expect your company to be worth more than that number with high certainty, you save money by paying me in cash rather than equity.
-        - A note on why I care about high numbers: I want high numbers because I am worth this much. I obviously do not *need* this much, and typically donate 30-50% of my income to organizations like GiveWell. I care about the work that I do, but it's an open question whether cryptography research and engineering is actually very high impact in terms of creating positive downstream societal effects. Donating is a hedge against that uncertainty.
-    - remote-first, or office in SF. Won't relocate, but happy to travel frequently.
-    - nice to have: subsidizes conference attendance. I have co-organized several hackathons around zero knowledge, and am likely to continue to want to do so.
+        - A note on why I care about high numbers: I want high numbers because I am worth this much. I obviously do not *need* this much, and typically donate 30-50% of my income to organizations like GiveWell. I care about the work that I do, but cryptography research and engineering for startups is high volatility in terms of positive direct downstream societal effects. Donating is my hedge against that volatility.
+- remote-first, or office in SF. Won't relocate, but happy to travel frequently.
+- nice to have: subsidizes conference attendance. I have co-organized several hackathons around zero knowledge, and am likely to continue to want to do so.
