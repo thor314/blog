@@ -1,5 +1,5 @@
 ---
-title: "About the me"
+title: "About Thor"
 date: 2020-06-30
 last-update: 2024-01-28
 draft: false
@@ -26,6 +26,7 @@ Also as of Jan 2024, I am looking for a new role! See the bottom of this note fo
 - Cryptography engineer at [Matter Labs](https://matter-labs.io/), a zero-knowledge rollup Ethereum layer 2.
 - Paper: [Combining GHOST and Casper](https://arxiv.org/abs/2003.03052) - coauthored a mathematical security paper with my mentor [Yan Zhang](https://twitter.com/krzhang) analyzing the security and liveness properties of the Ethereum 2.0 beacon chain consensus protocol (it secure, it synchronously live, it even plausibly asyncronously live!)
 - In 2017, Thor moved to the bay, ran the San Francisco marathon, and never did Thor feel the need to run a marathon again.
+- zz
 
 ## Some things I would like to see in prospective employers:
 This note's target audience is founders, investors, and recruiters, looking to hire a staff-level zero knowledge engineer with management experience.
@@ -41,12 +42,10 @@ This note's target audience is founders, investors, and recruiters, looking to h
     - unique product: I may build a clone of an existing product if it is personally educational, but not to race to the commoditized market bottom.
     - as an engineer, I should be enabled to learn while building.
 - people/culture seem "good"
-    - norms for strong interpersonal communication skills and engineer independence
-    - high levels of technical competence
-    - ops / hr lead is *annoying in the right ways* - advocating for what will make the company stronger, advocates for values, tests process for effectiveness, inserts structure where needed and removes or changes structure where found ineffective (yes I really do care about this)
-- comp:
-    - my target comp range is roughly \\$200k with 2.0% equity to \\$500k with 0.1% equity.
-        - as a not entirely useless exercise, assuming a 4-year vesting schedule, and linear extrapolation on that range, I am pricing a 0.475% difference in annual equity at about \\$300k in annual pay. That values the hypothetical employer at about \\$63m for the scale to lie flat. In a nutshell, if you as a founder expect your company to be worth more than that number with high certainty, you save money by paying me in cash rather than equity.
-        - A note on why I care about high numbers: I want high numbers because I am worth this much. I obviously do not *need* this much, and typically donate 30-50% of my income to organizations like GiveWell. I care about the work that I do, but cryptography research and engineering for startups is high volatility in terms of positive direct downstream societal effects. Donating is my hedge against that volatility.
-- remote-first, or office in SF. Won't relocate, but happy to travel frequently.
+    - strong independence norms. Startups have too much to do for micromanagement to be a norm. I don't love daily standups, but I can tolerate them if they are well run and efficient.
+    - high level of baseline technical competence on the engineering team. Shared velocity is necessary for momentum.
+    - Learning and writing on the job is considered part of the role. I like writing. I find it often helpful and clarifying. I write for myself and I write for others, and I would like that to be seen as having value.
+    - all ops people are annoying, some ops people are good at it. If there is an ops person, they should be annoying in right ways, advocating for what will make the company stronger, identifying values, testing process for effectiveness, inserting and removing structure where needed etc., so that I as an engineer don't have to always feel that the culture is breaking down but am too busy to do anything about it.
+- my target comp range is roughly \\$200k with 1.5% equity to \\$500k with 0.1% equity. A note on why I care about high numbers: I want high numbers because I am worth this much. I obviously do not *need* this much, and typically donate 30-50% of my income to organizations like GiveWell. I care about the work that I do, but cryptography research and engineering for startups is high volatility in terms of positive direct downstream societal effects. Donating is my hedge against that volatility.
+- remote-first, or office in SF. Won't relocate.
 - nice to have: subsidizes conference attendance. I have co-organized several hackathons around zero knowledge, and am likely to continue to want to do so.
