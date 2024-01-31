@@ -21,7 +21,7 @@ That is, if a commit is made to a submodule at depth $d$ in the tree, say in my 
 
 I have a few reasons. One is that it's very nice to have a copy of the full history of my work on hand to [ripgrep](https://github.com/BurntSushi/ripgrep) through. Another is that it's a nice way to keep my work presentable for others. But most especially, this is one representation of all the work I've done for the last 6 years, and I'm proud of it. This repo is a sort of monument to the pride I feel in the all the work I've done. As a cryptography engineer, I find it apropos to represent that work as the workhorse data structure of blockchain cryptography, the merkle tree.
 
-![](/photos/2024-01-31-merkle.md/Pasted image 20240131154508.jpeg)
+![](/photos/2024-01-31-merkle.md/git-merkle-tree-retro.jpeg)
 GM.
 
 ```
