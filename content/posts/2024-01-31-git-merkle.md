@@ -12,7 +12,7 @@ GM!
 
 Just a short note describing a recent new project of mine, [git merkle (gm)](https://github.com/thor314/gm)!
 
-`gm` is a recursive tree of all the repos I've worked on since 2017 after a little spring cleaning; I removed about 40% of my pre-exisiting github repo history in the process of writing `gm`. There are about 90 repos contained in `gm`, and counting. I removed about 60. 
+`gm` is a recursive tree of all the repos I've worked on since 2017 after a little spring cleaning; I removed about 40% of my pre-existing github repo history in the process of writing `gm`. There are about 90 repos contained in `gm`, and counting. I removed about 60. 
 
 ## Why did you do this?!
 This is a very real question. Organizing and cleaning up about 6 years of git history, plus writing a [script](https://github.com/thor314/.cron/blob/main/git_merkle.fish) to keep them organized going forward, took about 6 hours across two days. Submodules are somewhat infamously finicky, and the last thing I want to be doing is managing merge conflicts on a nested tree of my commit history.

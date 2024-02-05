@@ -12,7 +12,7 @@ categories: ["cryptography"]
 *What follows is a solution to [ZK Hack IV, Puzzle 3](https://zkhack.dev/zkhackIV/puzzleF3.html). ZK Hack is a series of zero-knowledge cryptography CTFs, workshops, hackathons, and study groups. Thanks to the ZK Hack organizers for creating this CTF, Geometry for this puzzle, and the ZK Hack community. You might also be interested in [solution for puzzle 2](https://thork.net/posts/2024-01-24-solving-zk-hack-iv-puzzle-2-supervillain/). If reposting elsewhere, find this post on my blog [here](http://thork.net/posts/2024-02-05-solving-zk-hack-puzzle-3-chaos-theory/)*.
 
 You might be interested in this post if you're interested in:
- - an thought experiment on how building an authenticatino scheme based in elliptic curve pairings can go horribly awry!
+ - an thought experiment on how building an authentication scheme based in elliptic curve pairings can go horribly awry!
  - Some background on ElGamal encryption and BLS signatures
  - The process of (cryptographic) puzzle solving
 
