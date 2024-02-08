@@ -1,4 +1,6 @@
 # Hey what's this
+![](https://img.shields.io/badge/made_by_cryptograthor-black?style=flat&logo=undertale&logoColor=hotpink)
+
 This is the README I wrote to remind myself that I have a blog.
 
 Hey thor. You have a blog.
