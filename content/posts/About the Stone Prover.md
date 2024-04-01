@@ -1,5 +1,5 @@
 ---
-title: "About the Stone Prover - part 1"
+title: "About the Stone Prover"
 date: 2024-02-06
 last-update: 2024-02-06
 draft: false
