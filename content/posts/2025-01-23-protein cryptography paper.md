@@ -2,10 +2,11 @@
 title: "designer babies no one asked for: protein cryptography paper speedrun"
 date: 2025-01-23
 last-update: 2025-01-23
-draft: true
+draft: false
 tags:
   - cryptography
   - biology
+  - speedrun
 categories:
   - cryptography
 hackmd:
@@ -24,6 +25,8 @@ i surely cannot imagine encoding dad-jokes in my future childrens' proteins.
 
 but no one is actually talking about using babies as a substrate for cryptography (yet). a [paper posted to IACR this week](https://eprint.iacr.org/2025/089) explores the idea of using proteins as an encrypted data storage format. we're going to speedrun explain that paper.
 
+*thanks to [Keoni Gandall](https://keonigandall.com/) for comments.*
+
 ## wat
 okay so three big questions i had going in:
 - is there some fancy steganographic key hiding that we could do with biology that we could not otherwise do?
@@ -36,7 +39,7 @@ it turns out the answer is yes.
 the paper only speaks to the first question, which is summarized in the next section; the the rest of this post is my rambling and back of the envelope math.
 
 ## fancy steganography
-the only known way to isolate a protein mixed with other proteins, is to purify the target protein using a [monoclonal antibody](https://en.wikipedia.org/wiki/Monoclonal_antibody) (mAb), before sequencing it. the adversary must know the correct mAb in advance to isolate the protein.[^3]
+the only known way to isolate a protein mixed with other proteins, is to purify the target protein using a [monoclonal antibody](https://en.wikipedia.org/wiki/Monoclonal_antibody) (mAb), before sequencing it[^3]. the adversary must know the correct mAb in advance to isolate the protein.[^4]
 
 that is, sequencing (encryption) a protein is easy, but synthesis (decryption) is hard and admits only one destructive attempt. 
 
@@ -79,10 +82,11 @@ for encryption:
 - add ~$20k for sequencing a custom mAb
 - this all would take on the order of 3 weeks to synthesize the proteins, and 3 months to produce the antibodies
 
-but decryption is relatively cheap! on the order of $500 in 1-2 days for protein purification and another $200 in a few hours for mass spectrometry.
+but decryption is relatively cheap! on the order of \\$500 in 1-2 days for protein purification and another $200 in a few hours for mass spectrometry.
 
 so, pretty practical. the future is here.
 
 [^1]: no one is asking this, the authors make did not mention babies once in their paper, but sure i guess we could do it
 [^2]: thor has extremely lossy understanding of quantum things, and makes only the weakest claim to have said this correctly
-[^3]: the paper does not answer the question of how large the key space of possible mAb's is, but since spectrometry is destructive, the key space doesn't need to be massive. thor estimate: since an mAb has about 120 amino acids in the variable region, with 20 possible amino acids, that the mAb key space is much larger than $2^{128}$. 
+[^3]: a note from Keoni Gandall: there are other ways to purify proteins; "you can purify proteins based on their size with columns and such, as well as methods that use salt (taking advantage of the solubility differences in different proteins)"
+[^4]: the paper does not answer the question of how large the key space of possible mAb's is, but since spectrometry is destructive, the key space doesn't need to be massive. thor estimate: since an mAb has about 120 amino acids in the variable region, with 20 possible amino acids, that the mAb key space is much larger than $2^{128}$. 
