@@ -101,7 +101,7 @@ $$\begin{aligned}
 u_3 &= \frac{u_1v_2 + v_1u_2}{1 + du_1u_2v_1v_2}\\\
 v_3 &= \frac{v_1v_2 - au_1u_2}{1 - du_1u_2v_1v_2}
  \end{aligned}$$
- 
+
 And the point doubling law:
 $$\begin{aligned}
 u' &= \frac{2uv}{1 + du^2v^2}\\\

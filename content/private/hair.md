@@ -53,35 +53,45 @@ Two shots with a little more color. I like the color here, but I'd be curious to
 ![](/photos/2024-05-12-hair.md/me-lisbon.jpeg)
 
 ## shots from pinterest
-And now, a bunch of pictures from the internet
+And now, a bunch of pictures from the internet. A thing I notice, many of the models on pinterest have either darker complexion, darker hair, or both, which really makes the colored hair stand out and pop. 
+
+Some pictures go the opposite way: the model pulls off platinum blonde, gray, or white, and uses color as the highlight accent. These seem like they might not grow in as well, and might take a lot of maintenance, and the frequent bleachings could be bad for the hair.
+
+I have a much lighter hair color, and I think warmer colors and/or colors that contrast with my lighter shade of brown might generally look best.
 
 ### men with good medium length hair 
 I want my hair to fall like this and not frizz up:
 ![](/photos/2024-05-12-hair.md/pinterest-blondy.jpeg)
 
-The model in this shot looks dumb, but he has good hair. I like how the green complements his natural color.
+The model in this shot looks dumb, but he has good hair. I like how the green complements his natural color, which is darker.
 ![](/photos/2024-05-12-hair.md/pinterest-greenhair.jpeg)
 
-this guy makes pink work. Similar to above, I'm not sure how well it would work for me, but it looks great:
+This guy makes pink work. The lighter warmer color is doing a lot for this guy.
 ![](/photos/2024-05-12-hair.md/pinterest-pink-hair.jpeg)
 
-### long top short sides idea
-I'd be curious to try either to grow my hair long again, or to cut the sides short like this and dye the top:
+### Long top short sides idea
+I would consider cutting the sides short like this and dying the top, though I think I'm more likely to stick with my longer hair.
+
+This guy has a good warm color thing going on, to match his darker brown hair.
 ![](/photos/2024-05-12-hair.md/pinterest-light-pink-on-top-guy.jpeg)
+This short side looks like it would require a lot of effort to maintain, though not as much as the colored sides below. The mixed colors stand out against his darker hair.
 ![](/photos/2024-05-12-hair.md/pinterest-colorsguy.jpeg)
+
+I like this aesthetic a lot, but with his darker skin and hair color, I don't think it would come out well for me.
 ![](/photos/2024-05-12-hair.md/pinterest-longbraidblue.jpeg)
 
-Though I'd also be interested in what long top, died short looks like; I imagine it would take a lot more work to maintain though. This guy did it well:
+The dyed sides looks really pretty, but I don't think it would be easy to grow in. This guy pulls off platinum blonde and throws in the cool blue accent. This is really pretty, but not something I think I'm going for personally.
 ![](/photos/2024-05-12-hair.md/pinterest-side-blue-dye.jpeg)
 
+Cute concept, simple:
 ![](/photos/2024-05-12-hair.md/pinterest-sidedye.jpeg)
 
 ### the interesting
-With my complexion, I don't think I would look good with an orange, red, or pink. This guy has lovely hair, but the color doesn't suit him:
+With my complexion, I think I want a warm color, but this guy shows how that can fall down. This guy has lovely hair, but the color doesn't suit him:
 ![](/photos/2024-05-12-hair.md/pinterestwierdored.jpeg)
 
 ### the bad
-I'm not sure exactly what I don't like about this guy's hair, but it looks crappy and cold to me:
+This guy's blue tone looks very cold. It's aesthetically there, but he also looks like a zombie from Game of Thrones.
 ![](/photos/2024-05-12-hair.md/pinterest-weirdoblue.jpeg)
 
 Anime character syndrome. I think I'd actually be interested to go a light shade sometime! I've seen some women with great white hair. But most of the platinum blond dyes I see for men look pretty weird:
@@ -116,3 +126,10 @@ This girl has some great electric blue-green highlights; I think it mostly works
 
 ## end thought: goals
 ![](/photos/2024-05-12-hair.md/clown-hair.jpeg)
+## note on hair dye
+- on 2024-05-28, dyed at Heartzilla salon with:
+    - joico black pearl semi-perm mixed with 
+    - [chroma silk](https://www.pravana.com/products/color/semi-permanent/chromasilk-vivids-original/) vivids green 
+- want to shift more into green than blue. Ana suggested:  
+    - To tone down the first green, I would mix a bit of black in the green mix, like the darker mix we did on the roots. Adding more plain green on the lighter areas will result on the same vivid green, but alas, bluish under a brighter light. Adding a **mix of green and a bit of black** may tome down the “blue” in the green."
+- alyssa recommended [arctic fox hair color dye "the best"](https://arcticfoxhaircolor.com/)
